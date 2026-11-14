@@ -1,0 +1,443 @@
+{
+  "schema": 1,
+  "name": "php",
+  "type": "runtime",
+  "description": "The PHP language (CLI)",
+  "homepage": "https://www.php.net",
+  "bins": [
+    {
+      "name": "php",
+      "path": "php"
+    },
+    {
+      "name": "php-fpm",
+      "path": "php-fpm"
+    }
+  ],
+  "versions": [
+    {
+      "version": "8.5.11",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.5.11-nts-Win32-vs17-x64.zip",
+          "sha256": "0ea96e0d2b9b737a6036f05cf4e95c49313faa6d0f27bd97edb2742503f0c043",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "php",
+              "path": "php.exe"
+            },
+            {
+              "name": "php-cgi",
+              "path": "php-cgi.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.3/php_xdebug-3.5.3-8.5-nts-vs17-x64.zip",
+              "sha256": "1085ff005c513757f428d3ab792a2d5ce007e382ffef9ef422de347d3bed830d",
+              "format": "zip",
+              "size": 841946,
+              "dir": "xdebug"
+            },
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/pcov/1.0.12/php_pcov-1.0.12-8.5-nts-vs17-x64.zip",
+              "sha256": "76001f4f517d42661ff4590bf310ce717aed07fb168de8a63ce7627e9c65e933",
+              "format": "zip",
+              "size": 130972,
+              "dir": "pcov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.5.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-cli-macos-x86_64.tar.gz",
+          "sha256": "05751000c6643f82e8377ed19d55bc159f84bbed46ace1fcc6f62be9866c787c",
+          "format": "tar.gz",
+          "size": 15606882,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-fpm-macos-x86_64.tar.gz",
+              "sha256": "3f6ab89907c90af9b832b9207a897c08a58841655be1db22dac3f27209c9cc52",
+              "format": "tar.gz",
+              "size": 15629720
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-cli-macos-aarch64.tar.gz",
+          "sha256": "cba9bd8b38b51ef2c7cebf02af689e4481bbd07f65edc0b63d3a43b04e0c9db7",
+          "format": "tar.gz",
+          "size": 15106458,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-fpm-macos-aarch64.tar.gz",
+              "sha256": "612489ba5cc217d7f76fa585b0a5f01fe68176dbe5b2c2e015f1e02a2424ddaa",
+              "format": "tar.gz",
+              "size": 15129320
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-cli-linux-x86_64.tar.gz",
+          "sha256": "517a18e0f0874de35669fe134eb3c52508e128a6d1da5bf890760cb800ada410",
+          "format": "tar.gz",
+          "size": 12931817,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-fpm-linux-x86_64.tar.gz",
+              "sha256": "836412ac76432e9f8e49a88c440c381acb2d262cc6dab4ba0a80468ab568a239",
+              "format": "tar.gz",
+              "size": 12954233
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-cli-linux-aarch64.tar.gz",
+          "sha256": "af995ef6b3187b39932a00714dfb97e44bfa40a9243c4c29f61f19d583950753",
+          "format": "tar.gz",
+          "size": 13570407,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.5.8-fpm-linux-aarch64.tar.gz",
+              "sha256": "10380823b81f46fb26fdadc8e93b968a2b7d26852b0694e3f1b7bf6ee0a14e8d",
+              "format": "tar.gz",
+              "size": 13594235
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.4.26",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.4.26-nts-Win32-vs17-x64.zip",
+          "sha256": "da68394f9193b7f6b89d0c76861a4034ae10efee7fd55a7255d8118c2acf70d7",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "php",
+              "path": "php.exe"
+            },
+            {
+              "name": "php-cgi",
+              "path": "php-cgi.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.3/php_xdebug-3.5.3-8.4-nts-vs17-x64.zip",
+              "sha256": "0d8bfc5524343f89caf66f400e63e8bd83fc84dec885b053ec8aabe8945418f4",
+              "format": "zip",
+              "size": 847584,
+              "dir": "xdebug"
+            },
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/pcov/1.0.12/php_pcov-1.0.12-8.4-nts-vs17-x64.zip",
+              "sha256": "9d25d2f2b0391831b9210729d2a97c3fdee2060e596727ff5184ca7d4d4ce5f1",
+              "format": "zip",
+              "size": 121241,
+              "dir": "pcov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.4.23",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-cli-macos-x86_64.tar.gz",
+          "sha256": "bd1c20f355e73a9f807b24ba62fd98f3a57bc08d063ebb3aa6393909e01ce89e",
+          "format": "tar.gz",
+          "size": 14862400,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-fpm-macos-x86_64.tar.gz",
+              "sha256": "6d0a0ffd4dae2672037b599dbca3c2288db3f96efb2f29e0102bbdb1be177c5f",
+              "format": "tar.gz",
+              "size": 14889885
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-cli-macos-aarch64.tar.gz",
+          "sha256": "bba286e442796dbd420d778a016e2817b31d5036d11b3ba316d19a60de912cdc",
+          "format": "tar.gz",
+          "size": 14435029,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-fpm-macos-aarch64.tar.gz",
+              "sha256": "038ea93f7ec17d125ddb09c68d099e72d68c5ee4c235048fe5fe2f720de6484f",
+              "format": "tar.gz",
+              "size": 14457789
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-cli-linux-x86_64.tar.gz",
+          "sha256": "1aeed5bc7967977ca5b1da7163acd91bf9ba3ac56037045d4e91ee2ff2712bb7",
+          "format": "tar.gz",
+          "size": 12375301,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-fpm-linux-x86_64.tar.gz",
+              "sha256": "baa5ddcf2f9aabff78848cb6851bb104a4c0873347b8ee65eb9bcf4760a4d31a",
+              "format": "tar.gz",
+              "size": 12398139
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-cli-linux-aarch64.tar.gz",
+          "sha256": "0978d89157292bcc9268a34a73a4d5d2793f8dff1403b5138a94d2af6b7a09b0",
+          "format": "tar.gz",
+          "size": 12768307,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.4.23-fpm-linux-aarch64.tar.gz",
+              "sha256": "dcd8795cf91f8f88e6b383efab8569dffa469891cf2d90225dcca9711f8115c4",
+              "format": "tar.gz",
+              "size": 12790780
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.3.35",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.3.35-nts-Win32-vs16-x64.zip",
+          "sha256": "25a8e2ac9ff30f1d768d1447c09a600617fa6e6082729f6e95f008b59c91fe45",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "php",
+              "path": "php.exe"
+            },
+            {
+              "name": "php-cgi",
+              "path": "php-cgi.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.3/php_xdebug-3.5.3-8.3-nts-vs16-x64.zip",
+              "sha256": "9883a4361e2f7208ea15b6dbc66f346f2bb5b9a168384f37c5433833c7420ccd",
+              "format": "zip",
+              "size": 621944,
+              "dir": "xdebug"
+            },
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/pcov/1.0.12/php_pcov-1.0.12-8.3-nts-vs16-x64.zip",
+              "sha256": "1764d779feb9a1dcdffa171391b5bc037dac5528928057b77bc7c6d94df68e69",
+              "format": "zip",
+              "size": 94412,
+              "dir": "pcov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.3.32",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-cli-macos-x86_64.tar.gz",
+          "sha256": "aad1365eb29a6788c59494d39bc71ef5f72a8a384495b0d6004007a768449f8b",
+          "format": "tar.gz",
+          "size": 14110296,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-fpm-macos-x86_64.tar.gz",
+              "sha256": "b8d2367b7c70a776d27fdc3d9b128c3a193e5cfd583bcdb7f484ebad601777e3",
+              "format": "tar.gz",
+              "size": 14134449
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-cli-macos-aarch64.tar.gz",
+          "sha256": "1cc8148750bd1722031daba1618825a8b7d0a3830bb92c50d8dd844a1dcfb306",
+          "format": "tar.gz",
+          "size": 13688227,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-fpm-macos-aarch64.tar.gz",
+              "sha256": "3164721ae2dd6615048180c44f63bede09ba42060c73d2027af8150d2ebbd0f6",
+              "format": "tar.gz",
+              "size": 13711559
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-cli-linux-x86_64.tar.gz",
+          "sha256": "d7ff2bc40846f4efed2757e5929f7469c96f672fbf33eb4bb80cd695534750fe",
+          "format": "tar.gz",
+          "size": 11744291,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-fpm-linux-x86_64.tar.gz",
+              "sha256": "78d9ac9d52fedacc33d428196d0e5e9ace8ac010091c334daae85a669370f861",
+              "format": "tar.gz",
+              "size": 11769021
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-cli-linux-aarch64.tar.gz",
+          "sha256": "e7644c646a62c44627d00e3deff498eeb943814adcc948b3de42a8ebfe07aaf2",
+          "format": "tar.gz",
+          "size": 12151982,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.3.32-fpm-linux-aarch64.tar.gz",
+              "sha256": "64685282cd98d89703fce3f25fe265ba72a3cf5c71ba828e516b1c89e073134f",
+              "format": "tar.gz",
+              "size": 12173307
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.2.34",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.2.34-nts-Win32-vs16-x64.zip",
+          "sha256": "03249b5c9414c6dbe30276f4a7598bd9d2a7417ee81f709b06b99e9c4a2aff4f",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "php",
+              "path": "php.exe"
+            },
+            {
+              "name": "php-cgi",
+              "path": "php-cgi.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.3/php_xdebug-3.5.3-8.2-nts-vs16-x64.zip",
+              "sha256": "78b18873c20e6ac38bbda1b17e272db4ba0c47b1eb99a0179440bd0ea82d8f18",
+              "format": "zip",
+              "size": 624513,
+              "dir": "xdebug"
+            },
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/pcov/1.0.12/php_pcov-1.0.12-8.2-nts-vs16-x64.zip",
+              "sha256": "c56906a7a2339a7ca2b79eef9685f90c215c24cba360ccc99555884f81b2dcad",
+              "format": "zip",
+              "size": 94310,
+              "dir": "pcov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.2.32",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-cli-macos-x86_64.tar.gz",
+          "sha256": "44013a26832908738a674848faa313282985fcd9f4efc20841d97bb9e2bc318c",
+          "format": "tar.gz",
+          "size": 14006663,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-fpm-macos-x86_64.tar.gz",
+              "sha256": "d3b83a6f08526cf3a64bcacb8d09136f164487d5285e26d1d9fa12d65c503487",
+              "format": "tar.gz",
+              "size": 14030875
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-cli-macos-aarch64.tar.gz",
+          "sha256": "074e50b2b039a5f2c0830dd30494d714a10128f0d8eaf0e5e0c0dbe70c33d7f7",
+          "format": "tar.gz",
+          "size": 13587943,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-fpm-macos-aarch64.tar.gz",
+              "sha256": "16cdb8ab5c8003765f779eecf51d4bd06a527a30a28bc1fab31f4096b6b6c8b0",
+              "format": "tar.gz",
+              "size": 13612976
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-cli-linux-x86_64.tar.gz",
+          "sha256": "2e609bb88bae88661dbd447e409531f7c36931adff480d8a0a74e812b889d1be",
+          "format": "tar.gz",
+          "size": 11666920,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-fpm-linux-x86_64.tar.gz",
+              "sha256": "6e14e116836f9eab42451619fb4d68117ecea4bc4b1efd7011aaee914033f800",
+              "format": "tar.gz",
+              "size": 11690460
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-cli-linux-aarch64.tar.gz",
+          "sha256": "2c646a48523015daa0aff703876cab6c66d3fdd8d9012a348ceff78569558913",
+          "format": "tar.gz",
+          "size": 12078551,
+          "extras": [
+            {
+              "url": "https://dl.static-php.dev/static-php-cli/common/php-8.2.32-fpm-linux-aarch64.tar.gz",
+              "sha256": "8479a443ee13801a2c8bbc5851ae267d3c9164f71d8262815c3f603d576f5bab",
+              "format": "tar.gz",
+              "size": 12099919
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.1.34",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://downloads.php.net/~windows/releases/archives/php-8.1.34-nts-Win32-vs16-x64.zip",
+          "sha256": "9cfe246cb144076c16f5913a3ef88a474c3dd7e60f0f0c8bb95faf68674016cc",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "php",
+              "path": "php.exe"
+            },
+            {
+              "name": "php-cgi",
+              "path": "php-cgi.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/xdebug/3.5.3/php_xdebug-3.5.3-8.1-nts-vs16-x64.zip",
+              "sha256": "c34f067dc09d42146ad0d0662380714d476eda7afc51da2547de67223ab8c2cc",
+              "format": "zip",
+              "size": 614429,
+              "dir": "xdebug"
+            },
+            {
+              "url": "https://downloads.php.net/~windows/pecl/releases/pcov/1.0.12/php_pcov-1.0.12-8.1-nts-vs16-x64.zip",
+              "sha256": "d3c1da7fc7be93e8543e2162f96a9d4f6ff20485f4d681ec35c7304086192610",
+              "format": "zip",
+              "size": 93232,
+              "dir": "pcov"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

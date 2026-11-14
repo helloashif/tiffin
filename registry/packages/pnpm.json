@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "name": "pnpm",
+  "type": "tool",
+  "description": "pnpm, the fast, disk-efficient JavaScript package manager (standalone, no Node.js needed)",
+  "homepage": "https://pnpm.io",
+  "bins": [
+    {
+      "name": "pnpm",
+      "path": "pnpm"
+    }
+  ],
+  "versions": [
+    {
+      "version": "12.19.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-darwin-x64.tar.gz",
+          "sha256": "f73bc7acac50d34243f7902d3e0a2eddc508fedec0c92e044b8ccbc752272b9c",
+          "format": "tar.gz",
+          "size": 27293333
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-darwin-arm64.tar.gz",
+          "sha256": "034aa9694d02e9345e56ffa2e6660b5c6ace2f27c99f6ea84db9bf50034315d6",
+          "format": "tar.gz",
+          "size": 24407846
+        },
+        "linux-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-linux-x64.tar.gz",
+          "sha256": "bf37edf4e26c3b31c1cac42c769ffabcb9231e9bc728762aeb1ee86bc711684a",
+          "format": "tar.gz",
+          "size": 28334230
+        },
+        "linux-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-linux-arm64.tar.gz",
+          "sha256": "c30fc6f9619fe190f491d844f8bb11c6a52dd2d932337d05edf2029a1988ac32",
+          "format": "tar.gz",
+          "size": 25425869
+        },
+        "windows-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-win32-x64.zip",
+          "sha256": "1fa21198d4b9dfebabac985b6ab863bd4138d83ad07457d4eb0910cc2b3286c5",
+          "format": "zip",
+          "size": 25850627,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.19.0/pnpm-win32-arm64.zip",
+          "sha256": "abfc566f2c03405485bee6a7add01bd589426e6b972958f2ce549d3b6026d605",
+          "format": "zip",
+          "size": 23932524,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "12.18.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-darwin-x64.tar.gz",
+          "sha256": "34cc90fbaa060c458b587fbdb1f3f9477e97e3fd3f8e9ffb2d43ca45c0c9b005",
+          "format": "tar.gz",
+          "size": 25985933
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-darwin-arm64.tar.gz",
+          "sha256": "9b647f634d7e8f23162c9d3d1d0e0950d1152402ca0f4c331583ed7c75cd3706",
+          "format": "tar.gz",
+          "size": 23182215
+        },
+        "linux-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-linux-x64.tar.gz",
+          "sha256": "3726060e236c0db3e7124c0a5af123c840ba0cb76682149b63ea0baf290017c2",
+          "format": "tar.gz",
+          "size": 26976720
+        },
+        "linux-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-linux-arm64.tar.gz",
+          "sha256": "700bd1aa4028465b80e62b7c5bec8455be60bbafaf53a3262a4ab8e2057712ac",
+          "format": "tar.gz",
+          "size": 24154882
+        },
+        "windows-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-win32-x64.zip",
+          "sha256": "dfe2123affd2ed4be280ba7ab4678c0fae130b4936fabefa9b1675b60514ef7c",
+          "format": "zip",
+          "size": 24631428,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.18.0/pnpm-win32-arm64.zip",
+          "sha256": "942765d3d900f2c586874011169489db9983285df6e033a0c930ada8498a572d",
+          "format": "zip",
+          "size": 22734197,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "12.17.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-darwin-x64.tar.gz",
+          "sha256": "b8e754a23d19d5f567dd169681b15627de9ab12997248b6c23506c6e27bdce92",
+          "format": "tar.gz",
+          "size": 25501720
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-darwin-arm64.tar.gz",
+          "sha256": "446c334d493bdfc6cc2db693764d1812fca06456f6a4be7996a13d7008780239",
+          "format": "tar.gz",
+          "size": 22666805
+        },
+        "linux-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-linux-x64.tar.gz",
+          "sha256": "2c58959fd5df5cb9f4e72784c08a60ffc7ee558fed9b04b22254e29112203a51",
+          "format": "tar.gz",
+          "size": 26309218
+        },
+        "linux-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-linux-arm64.tar.gz",
+          "sha256": "ce5a5b95a9974a0bbd713a5ef74416dbcd0e3fdf11f69ea92c5995b9c18ccb47",
+          "format": "tar.gz",
+          "size": 23667242
+        },
+        "windows-amd64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-win32-x64.zip",
+          "sha256": "f160b053dac663c5931975d244920836ec26e6bc3516a42518db44c9d5c2ffc2",
+          "format": "zip",
+          "size": 24072248,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/pnpm/pnpm/releases/download/v12.17.0/pnpm-win32-arm64.zip",
+          "sha256": "a762db3ca8975ab50356b2164b8bb988e0a10b5519476a387cd4df0678531f78",
+          "format": "zip",
+          "size": 22237160,
+          "bins": [
+            {
+              "name": "pnpm",
+              "path": "pnpm.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

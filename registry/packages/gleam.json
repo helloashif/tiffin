@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "name": "gleam",
+  "type": "runtime",
+  "description": "Gleam, the type-safe functional language for Erlang and JavaScript",
+  "homepage": "https://gleam.run",
+  "bins": [
+    {
+      "name": "gleam",
+      "path": "gleam"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.19.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-x86_64-apple-darwin.tar.gz",
+          "sha256": "c578192530507b868c4a6c8cb7ad5d2ab0830890257f41036f17c82853f19d05",
+          "format": "tar.gz",
+          "size": 9702221
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-aarch64-apple-darwin.tar.gz",
+          "sha256": "fa7c6113e162ab1d979f72e7dde3e907b87e4b30c518af178768e577d180324d",
+          "format": "tar.gz",
+          "size": 9234148
+        },
+        "linux-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "2ba2afb66ca9f6dcc01a4a6e9169b6942963bad6483bec9571ddc078cfe6f41f",
+          "format": "tar.gz",
+          "size": 10565692
+        },
+        "linux-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "d1d1a9d53f6b317c0563a4806873c8ccace54291ead023373728af379402d4f1",
+          "format": "tar.gz",
+          "size": 10126116
+        },
+        "windows-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-x86_64-pc-windows-msvc.zip",
+          "sha256": "21744a7fb040f64142c1b45b7a0149bf2c46b4aa46b435abd35848f9821ce729",
+          "format": "zip",
+          "size": 8697119,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.2/gleam-v1.19.2-aarch64-pc-windows-msvc.zip",
+          "sha256": "f9bb658ab191bb0f85e21045dcef36c2900ce83be50aef84dcf2a88c88cd5e32",
+          "format": "zip",
+          "size": 8135771,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.19.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-x86_64-apple-darwin.tar.gz",
+          "sha256": "2335010e1e4849a0f23dfed08334c32b9f7e9ccab87310c94925de1b250bdfe7",
+          "format": "tar.gz",
+          "size": 9697505
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-aarch64-apple-darwin.tar.gz",
+          "sha256": "31827214f9dd4dd60b7efb7be7bd42dd76ff70e646936773d2a4ea98a2fef3d1",
+          "format": "tar.gz",
+          "size": 9237277
+        },
+        "linux-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "221bff0758372aae76cfe440b7445f9f5c7ea67947297b1112115c798fd18385",
+          "format": "tar.gz",
+          "size": 10565119
+        },
+        "linux-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "b0eeed8c625471c2ab0fab7058b53979c47fa3bd84315b49b69481e26d583f7d",
+          "format": "tar.gz",
+          "size": 10123698
+        },
+        "windows-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-x86_64-pc-windows-msvc.zip",
+          "sha256": "b55d187912fe1e6938990343171f31318635dca52772679cbec438775e01df65",
+          "format": "zip",
+          "size": 8696105,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.1/gleam-v1.19.1-aarch64-pc-windows-msvc.zip",
+          "sha256": "c86b0608f735e39b250ab0fec1cbf71edacabe0cdb61d31dc53c8324762c4c00",
+          "format": "zip",
+          "size": 8135481,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.19.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "28bd942b47da84b8b870d4ed56e31972375b4c8f7455716086dfba5be7f3e687",
+          "format": "tar.gz",
+          "size": 9693926
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "7abff14c1acc7eb725ef4883539c6b48de72b58593b331cac0ff23e0a5f068c7",
+          "format": "tar.gz",
+          "size": 9229334
+        },
+        "linux-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "6083148cb404460810afe35e7878527e58fd2512dd79a76b47d59723815753be",
+          "format": "tar.gz",
+          "size": 10567034
+        },
+        "linux-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "b7677e3763eb7a6752e37f9a7f6f9451419cab5ccdbf4a41814a81356c58cc1d",
+          "format": "tar.gz",
+          "size": 10124164
+        },
+        "windows-amd64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "47cc9eed05ec44526ee610c40f3103d48a4b558a442b5c5e085d21386ab8bb23",
+          "format": "zip",
+          "size": 8696119,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/gleam-lang/gleam/releases/download/v1.19.0/gleam-v1.19.0-aarch64-pc-windows-msvc.zip",
+          "sha256": "d2600f780cb807f83ef473f68cf1039813bad6528c55f50395072516dcf63bb0",
+          "format": "zip",
+          "size": 8134573,
+          "bins": [
+            {
+              "name": "gleam",
+              "path": "gleam.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

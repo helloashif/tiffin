@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "name": "wp-cli",
+  "type": "tool",
+  "description": "WP-CLI, the command line for WordPress",
+  "homepage": "https://wp-cli.org",
+  "bins": [
+    {
+      "name": "wp",
+      "path": "wp-cli.phar",
+      "via": "php"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.12.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        },
+        "linux-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        },
+        "linux-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        },
+        "windows-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        },
+        "windows-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.12.0/wp-cli-2.12.0.phar",
+          "sha256": "ce34ddd838f7351d6759068d09793f26755463b4a4610a5a5c0a97b68220d85c",
+          "format": "raw",
+          "size": 7142777
+        }
+      }
+    },
+    {
+      "version": "2.11.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        },
+        "linux-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        },
+        "linux-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        },
+        "windows-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        },
+        "windows-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.11.0/wp-cli-2.11.0.phar",
+          "sha256": "a39021ac809530ea607580dbf93afbc46ba02f86b6cffd03de4b126ca53079f6",
+          "format": "raw",
+          "size": 7048108
+        }
+      }
+    },
+    {
+      "version": "2.10.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        },
+        "linux-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        },
+        "linux-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        },
+        "windows-amd64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        },
+        "windows-arm64": {
+          "url": "https://github.com/wp-cli/wp-cli/releases/download/v2.10.0/wp-cli-2.10.0.phar",
+          "sha256": "4c6a93cecae7f499ca481fa7a6d6d4299c8b93214e5e5308e26770dbfd3631df",
+          "format": "raw",
+          "size": 6995229
+        }
+      }
+    }
+  ]
+}

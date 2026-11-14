@@ -1,0 +1,5379 @@
+{
+  "schema": 1,
+  "name": "go",
+  "type": "runtime",
+  "description": "The Go programming language",
+  "homepage": "https://go.dev",
+  "bins": [
+    {
+      "name": "go",
+      "path": "bin/go"
+    },
+    {
+      "name": "gofmt",
+      "path": "bin/gofmt"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.27.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.27.1.darwin-amd64.tar.gz",
+          "sha256": "8f8f52c6649542cf027bbc9b9c68d1ec042f9f34808a40413f0b8b3f66f3caa4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71621873
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.27.1.darwin-arm64.tar.gz",
+          "sha256": "ee215d57e0ec269c60cc9ceca68e6bda321ba9ee5afe24f4b0988703c2d87d12",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68100347
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.27.1.linux-amd64.tar.gz",
+          "sha256": "63d339f0da5ab53635a56f2490a7984dfe12dfcff22ad749f63edaf590168445",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70553950
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.27.1.linux-arm64.tar.gz",
+          "sha256": "3450b45a3f9ee8568792736a5c5e70a1f2e9b36c35a8f74958c03e51d7d92bec",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67009954
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.27.1.windows-amd64.zip",
+          "sha256": "a3911b5e0e1b1053f25ed0675f4c1c6aad1e2bfcf253df2b9be4caabd2edd95d",
+          "format": "zip",
+          "strip": 1,
+          "size": 78931360,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.27.1.windows-arm64.zip",
+          "sha256": "13b69b87bb0e83f96bc68560a8cace7f0343b1e03469f1110ea18d17e3234069",
+          "format": "zip",
+          "strip": 1,
+          "size": 75038673,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.27.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.27.0.darwin-amd64.tar.gz",
+          "sha256": "d3314e25496e4381d71a5c51d2907e7af655d199f6780b549f015bd85fef4986",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71684980
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.27.0.darwin-arm64.tar.gz",
+          "sha256": "90493b3bbd5e10f91d12153198bf1994fd756399b4fec93b49b0c6e2acdeeb3e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68303667
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.27.0.linux-amd64.tar.gz",
+          "sha256": "675c26c449cbb18fc24b74650de1eabbae6e16f64326fd85a283fb3b58280685",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70523269
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.27.0.linux-arm64.tar.gz",
+          "sha256": "51798d2c42d0e1c6ed7fd9f48728b4193abac9e8aad6dbac2fe96a81f5909bda",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66988980
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.27.0.windows-amd64.zip",
+          "sha256": "f0c0a0d33ba94f4d2c5dbc887334ce678b21813504ddb3aafcb06e60a5a667c4",
+          "format": "zip",
+          "strip": 1,
+          "size": 78924880,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.27.0.windows-arm64.zip",
+          "sha256": "6e0156b9788209931dd340fadc04171ce15063c17b51c92e7b86b51109626e90",
+          "format": "zip",
+          "strip": 1,
+          "size": 75031536,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.8.darwin-amd64.tar.gz",
+          "sha256": "186be014105aa6542b767d2c6ed5cca10a0214bdff809ef1724022a8c7894150",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67759394
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.8.darwin-arm64.tar.gz",
+          "sha256": "a012b25b571bd0138a03dcd25375ceba866fe5ca822f426d2c66a4de56fd3f4b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64626620
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.8.linux-amd64.tar.gz",
+          "sha256": "d0f743b33e8d8945e6b1f432edd15785c70507121d6e2a723b21285eddf8b57b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66897291
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.8.linux-arm64.tar.gz",
+          "sha256": "211ffced9dcb9633a55eac6364816ec0ddd951389a740e88fa8b3337971bdda0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63811405
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.8.windows-amd64.zip",
+          "sha256": "b92c3b2adae85a11ba71fe7216daf0d84e82af4c8ab6c5625807f28622043a59",
+          "format": "zip",
+          "strip": 1,
+          "size": 74957586,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.8.windows-arm64.zip",
+          "sha256": "4bc560ed3ccb64eec0be6180b8c29185c07f5215276820adb4303d7bf3365435",
+          "format": "zip",
+          "strip": 1,
+          "size": 71485334,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.7.darwin-amd64.tar.gz",
+          "sha256": "92e8b34bff3c89ab16404c595669ac8cb004cc2f676dcbd1f5b87a6b8def3b47",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67852067
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.7.darwin-arm64.tar.gz",
+          "sha256": "020a1e8224811be75163e920bc77e0926a1390a6aeea19bdcf23f74b9d749f6d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64772572
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.7.linux-amd64.tar.gz",
+          "sha256": "ffb5f8de10c62550dfddab66b36b57030721e0a44a3218e9e1181d7b59f121ca",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66890901
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.7.linux-arm64.tar.gz",
+          "sha256": "5a4ec883379d51ee9ce1040d5e87f8d35e20387574dd8c947feb01eabc3c1b37",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63809550
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.7.windows-amd64.zip",
+          "sha256": "f4f534a486e4bc3387fa18f08208f2f854b7aaea8a08f2a2d829a914a05abb11",
+          "format": "zip",
+          "strip": 1,
+          "size": 74955002,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.7.windows-arm64.zip",
+          "sha256": "6f1b08de9e2dd94f69c52e524ab6834737275253291e8fd7f1c12ed4eceeda89",
+          "format": "zip",
+          "strip": 1,
+          "size": 71483461,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.6.darwin-amd64.tar.gz",
+          "sha256": "08b65a63f244115121ced6c3b55ad38d801a7442acad5c949a17aad84ae6d684",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67851334
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.6.darwin-arm64.tar.gz",
+          "sha256": "2dc95ce4675829f2df0e86b28bcef3283635902062a5f0580ca659bf570f3204",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64772321
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.6.linux-amd64.tar.gz",
+          "sha256": "708effb774be8237570d0add163225abbdfaf4fca28b2611df167beba4feef89",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66890545
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.6.linux-arm64.tar.gz",
+          "sha256": "d0507e9e9d7fe012aae570108cbd76c15de879e17130ab8cb90d4d7445cb1f2e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63809088
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.6.windows-amd64.zip",
+          "sha256": "5b6c5b556525810463b5c897b50dc7a82d6a3dc0bfaf55d990a7e9f31d6b2318",
+          "format": "zip",
+          "strip": 1,
+          "size": 74954710,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.6.windows-arm64.zip",
+          "sha256": "06dbe785743d534ef8a469dad88adf7f1b2b438507ccfef9b98e7cf8c97b4b68",
+          "format": "zip",
+          "strip": 1,
+          "size": 71483176,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.5.darwin-amd64.tar.gz",
+          "sha256": "6231d8d3b8f5552ec6cbf6d685bdd5482e1e703214b120e89b3bf0d7bf1ef725",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67836304
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.5.darwin-arm64.tar.gz",
+          "sha256": "efb87ff28af9a188d0536ef5d42e63dd52ba8263cd7344a993cc48dd11dedb6a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64738542
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.5.linux-amd64.tar.gz",
+          "sha256": "5c2c3b16caefa1d968a94c1daca04a7ca301a496d9b086e17ad77bb81393f053",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66879095
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.5.linux-arm64.tar.gz",
+          "sha256": "fe4789e92b1f33358680864bbe8704289e7bb5fc207d80623c308935bd696d49",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63759990
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.5.windows-amd64.zip",
+          "sha256": "97e6b2a833b6d89f9ff17d25419ac0a7e3b482a044e9ab18cdef834bd834fd38",
+          "format": "zip",
+          "strip": 1,
+          "size": 74927386,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.5.windows-arm64.zip",
+          "sha256": "f96ee46396d69f1e231c8d981ec6a70216238a646a1f2cd74aea0d0016bbc017",
+          "format": "zip",
+          "strip": 1,
+          "size": 71440103,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.4.darwin-amd64.tar.gz",
+          "sha256": "05dc9b5f9997744520aaebb3d5deaa7c755371aebbfb7f97c2511a9f3367538d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67816160
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.4.darwin-arm64.tar.gz",
+          "sha256": "b62ad2b6d7d2464f12a5bcad7ff47f19d08325773b5efd21610e445a05a9bf53",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64723756
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.4.linux-amd64.tar.gz",
+          "sha256": "1153d3d50e0ac764b447adfe05c2bcf08e889d42a02e0fe0259bd47f6733ad7f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66861266
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.4.linux-arm64.tar.gz",
+          "sha256": "ef758ae7c6cf9267c9c0ef080b8965f453d89ab2d25d9eb22de4405925238768",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63740285
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.4.windows-amd64.zip",
+          "sha256": "3ca8fb4630b07c419cbdd51f754e31363cfcfb83b3a5354d9e895c90be2cc345",
+          "format": "zip",
+          "strip": 1,
+          "size": 74910419,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.4.windows-arm64.zip",
+          "sha256": "62247f56fb7d7b827d237152c4e3fcd69a24d0fa9430dc73dbda7593ae82bc8d",
+          "format": "zip",
+          "strip": 1,
+          "size": 71422525,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.3.darwin-amd64.tar.gz",
+          "sha256": "278d580b32e299fe4a9c990fcf2d02acfe538c7e551a6ee18f9c7164573d2c63",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67816500
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.3.darwin-arm64.tar.gz",
+          "sha256": "875cf54a15311eee2c99b9dd67c68c4a49351d489ab622bf2cfd28c8f2078d3c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64724939
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.3.linux-amd64.tar.gz",
+          "sha256": "2b2cfc7148493da5e73981bffbf3353af381d5f93e789c82c79aff64962eb556",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66862230
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.3.linux-arm64.tar.gz",
+          "sha256": "9d89a3ea57d141c2b22d70083f2c8459ba3890f2d9e818e7e933b75614936565",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63741242
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.3.windows-amd64.zip",
+          "sha256": "20d2ceafb4ed41b96b879010927b28bc92a5be57a7c1801ce365a9ca51d3224a",
+          "format": "zip",
+          "strip": 1,
+          "size": 74912057,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.3.windows-arm64.zip",
+          "sha256": "95cd63bc6b0da77409ba819215afea9ddf5702c55a3b20af3dd90ea95c7b130c",
+          "format": "zip",
+          "strip": 1,
+          "size": 71424354,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.2.darwin-amd64.tar.gz",
+          "sha256": "bc3f1500d9968c36d705442d90ba91addf9271665033748b82532682e90a7966",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67755361
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.2.darwin-arm64.tar.gz",
+          "sha256": "32af1522bf3e3ff3975864780a429cc0b41d190ec7bf90faa661d6d64566e7af",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64664058
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.2.linux-amd64.tar.gz",
+          "sha256": "990e6b4bbba816dc3ee129eaeaf4b42f17c2800b88a2166c265ac1a200262282",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66798306
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.2.linux-arm64.tar.gz",
+          "sha256": "c958a1fe1b361391db163a485e21f5f228142d6f8b584f6bef89b26f66dc5b23",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63701324
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.2.windows-amd64.zip",
+          "sha256": "98eb3570bade15cb826b0909338df6cc6d2cf590bc39c471142002db3832b708",
+          "format": "zip",
+          "strip": 1,
+          "size": 74845604,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.2.windows-arm64.zip",
+          "sha256": "094d05caaf6ba235e2bd570b625d064ceb65943866252722a8f3fdba232139c6",
+          "format": "zip",
+          "strip": 1,
+          "size": 71368581,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.1.darwin-amd64.tar.gz",
+          "sha256": "65773dab2f8cc4cd23d93ba6d0a805de150ca0b78378879292be0b903b8cdd08",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67754445
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.1.darwin-arm64.tar.gz",
+          "sha256": "353df43a7811ce284c8938b5f3c7df40b7bfb6f56cb165b150bc40b5e2dd541f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64654450
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.1.linux-amd64.tar.gz",
+          "sha256": "031f088e5d955bab8657ede27ad4e3bc5b7c1ba281f05f245bcc304f327c987a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66791587
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.1.linux-arm64.tar.gz",
+          "sha256": "a290581cfe4fe28ddd737dde3095f3dbeb7f2e4065cab4eae44dfc53b760c2f7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63690198
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.1.windows-amd64.zip",
+          "sha256": "9b68112c913f45b7aebbf13c036721264bbba7e03a642f8f7490c561eebd1ecc",
+          "format": "zip",
+          "strip": 1,
+          "size": 74832998,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.1.windows-arm64.zip",
+          "sha256": "c17e09676be0faad3cbed1c81bb02f38fb73e2f93d048571cc13730fe23f2d5b",
+          "format": "zip",
+          "strip": 1,
+          "size": 71353916,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.26.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.26.0.darwin-amd64.tar.gz",
+          "sha256": "1ca28b7703cbea05a65b2a1d92d6b308610ef92f8824578a0874f2e60c9d5a22",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67708850
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.26.0.darwin-arm64.tar.gz",
+          "sha256": "b1640525dfe68f066d56f200bef7bf4dce955a1a893bd061de6754c211431023",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64636141
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.26.0.linux-amd64.tar.gz",
+          "sha256": "aac1b08a0fb0c4e0a7c1555beb7b59180b05dfc5a3d62e40e9de90cd42f88235",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66768540
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.26.0.linux-arm64.tar.gz",
+          "sha256": "bd03b743eb6eb4193ea3c3fd3956546bf0e3ca5b7076c8226334afe6b75704cd",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63655921
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.26.0.windows-amd64.zip",
+          "sha256": "9bbe0fc64236b2b51f6255c05c4232532b8ecc0e6d2e00950bd3021d8a4d07d4",
+          "format": "zip",
+          "strip": 1,
+          "size": 74815266,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.26.0.windows-arm64.zip",
+          "sha256": "73bdbb9f64aa152758024485c5243a1098182bb741fcc603b6fb664ee5e0fe35",
+          "format": "zip",
+          "strip": 1,
+          "size": 71333313,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.14",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.14.darwin-amd64.tar.gz",
+          "sha256": "b09087a67d5792a8b0fcbf74212d62560c94ac8a8fd750ff920d8cb5f1e20118",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60622678
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.14.darwin-arm64.tar.gz",
+          "sha256": "5b26c0b6f308240fca2614fb02f622cfcc8c0cc3b69c78bba4845489a4590259",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58123934
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.14.linux-amd64.tar.gz",
+          "sha256": "a21ae5633a269bcd7e90cf767e48225633795e99d831742cbf3397064fee7712",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59909419
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.14.linux-arm64.tar.gz",
+          "sha256": "9bf234ea70ffec9347fdf6b22ce4add51717d3386a38a441e8c8743fceb5eaee",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57360344
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.14.windows-amd64.zip",
+          "sha256": "119044a92b3987c341cd6aebb256676dd4780d292f7b4e72a3e9976677841697",
+          "format": "zip",
+          "strip": 1,
+          "size": 67591780,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.14.windows-arm64.zip",
+          "sha256": "96fb31ae26b288b5311bd31d8252d4a62c8a661e4dbb64d504cc646e4d10a57f",
+          "format": "zip",
+          "strip": 1,
+          "size": 64735369,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.13",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.13.darwin-amd64.tar.gz",
+          "sha256": "d742b7a53f8c8be5e02d75263883482cebabbe14ec9308cb056dd8aebeb040df",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60622938
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.13.darwin-arm64.tar.gz",
+          "sha256": "916fe61a2bc78dd516b3629ee3428b06e17141b85a70f1986c260149a3d2ffbd",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58124139
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.13.linux-amd64.tar.gz",
+          "sha256": "39042a078ea9ceebe3ecda4a7188f0f5b96e14a071d27923ba7f40b456e85ae3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59908810
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.13.linux-arm64.tar.gz",
+          "sha256": "adad240fcb6bd180cf973b4b7c747baf4ec81d08b7d40ca35940ee4531971490",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57359422
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.13.windows-amd64.zip",
+          "sha256": "54a6bbffada82938ac4ae66e354b2e9c04ebdceff96f8d0455406c723b5ed1fc",
+          "format": "zip",
+          "strip": 1,
+          "size": 67590465,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.13.windows-arm64.zip",
+          "sha256": "a6db6c10e2828ccb932600039cbd9dc0dcd05c245222d83206ac9f103039167e",
+          "format": "zip",
+          "strip": 1,
+          "size": 64734035,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.12",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.12.darwin-amd64.tar.gz",
+          "sha256": "00a2e743b82bccec03c51c4b0f7e46d5fec52184075fd6c5183c3bb39ae9fb00",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60594502
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.12.darwin-arm64.tar.gz",
+          "sha256": "fa2c88bbcf64bd3b2aef355f026cfec6d3a4a01c132f999c8f8c964eb767164f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58121109
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.12.linux-amd64.tar.gz",
+          "sha256": "234828b7a89e0e303d2556310ee549fbcf253d28de937bac3da13d6294262ac1",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59856753
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.12.linux-arm64.tar.gz",
+          "sha256": "8b5884aef89600aef5b0b051fb971f11f49bb996521e911f30f02a66884f7bd2",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57351753
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.12.windows-amd64.zip",
+          "sha256": "d5dc82da351b00e5eedd04f41356817d674cc4308131f0f638a5b14c5c3af4cb",
+          "format": "zip",
+          "strip": 1,
+          "size": 67546488,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.12.windows-arm64.zip",
+          "sha256": "054f046a5fa31fdcc9491cc19065cbf43bf521d805bbe298ae8d65dd981fca84",
+          "format": "zip",
+          "strip": 1,
+          "size": 64720499,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.11",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.11.darwin-amd64.tar.gz",
+          "sha256": "26d0ee4071de42b5c332337db9fdd234072877697c547e46e85efb0f59507c66",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60578889
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.11.darwin-arm64.tar.gz",
+          "sha256": "cd8d4920e7930d55da1a5a57ba43a64b1305f71cdf2ca3c76cd8c549272b1680",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58110545
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.11.linux-amd64.tar.gz",
+          "sha256": "34f14304e856893f4ba30c2cacfe93906e9de7915c5f6aaaf3a81cdccd7ba30b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59843601
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.11.linux-arm64.tar.gz",
+          "sha256": "c30bf9e156a54ea4e31fbbbf31a712b32734b58cc9a22426fa5ee632d0885124",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57339435
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.11.windows-amd64.zip",
+          "sha256": "b7401f1b41517428e537493316256fb7cf03c66a130a0103ab07f3a2152e2112",
+          "format": "zip",
+          "strip": 1,
+          "size": 67532119,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.11.windows-arm64.zip",
+          "sha256": "06cc17219efe1d7f7f08fa65a16a82d862cd46445e84e78caa5447019e4f8b37",
+          "format": "zip",
+          "strip": 1,
+          "size": 64706127,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.10.darwin-amd64.tar.gz",
+          "sha256": "52321165a3146cd91865ef98371506a846ed4dc4f9f1c9323e5ad90d2a411e06",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60580012
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.10.darwin-arm64.tar.gz",
+          "sha256": "795691a425de7e7cdba3544f354dcd2cebcf52e87dc6898193878f34eb6d634f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58111454
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.10.linux-amd64.tar.gz",
+          "sha256": "42d4f7a32316aa66591eca7e89867256057a4264451aca10570a715b3637ba70",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59844667
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.10.linux-arm64.tar.gz",
+          "sha256": "654da1f9b50a5d1c2a85ccf8ed405aa89c06e94d18384628bf186f7712677b08",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57340770
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.10.windows-amd64.zip",
+          "sha256": "ca37af2dadd8544464f1a9ca7c3886499d1cdfcb263855d0a1d71f194b2bd222",
+          "format": "zip",
+          "strip": 1,
+          "size": 67533694,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.10.windows-arm64.zip",
+          "sha256": "38be57e0398bd93673d65bcae6dc7ee3cf151d7038d0dba5c60a5153022872da",
+          "format": "zip",
+          "strip": 1,
+          "size": 64707544,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.9.darwin-amd64.tar.gz",
+          "sha256": "92cb78fba4796e218c1accb0ea0a214ef2094c382049a244ad6505505d015fbe",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60523654
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.9.darwin-arm64.tar.gz",
+          "sha256": "9528be7329b9770631a6bd09ca2f3a73ed7332bec01d87435e75e92d8f130363",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58059278
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.9.linux-amd64.tar.gz",
+          "sha256": "00859d7bd6defe8bf84d9db9e57b9a4467b2887c18cd93ae7460e713db774bc1",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59795542
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.9.linux-arm64.tar.gz",
+          "sha256": "ec342e7389b7f489564ed5463c63b16cf8040023dabc7861256677165a8c0e2b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57300924
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.9.windows-amd64.zip",
+          "sha256": "a7a710e225467b34e9e09fb432b829c86c9b2da5821ee5418f7eb2e8ae1a22cc",
+          "format": "zip",
+          "strip": 1,
+          "size": 67474128,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.9.windows-arm64.zip",
+          "sha256": "33cd73cf1b3ceee655ef71bc96e94006c02ae3c617fdd67ac9be3dfae3957449",
+          "format": "zip",
+          "strip": 1,
+          "size": 64658980,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.8.darwin-amd64.tar.gz",
+          "sha256": "a0b8136598baf192af400051cee2481ffb407f4c113a81ff400896e26cbce9e4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60510717
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.8.darwin-arm64.tar.gz",
+          "sha256": "c6547959f5dbe8440bf3da972bd65ba900168de5e7ab01464fbdc7ac8375c21c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58053015
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.8.linux-amd64.tar.gz",
+          "sha256": "ceb5e041bbc3893846bd1614d76cb4681c91dadee579426cf21a63f2d7e03be6",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59786528
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.8.linux-arm64.tar.gz",
+          "sha256": "7d137f59f66bb93f40a6b2b11e713adc2a9d0c8d9ae581718e3fad19e5295dc7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57288243
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.8.windows-amd64.zip",
+          "sha256": "8d4ed9a270b33df7a6d3ff3a5316e103e0042fcc4f0c9a80e40378700bab6794",
+          "format": "zip",
+          "strip": 1,
+          "size": 67461379,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.8.windows-arm64.zip",
+          "sha256": "0ffaef4a9617a8819294b5f52aefca1415dce644a70f5ad155676293ab052a31",
+          "format": "zip",
+          "strip": 1,
+          "size": 64647982,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.7.darwin-amd64.tar.gz",
+          "sha256": "bf5050a2152f4053837b886e8d9640c829dbacbc3370f913351eb0904cb706f5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60496692
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.7.darwin-arm64.tar.gz",
+          "sha256": "ff18369ffad05c57d5bed888b660b31385f3c913670a83ef557cdfd98ea9ae1b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58034655
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.7.linux-amd64.tar.gz",
+          "sha256": "12e6d6a191091ae27dc31f6efc630e3a3b8ba409baf3573d955b196fdf086005",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59768749
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.7.linux-arm64.tar.gz",
+          "sha256": "ba611a53534135a81067240eff9508cd7e256c560edd5d8c2fef54f083c07129",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57276329
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.7.windows-amd64.zip",
+          "sha256": "c75e5f4ff62d085cc0017be3ad19d5536f46825fa05db06ec468941f847e3228",
+          "format": "zip",
+          "strip": 1,
+          "size": 67448678,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.7.windows-arm64.zip",
+          "sha256": "807033f85931bc4a589ca8497535dcbeb1f30d506e47fa200f5f04c4a71c3d9f",
+          "format": "zip",
+          "strip": 1,
+          "size": 64636958,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.6.darwin-amd64.tar.gz",
+          "sha256": "e2b5b237f5c262931b8e280ac4b8363f156e19bfad5270c099998932819670b7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60492806
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.6.darwin-arm64.tar.gz",
+          "sha256": "984521ae978a5377c7d782fd2dd953291840d7d3d0bd95781a1f32f16d94a006",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58031199
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.6.linux-amd64.tar.gz",
+          "sha256": "f022b6aad78e362bcba9b0b94d09ad58c5a70c6ba3b7582905fababf5fe0181a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59768880
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.6.linux-arm64.tar.gz",
+          "sha256": "738ef87d79c34272424ccdf83302b7b0300b8b096ed443896089306117943dd5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57270239
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.6.windows-amd64.zip",
+          "sha256": "19b4733b727ba5c611b5656187f3ac367d278d64c3d4199a845e39c0fdac5335",
+          "format": "zip",
+          "strip": 1,
+          "size": 67446385,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.6.windows-arm64.zip",
+          "sha256": "8f2d8e6dd0849a2ec0ade1683bcfb7809e64d264a4273d8437841000a28ffb60",
+          "format": "zip",
+          "strip": 1,
+          "size": 64634605,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.5.darwin-amd64.tar.gz",
+          "sha256": "b69d51bce599e5381a94ce15263ae644ec84667a5ce23d58dc2e63e2c12a9f56",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60495242
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.5.darwin-arm64.tar.gz",
+          "sha256": "bed8ebe824e3d3b27e8471d1307f803fc6ab8e1d0eb7a4ae196979bd9b801dd3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58028091
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.5.linux-amd64.tar.gz",
+          "sha256": "9e9b755d63b36acf30c12a9a3fc379243714c1c6d3dd72861da637f336ebb35b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59768009
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.5.linux-arm64.tar.gz",
+          "sha256": "b00b694903d126c588c378e72d3545549935d3982635ba3f7a964c9fa23fe3b9",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57270897
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.5.windows-amd64.zip",
+          "sha256": "ae756cce1cb80c819b4fe01b0353807178f532211b47f72d7fa77949de054ebb",
+          "format": "zip",
+          "strip": 1,
+          "size": 67442664,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.5.windows-arm64.zip",
+          "sha256": "55a94a423a6b8f3ac2ac4d05a6e44d7760c6520a2c6dcef7425f6bac79c4eece",
+          "format": "zip",
+          "strip": 1,
+          "size": 64631066,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.4.darwin-amd64.tar.gz",
+          "sha256": "33ba03ff9973f5bd26d516eea35328832a9525ecc4d169b15937ffe2ce66a7d8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60491166
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.4.darwin-arm64.tar.gz",
+          "sha256": "c1b04e74251fe1dfbc5382e73d0c6d96f49642d8aebb7ee10a7ecd4cae36ebd2",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58026727
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.4.linux-amd64.tar.gz",
+          "sha256": "9fa5ffeda4170de60f67f3aa0f824e426421ba724c21e133c1e35d6159ca1bec",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59766394
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.4.linux-arm64.tar.gz",
+          "sha256": "a68e86d4b72c2c2fecf7dfed667680b6c2a071221bbdb6913cf83ce3f80d9ff0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57268847
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.4.windows-amd64.zip",
+          "sha256": "6dad204d42719795f22067553b2b042c0e710b32c5a00f6c67892865167fdfd0",
+          "format": "zip",
+          "strip": 1,
+          "size": 67441487,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.4.windows-arm64.zip",
+          "sha256": "138aa10a6808b4cff8657478be14772a05335bc8d7e51955e7a6d9ac335af3e4",
+          "format": "zip",
+          "strip": 1,
+          "size": 64629200,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.3.darwin-amd64.tar.gz",
+          "sha256": "1641050b422b80dfd6299f8aa7eb8798d1cd23eac7e79f445728926e881b7bcd",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60491973
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.3.darwin-arm64.tar.gz",
+          "sha256": "7c083e3d2c00debfeb2f77d9a4c00a1aac97113b89b9ccc42a90487af3437382",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58028114
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.3.linux-amd64.tar.gz",
+          "sha256": "0335f314b6e7bfe08c3d0cfaa7c19db961b7b99fb20be62b0a826c992ad14e0f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59767979
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.3.linux-arm64.tar.gz",
+          "sha256": "1d42ebc84999b5e2069f5e31b67d6fc5d67308adad3e178d5a2ee2c9ff2001f5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57269692
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.3.windows-amd64.zip",
+          "sha256": "bc249a599c6fe9d0d4093c363856f6c6320dbbe05e5d5d8818b711fb4a14fc23",
+          "format": "zip",
+          "strip": 1,
+          "size": 67439680,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.3.windows-arm64.zip",
+          "sha256": "54aeaffcb70b4269fc97a325319640f44a0dc16b58cce39463014d5be1014233",
+          "format": "zip",
+          "strip": 1,
+          "size": 64626390,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.2.darwin-amd64.tar.gz",
+          "sha256": "95493abb01da81638ab5083ff3f97e8f923cb42a64c2e16728e3cf5b0cd3fc5a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60488889
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.2.darwin-arm64.tar.gz",
+          "sha256": "d1ade1b480e51b6269b6e65856c602aed047e1f0d32fffef7eebbd7faa8d7687",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 58024236
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.2.linux-amd64.tar.gz",
+          "sha256": "d7fa7f8fbd16263aa2501d681b11f972a5fd8e811f7b10cb9b26d031a3d7454b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59766306
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.2.linux-arm64.tar.gz",
+          "sha256": "9aaeb044bf8dbf50ca2fbf0edc5ebc98b90d5bda8c6b2911526df76f61232919",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57266244
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.2.windows-amd64.zip",
+          "sha256": "c18b46f6aa44dbfcd54a9db19dd2fcc5ad684819addcfcf968aa75dad89a89c8",
+          "format": "zip",
+          "strip": 1,
+          "size": 67437540,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.2.windows-arm64.zip",
+          "sha256": "35301ccb7ec72788102fbec4106797d802576af61ffb0ab844467c38e166900e",
+          "format": "zip",
+          "strip": 1,
+          "size": 64623524,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.1.darwin-amd64.tar.gz",
+          "sha256": "1d622468f767a1b9fe1e1e67bd6ce6744d04e0c68712adc689748bbeccb126bb",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60371957
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.1.darwin-arm64.tar.gz",
+          "sha256": "68deebb214f39d542e518ebb0598a406ab1b5a22bba8ec9ade9f55fb4dd94a6c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57906702
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.1.linux-amd64.tar.gz",
+          "sha256": "7716a0d940a0f6ae8e1f3b3f4f36299dc53e31b16840dbd171254312c41ca12e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59660846
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.1.linux-arm64.tar.gz",
+          "sha256": "65a3e34fb2126f55b34e1edfc709121660e1be2dee6bdf405fc399a63a95a87d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57161194
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.1.windows-amd64.zip",
+          "sha256": "4a974de310e7ee1d523d2fcedb114ba5fa75408c98eb3652023e55ccf3fa7cab",
+          "format": "zip",
+          "strip": 1,
+          "size": 67419304,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.1.windows-arm64.zip",
+          "sha256": "04bc3c078e9e904c4d58d6ac2532a5bdd402bd36a9ff0b5949b3c5e6006a05ee",
+          "format": "zip",
+          "strip": 1,
+          "size": 64602234,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.25.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.25.0.darwin-amd64.tar.gz",
+          "sha256": "5bd60e823037062c2307c71e8111809865116714d6f6b410597cf5075dfd80ef",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 60370925
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.25.0.darwin-arm64.tar.gz",
+          "sha256": "544932844156d8172f7a28f77f2ac9c15a23046698b6243f633b0a0b00c0749c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57906112
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.25.0.linux-amd64.tar.gz",
+          "sha256": "2852af0cb20a13139b3448992e69b868e50ed0f8a1e5940ee1de9e19a123b613",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 59659213
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.25.0.linux-arm64.tar.gz",
+          "sha256": "05de75d6994a2783699815ee553bd5a9327d8b79991de36e38b66862782f54ae",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 57159737
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.25.0.windows-amd64.zip",
+          "sha256": "89efb4f9b30812eee083cc1770fdd2913c14d301064f6454851428f9707d190b",
+          "format": "zip",
+          "strip": 1,
+          "size": 67418204,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.25.0.windows-arm64.zip",
+          "sha256": "27bab004c72b3d7bd05a69b6ec0fc54a309b4b78cc569dd963d8b3ec28bfdb8c",
+          "format": "zip",
+          "strip": 1,
+          "size": 64600674,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.13",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.13.darwin-amd64.tar.gz",
+          "sha256": "6cc6549b06725220b342b740497ffd24e0ebdcef75781a77931ca199f46ad781",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80145725
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.13.darwin-arm64.tar.gz",
+          "sha256": "f282d882c3353485e2fc6c634606d85caf36e855167d59b996dbeae19fa7629a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76442495
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.13.linux-amd64.tar.gz",
+          "sha256": "1fc94b57134d51669c72173ad5d49fd62afb0f1db9bf3f798fd98ee423f8d730",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78709986
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.13.linux-arm64.tar.gz",
+          "sha256": "74d97be1cc3a474129590c67ebf748a96e72d9f3a2b6fef3ed3275de591d49b3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74955536
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.13.windows-amd64.zip",
+          "sha256": "40b16bc8f00540a2cb02dff4de72b73e966fdd8d65f95e33d8e4080b48a2459a",
+          "format": "zip",
+          "strip": 1,
+          "size": 87295983,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.13.windows-arm64.zip",
+          "sha256": "e2c4e1b0c083965adecb893b97145f89bb8e39b3d745c6499fa1f8aa44bc065f",
+          "format": "zip",
+          "strip": 1,
+          "size": 82927153,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.12",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.12.darwin-amd64.tar.gz",
+          "sha256": "4b9cc6771b56645da35a83a5424ae507f3250829b0d227e75f57b73e72da1f76",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80148067
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.12.darwin-arm64.tar.gz",
+          "sha256": "098d0c039357c3652ec6c97d5451bc4dc24f7cf30ed902373ed9a8134aab2d29",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76443164
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.12.linux-amd64.tar.gz",
+          "sha256": "bddf8e653c82429aea7aec2520774e79925d4bb929fe20e67ecc00dd5af44c50",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78711173
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.12.linux-arm64.tar.gz",
+          "sha256": "4e02e2979e53b40f3666bba9f7e5ea0b99ea5156e0824b343fd054742c25498d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74957415
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.12.windows-amd64.zip",
+          "sha256": "20e4bb6417117150d486181b16eaea4f1a9e7d8a2407a77da65d2b4e28dca53d",
+          "format": "zip",
+          "strip": 1,
+          "size": 87294602,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.12.windows-arm64.zip",
+          "sha256": "752e862a4479c7f5b231c2cdc7b5d33d2e7ac71fbe5d9eab3121b2f991090cbc",
+          "format": "zip",
+          "strip": 1,
+          "size": 82926810,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.11",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.11.darwin-amd64.tar.gz",
+          "sha256": "c45566cf265e2083cd0324e88648a9c28d0edede7b5fd12f8dc6932155a344c5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80140733
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.11.darwin-arm64.tar.gz",
+          "sha256": "a9c90c786e75d5d1da0547de2d1199034df6a4b163af2fa91b9168c65f229c12",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76439336
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.11.linux-amd64.tar.gz",
+          "sha256": "bceca00afaac856bc48b4cc33db7cd9eb383c81811379faed3bdbc80edb0af65",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78702669
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.11.linux-arm64.tar.gz",
+          "sha256": "beaf0f51cbe0bd71b8289b2b6fa96c0b11cd86aa58672691ef2f1de88eb621de",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74944582
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.11.windows-amd64.zip",
+          "sha256": "39f6267b6bb2a1c0daa83f563b3bf0a1a3e49925ecf6da854f7ff7d5e78d6968",
+          "format": "zip",
+          "strip": 1,
+          "size": 87287538,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.11.windows-arm64.zip",
+          "sha256": "1bafb42190b67fba93fbf1a236a193b0f6058db65d7406965374ce7af2ca3917",
+          "format": "zip",
+          "strip": 1,
+          "size": 82919729,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.10.darwin-amd64.tar.gz",
+          "sha256": "fde05d84f7f64c8d01564f299ea1897fe94457d20d8d9054200ac1f8ae1c2bc3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80126357
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.10.darwin-arm64.tar.gz",
+          "sha256": "71c70841bcdadf4b5d2f7c0f099952907969f25235663622a47d6f2233ad39aa",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76432098
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.10.linux-amd64.tar.gz",
+          "sha256": "dd52b974e3d9c5a7bbfb222c685806def6be5d6f7efd10f9caa9ca1fa2f47955",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78693970
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.10.linux-arm64.tar.gz",
+          "sha256": "94a99dae43dab8a3fe337485bbb89214b524285ec53ea02040514b0c2a9c3f94",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74943743
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.10.windows-amd64.zip",
+          "sha256": "2444fb53637facb37c06faa85d64c38c6cd23d22407f205edb68c7ddb8fbe0d4",
+          "format": "zip",
+          "strip": 1,
+          "size": 87285017,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.10.windows-arm64.zip",
+          "sha256": "2f3fad22a05ebee2d8cfeddbda35a1821a3c6d1fab102cd9443963e0f6a46486",
+          "format": "zip",
+          "strip": 1,
+          "size": 82916123,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.9.darwin-amd64.tar.gz",
+          "sha256": "961aa2ae2b97e428d6d8991367e7c98cb403bac54276b8259aead42a0081591c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80122246
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.9.darwin-arm64.tar.gz",
+          "sha256": "af451b40651d7fb36db1bbbd9c66ddbed28b96d7da48abea50a19f82c6e9d1d6",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76432048
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.9.linux-amd64.tar.gz",
+          "sha256": "5b7899591c2dd6e9da1809fde4a2fad842c45d3f6b9deb235ba82216e31e34a6",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78693175
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.9.linux-arm64.tar.gz",
+          "sha256": "9aa1243d51d41e2f93e895c89c0a2daf7166768c4a4c3ac79db81029d295a540",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74943117
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.9.windows-amd64.zip",
+          "sha256": "dce0a479fa60142aebb67e22664dfae156d4ec1dd1ab314b7a2c27d4ee59681c",
+          "format": "zip",
+          "strip": 1,
+          "size": 87284095,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.9.windows-arm64.zip",
+          "sha256": "2cfd1d3ad30e4fef556e8c5b743eb69c8b5045557dca2deb4a156e162d4c8baf",
+          "format": "zip",
+          "strip": 1,
+          "size": 82915819,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.8.darwin-amd64.tar.gz",
+          "sha256": "ecb3cecb1e0bcfb24e50039701f9505b09744cc4730a8b9fc512b0a3b47cf232",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 80113551
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.8.darwin-arm64.tar.gz",
+          "sha256": "0db27ff8c3e35fd93ccf9d31dd88a0f9c6454e8d9b30c28bd88a70b930cc4240",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76429684
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.8.linux-amd64.tar.gz",
+          "sha256": "6842c516ca66c89d648a7f1dbe28e28c47b61b59f8f06633eb2ceb1188e9251d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78694215
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.8.linux-arm64.tar.gz",
+          "sha256": "38ac33b4cfa41e8a32132de7a87c6db49277ab5c0de1412512484db1ed77637e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74938272
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.8.windows-amd64.zip",
+          "sha256": "0de7b65422d9377404a22f3903f17b20e4065f6c43e136ae2de16494c8c6b057",
+          "format": "zip",
+          "strip": 1,
+          "size": 87280688,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.8.windows-arm64.zip",
+          "sha256": "da6d3dbed0d7923605f3656d4213915b0f148797d18e18cde2a654a6f232b6d5",
+          "format": "zip",
+          "strip": 1,
+          "size": 82911918,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.7.darwin-amd64.tar.gz",
+          "sha256": "138b6be2138e83d2c90c23d3a2cc94fcb11864d8db0706bb1d1e0dde744dc46a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79993643
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.7.darwin-arm64.tar.gz",
+          "sha256": "d06bad763f8820d3e29ee11f2c0c71438903c007e772a159c5760a300298302e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76295172
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.7.linux-amd64.tar.gz",
+          "sha256": "da18191ddb7db8a9339816f3e2b54bdded8047cdc2a5d67059478f8d1595c43f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78584952
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.7.linux-arm64.tar.gz",
+          "sha256": "fd2bccce882e29369f56c86487663bb78ba7ea9e02188a5b0269303a0c3d33ab",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74820325
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.7.windows-amd64.zip",
+          "sha256": "453873081af26fc7fb09710b1187dbc940b8179a4dd59b30e67b4ffa6fb57237",
+          "format": "zip",
+          "strip": 1,
+          "size": 87261523,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.7.windows-arm64.zip",
+          "sha256": "879513669d41df98d9237afbf603767632f5b5f6732a61f43f964a3286635d9d",
+          "format": "zip",
+          "strip": 1,
+          "size": 82896062,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.6.darwin-amd64.tar.gz",
+          "sha256": "4a8d7a32052f223e71faab424a69430455b27b3fff5f4e651f9d97c3e51a8746",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79994594
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.6.darwin-arm64.tar.gz",
+          "sha256": "4e29202c49573b953be7cc3500e1f8d9e66ddd12faa8cf0939a4951411e09a2a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76293244
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.6.linux-amd64.tar.gz",
+          "sha256": "bbca37cc395c974ffa4893ee35819ad23ebb27426df87af92e93a9ec66ef8712",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78583176
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.6.linux-arm64.tar.gz",
+          "sha256": "124ea6033a8bf98aa9fbab53e58d134905262d45a022af3a90b73320f3c3afd5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74818802
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.6.windows-amd64.zip",
+          "sha256": "4fbc8af2cfca9e5059019b5150a426eb78e1e57718bf08f0e52b1c942a2782bf",
+          "format": "zip",
+          "strip": 1,
+          "size": 87261212,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.6.windows-arm64.zip",
+          "sha256": "45c41b237d00e92e4cf8adce11b4c5258048b47a92bfbb1f4ef3b928d6fcb0b2",
+          "format": "zip",
+          "strip": 1,
+          "size": 82895131,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.5.darwin-amd64.tar.gz",
+          "sha256": "2fe5f3866b8fbcd20625d531f81019e574376b8a840b0a096d8a2180308b1672",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79984502
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.5.darwin-arm64.tar.gz",
+          "sha256": "92d30a678f306c327c544758f2d2fa5515aa60abe9dba4ca35fbf9b8bfc53212",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76284834
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.5.linux-amd64.tar.gz",
+          "sha256": "10ad9e86233e74c0f6590fe5426895de6bf388964210eac34a6d83f38918ecdc",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78563580
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.5.linux-arm64.tar.gz",
+          "sha256": "0df02e6aeb3d3c06c95ff201d575907c736d6c62cfa4b6934c11203f1d600ffa",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74805101
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.5.windows-amd64.zip",
+          "sha256": "658f432689106d4e0a401a2ebb522b1213f497bc8357142fe8def18d79f02957",
+          "format": "zip",
+          "strip": 1,
+          "size": 87248574,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.5.windows-arm64.zip",
+          "sha256": "cd2955c4e3166a0cef4b76830025e4cc6e9ecccff32c02979a63f534d83c2e66",
+          "format": "zip",
+          "strip": 1,
+          "size": 82878816,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.4.darwin-amd64.tar.gz",
+          "sha256": "69bef555e114b4a2252452b6e7049afc31fbdf2d39790b669165e89525cd3f5c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79976490
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.4.darwin-arm64.tar.gz",
+          "sha256": "27973684b515eaf461065054e6b572d9390c05e69ba4a423076c160165336470",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76276394
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.4.linux-amd64.tar.gz",
+          "sha256": "77e5da33bb72aeaef1ba4418b6fe511bc4d041873cbf82e5aa6318740df98717",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78559214
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.4.linux-arm64.tar.gz",
+          "sha256": "d5501ee5aca0f258d5fe9bfaed401958445014495dc115f202d43d5210b45241",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74806448
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.4.windows-amd64.zip",
+          "sha256": "b751a1136cb9d8a2e7ebb22c538c4f02c09b98138c7c8bfb78a54a4566c013b1",
+          "format": "zip",
+          "strip": 1,
+          "size": 87239990,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.4.windows-arm64.zip",
+          "sha256": "d17da51bc85bd010754a4063215d15d2c033cc289d67ca9201a03c9041b2969d",
+          "format": "zip",
+          "strip": 1,
+          "size": 82869880,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.3.darwin-amd64.tar.gz",
+          "sha256": "13e6fe3fcf65689d77d40e633de1e31c6febbdbcb846eb05fc2434ed2213e92b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79976549
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.3.darwin-arm64.tar.gz",
+          "sha256": "64a3fa22142f627e78fac3018ce3d4aeace68b743eff0afda8aae0411df5e4fb",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76280703
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.3.linux-amd64.tar.gz",
+          "sha256": "3333f6ea53afa971e9078895eaa4ac7204a8c6b5c68c10e6bc9a33e8e391bdd8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78558709
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.3.linux-arm64.tar.gz",
+          "sha256": "a463cb59382bd7ae7d8f4c68846e73c4d589f223c589ac76871b66811ded7836",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74805957
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.3.windows-amd64.zip",
+          "sha256": "be9787cb08998b1860fe3513e48a5fe5b96302d358a321b58e651184fa9638b3",
+          "format": "zip",
+          "strip": 1,
+          "size": 87236894,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.3.windows-arm64.zip",
+          "sha256": "eec9fa736056b54dd88ecb669db2bfad39b0c48f6f9080f036dfa1ca42dc4bb5",
+          "format": "zip",
+          "strip": 1,
+          "size": 82867200,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.2.darwin-amd64.tar.gz",
+          "sha256": "238d9c065d09ff6af229d2e3b8b5e85e688318d69f4006fb85a96e41c216ea83",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79936527
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.2.darwin-arm64.tar.gz",
+          "sha256": "b70f8b3c5b4ccb0ad4ffa5ee91cd38075df20fdbd953a1daedd47f50fbcff47a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76241216
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.2.linux-amd64.tar.gz",
+          "sha256": "68097bd680839cbc9d464a0edce4f7c333975e27a90246890e9f1078c7e702ad",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78516109
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.2.linux-arm64.tar.gz",
+          "sha256": "756274ea4b68fa5535eb9fe2559889287d725a8da63c6aae4d5f23778c229f4b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74762151
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.2.windows-amd64.zip",
+          "sha256": "29c553aabee0743e2ffa3e9fa0cda00ef3b3cc4ff0bc92007f31f80fd69892e1",
+          "format": "zip",
+          "strip": 1,
+          "size": 87194016,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.2.windows-arm64.zip",
+          "sha256": "ab267f7f9a3366d48d7664be9e627ce3e63273231430cce5f7783fb910f14148",
+          "format": "zip",
+          "strip": 1,
+          "size": 82830449,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.1.darwin-amd64.tar.gz",
+          "sha256": "addbfce2056744962e2d7436313ab93486660cf7a2e066d171b9d6f2da7c7abe",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79922214
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.1.darwin-arm64.tar.gz",
+          "sha256": "295581b5619acc92f5106e5bcb05c51869337eb19742fdfa6c8346c18e78ff88",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76229329
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.1.linux-amd64.tar.gz",
+          "sha256": "cb2396bae64183cdccf81a9a6df0aea3bce9511fc21469fb89a0c00470088073",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78503123
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.1.linux-arm64.tar.gz",
+          "sha256": "8df5750ffc0281017fb6070fba450f5d22b600a02081dceef47966ffaf36a3af",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74749277
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.1.windows-amd64.zip",
+          "sha256": "95666b551453209a2b8869d29d177285ff9573af10f085d961d7ae5440f645ce",
+          "format": "zip",
+          "strip": 1,
+          "size": 87183196,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.1.windows-arm64.zip",
+          "sha256": "e28c4e6d0b913955765b46157ab88ae59bb636acaa12d7bec959aa6900f1cebd",
+          "format": "zip",
+          "strip": 1,
+          "size": 82818526,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.24.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.24.0.darwin-amd64.tar.gz",
+          "sha256": "7af054e5088b68c24b3d6e135e5ca8d91bbd5a05cb7f7f0187367b3e6e9e05ee",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 79800907
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.24.0.darwin-arm64.tar.gz",
+          "sha256": "fd9cfb5dd6c75a347cfc641a253f0db1cebaca16b0dd37965351c6184ba595e4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 76111845
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.24.0.linux-amd64.tar.gz",
+          "sha256": "dea9ca38a0b852a74e81c26134671af7c0fbe65d81b0dc1c5bfe22cf7d4c8858",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 78382844
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.24.0.linux-arm64.tar.gz",
+          "sha256": "c3fa6d16ffa261091a5617145553c71d21435ce547e44cc6dfb7470865527cc7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74636413
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.24.0.windows-amd64.zip",
+          "sha256": "96b7280979205813759ee6947be7e3bb497da85c482711116c00522e3bb41ff1",
+          "format": "zip",
+          "strip": 1,
+          "size": 87052317,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.24.0.windows-arm64.zip",
+          "sha256": "53f73450fb66075d16be9f206e9177bd972b528168271918c4747903b5596c3d",
+          "format": "zip",
+          "strip": 1,
+          "size": 82685121,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.12",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.12.darwin-amd64.tar.gz",
+          "sha256": "0f6efdc3ffc6f03b230016acca0aef43c229de022d0ff401e7aa4ad4862eca8e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 75005215
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.12.darwin-arm64.tar.gz",
+          "sha256": "5bfa117e401ae64e7ffb960243c448b535fe007e682a13ff6c7371f4a6f0ccaa",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71669468
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.12.linux-amd64.tar.gz",
+          "sha256": "d3847fef834e9db11bf64e3fb34db9c04db14e068eeb064f49af747010454f90",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73666637
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.12.linux-arm64.tar.gz",
+          "sha256": "52ce172f96e21da53b1ae9079808560d49b02ac86cecfa457217597f9bc28ab3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70302251
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.12.windows-amd64.zip",
+          "sha256": "07c35866cdd864b81bb6f1cfbf25ac7f87ddc3a976ede1bf5112acbb12dfe6dc",
+          "format": "zip",
+          "strip": 1,
+          "size": 81978626,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.12.windows-arm64.zip",
+          "sha256": "22a5da4989e57ee4b0fb106429ffadc3bc2357b268885720025be5b0877d6fe9",
+          "format": "zip",
+          "strip": 1,
+          "size": 77976923,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.11",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.11.darwin-amd64.tar.gz",
+          "sha256": "804538b068ebf449789e060d221c7be94d92d5f3e86842071cc70148d677f84d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74989247
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.11.darwin-arm64.tar.gz",
+          "sha256": "d3c2c69a79eb3e2a06e5d8bbca692c9166b27421f7251ccbafcada0ba35a05ee",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71665541
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.11.linux-amd64.tar.gz",
+          "sha256": "80899df77459e0b551d2eb8800ad6eb47023b99cccbf8129e7b5786770b948c5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73665098
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.11.linux-arm64.tar.gz",
+          "sha256": "1085c6ff805ec1f4893fa92013d16e58f74aeac830b1b9919b6908f3ed1a85c5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70292502
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.11.windows-amd64.zip",
+          "sha256": "1dbcf0b4183066550964b22890fe119b0b867b51f12c1eea4445c71494d98cbb",
+          "format": "zip",
+          "strip": 1,
+          "size": 81965322,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.11.windows-arm64.zip",
+          "sha256": "83b81a03b51b92a26e711cf28d0633266c82d503d1c0d4f8fcaecf096b9df42d",
+          "format": "zip",
+          "strip": 1,
+          "size": 77963586,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.10.darwin-amd64.tar.gz",
+          "sha256": "1cbd7af6f07bc6fa1f8672f9b913c961986864100e467e0acdc942e0ae46fe68",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74992602
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.10.darwin-arm64.tar.gz",
+          "sha256": "25c64bfa8a8fd8e7f62fb54afa4354af8409a4bb2358c2699a1003b733e6fce5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71659701
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.10.linux-amd64.tar.gz",
+          "sha256": "535f9f81802499f2a7dbfa70abb8fda3793725fcc29460f719815f6e10b5fd60",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73664968
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.10.linux-arm64.tar.gz",
+          "sha256": "bfb1f1df7173f44648ee070a39ab0481068632f595305a699d89cd56a33b8081",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70293029
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.10.windows-amd64.zip",
+          "sha256": "3b533bbe63e73732bf19b8facc9160417e97d13eb174dfe58a213c6d0dee0010",
+          "format": "zip",
+          "strip": 1,
+          "size": 81961912,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.10.windows-arm64.zip",
+          "sha256": "91d990c6346f1b0723134ac3bc833a92cb974ed977872bb4c13620c250c280cf",
+          "format": "zip",
+          "strip": 1,
+          "size": 77959223,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.9.darwin-amd64.tar.gz",
+          "sha256": "50200cba5173100a6e880098cf3b2db4063394beaf7374e9766b6c19bb18012d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74994873
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.9.darwin-arm64.tar.gz",
+          "sha256": "2bf624b6399e41248255858b2d61abae2703eecafad39808449951f3f1ab3766",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71659787
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.9.linux-amd64.tar.gz",
+          "sha256": "de03e45d7a076c06baaa9618d42b3b6a0561125b87f6041c6397680a71e5bb26",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73666381
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.9.linux-arm64.tar.gz",
+          "sha256": "3dc4dd64bdb0275e3ec65a55ecfc2597009c7c46a1b256eefab2f2172a53a602",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70292777
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.9.windows-amd64.zip",
+          "sha256": "16409aa244b672de037389e9e39115cbf82633e5fa0d4db6ec1a9191ca00a1e1",
+          "format": "zip",
+          "strip": 1,
+          "size": 81959671,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.9.windows-arm64.zip",
+          "sha256": "a6cccd938dea6c24b7277be5d70cae2d4c2893ae41db72aad55be1915710bdca",
+          "format": "zip",
+          "strip": 1,
+          "size": 77957076,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.8.darwin-amd64.tar.gz",
+          "sha256": "4a0f0a5eb539013c1f4d989e0864aed45973c0a9d4b655ff9fd56013e74c1303",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74993271
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.8.darwin-arm64.tar.gz",
+          "sha256": "d4f53dcaecd67d9d2926eab7c3d674030111c2491e68025848f6839e04a4d3d1",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71659445
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.8.linux-amd64.tar.gz",
+          "sha256": "45b87381172a58d62c977f27c4683c8681ef36580abecd14fd124d24ca306d3f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73666093
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.8.linux-arm64.tar.gz",
+          "sha256": "9d6d938422724a954832d6f806d397cf85ccfde8c581c201673e50e634fdc992",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70291610
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.8.windows-amd64.zip",
+          "sha256": "e0ad643f94875403830e84198dc9df6149647c924bfa91521f6eb29f4c013dc7",
+          "format": "zip",
+          "strip": 1,
+          "size": 81958602,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.8.windows-arm64.zip",
+          "sha256": "9adfac04871d3db381f2c852679ba9a3f8260fe5fb66a50a74c184ee0e9cba95",
+          "format": "zip",
+          "strip": 1,
+          "size": 77955724,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.7.darwin-amd64.tar.gz",
+          "sha256": "3a3d6745286297cd011d2ab071998a85fe82714bf178dc3cd6ecd3d043a59270",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74987439
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.7.darwin-arm64.tar.gz",
+          "sha256": "a08a77374a4a8ab25568cddd9dad5ba7bb6d21e04c650dc2af3def6c9115ebba",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71658791
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.7.linux-amd64.tar.gz",
+          "sha256": "4741525e69841f2e22f9992af25df0c1112b07501f61f741c12c6389fcb119f3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73658865
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.7.linux-arm64.tar.gz",
+          "sha256": "597acbd0505250d4d98c4c83adf201562a8c812cbcd7b341689a07087a87a541",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70289917
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.7.windows-amd64.zip",
+          "sha256": "eba0477381037868738b47b0198d120a535eb9a8a17b2babb9ab0d5e912a2171",
+          "format": "zip",
+          "strip": 1,
+          "size": 81955289,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.7.windows-arm64.zip",
+          "sha256": "e828b5c526c40f3fa6f8aea2d402c0fcbf064009f2d0d12a15bb01241255af9a",
+          "format": "zip",
+          "strip": 1,
+          "size": 77951751,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.6.darwin-amd64.tar.gz",
+          "sha256": "782da50ce8ec5e98fac2cd3cdc6a1d7130d093294fc310038f651444232a3fb0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74975615
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.6.darwin-arm64.tar.gz",
+          "sha256": "5cae2450a1708aeb0333237a155640d5562abaf195defebc4306054565536221",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71651088
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.6.linux-amd64.tar.gz",
+          "sha256": "9379441ea310de000f33a4dc767bd966e72ab2826270e038e78b2c53c2e7802d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73643139
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.6.linux-arm64.tar.gz",
+          "sha256": "561c780e8f4a8955d32bf72e46af0b5ee5e0debe1e4633df9a03781878219202",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70272843
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.6.windows-amd64.zip",
+          "sha256": "53fec1586850b2cf5ad6438341ff7adc5f6700dd3ec1cfa3f5e8b141df190243",
+          "format": "zip",
+          "strip": 1,
+          "size": 81944656,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.6.windows-arm64.zip",
+          "sha256": "a2d2ec1b3759552bdd9cdf58858f91dfbfd6ab3a472f00b5255acbed30b1aa41",
+          "format": "zip",
+          "strip": 1,
+          "size": 77942207,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.5.darwin-amd64.tar.gz",
+          "sha256": "d8b310b0b6bd6a630307579165cfac8a37571483c7d6804a10dd73bbefb0827f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74976003
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.5.darwin-arm64.tar.gz",
+          "sha256": "047bfce4fbd0da6426bd30cd19716b35a466b1c15a45525ce65b9824acb33285",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71649277
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.5.linux-amd64.tar.gz",
+          "sha256": "cbcad4a6482107c7c7926df1608106c189417163428200ce357695cc7e01d091",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73641145
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.5.linux-arm64.tar.gz",
+          "sha256": "47c84d332123883653b70da2db7dd57d2a865921ba4724efcdf56b5da7021db0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70269381
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.5.windows-amd64.zip",
+          "sha256": "96d74945d7daeeb98a7978d0cf099321d7eb821b45f5c510373d545162d39c20",
+          "format": "zip",
+          "strip": 1,
+          "size": 81943955,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.5.windows-arm64.zip",
+          "sha256": "4f20c2d8a5a387c227e3ef48c5506b22906139d8afd8d66a78ef3de8dda1d1c3",
+          "format": "zip",
+          "strip": 1,
+          "size": 77940501,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.4.darwin-amd64.tar.gz",
+          "sha256": "6700067389a53a1607d30aa8d6e01d198230397029faa0b109e89bc871ab5a0e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74979002
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.4.darwin-arm64.tar.gz",
+          "sha256": "87d2bb0ad4fe24d2a0685a55df321e0efe4296419a9b3de03369dbe60b8acd3a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71655205
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.4.linux-amd64.tar.gz",
+          "sha256": "6924efde5de86fe277676e929dc9917d466efa02fb934197bc2eba35d5680971",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73645095
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.4.linux-arm64.tar.gz",
+          "sha256": "16e5017863a7f6071363782b1b8042eb12c6ca4f4cd71528b2123f0a1275b13e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70271474
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.4.windows-amd64.zip",
+          "sha256": "16c59ac9196b63afb872ce9b47f945b9821a3e1542ec125f16f6085a1c0f3c39",
+          "format": "zip",
+          "strip": 1,
+          "size": 81942945,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.4.windows-arm64.zip",
+          "sha256": "db69cae5006753c785345c3215ad941f8b6224e2f81fec471c42d6857bee0e6f",
+          "format": "zip",
+          "strip": 1,
+          "size": 77939077,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.3.darwin-amd64.tar.gz",
+          "sha256": "c7e024d5c0bc81845070f23598caf02f05b8ae88fd4ad2cd3e236ddbea833ad2",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74973607
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.3.darwin-arm64.tar.gz",
+          "sha256": "31e119fe9bde6e105407a32558d5b5fa6ca11e2bd17f8b7b2f8a06aba16a0632",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71639942
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.3.linux-amd64.tar.gz",
+          "sha256": "a0afb9744c00648bafb1b90b4aba5bdb86f424f02f9275399ce0c20b93a2c3a8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73629129
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.3.linux-arm64.tar.gz",
+          "sha256": "1f7cbd7f668ea32a107ecd41b6488aaee1f5d77a66efd885b175494439d4e1ce",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70259343
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.3.windows-amd64.zip",
+          "sha256": "81968b563642096b8a7521171e2be6e77ff6f44032f7493b7bdec9d33f44f31d",
+          "format": "zip",
+          "strip": 1,
+          "size": 81926043,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.3.windows-arm64.zip",
+          "sha256": "dbdfa868b1a3f8c62950373e4975d83f90dd8b869a3907319af8384919bcaffe",
+          "format": "zip",
+          "strip": 1,
+          "size": 77925780,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.2.darwin-amd64.tar.gz",
+          "sha256": "445c0ef19d8692283f4c3a92052cc0568f5a048f4e546105f58e991d4aea54f5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74975218
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.2.darwin-arm64.tar.gz",
+          "sha256": "d87031194fe3e01abdcaf3c7302148ade97a7add6eac3fec26765bcb3207b80f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71637661
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.2.linux-amd64.tar.gz",
+          "sha256": "542d3c1705f1c6a1c5a80d5dc62e2e45171af291e755d591c5e6531ef63b454e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73611540
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.2.linux-arm64.tar.gz",
+          "sha256": "f626cdd92fc21a88b31c1251f419c17782933a42903db87a174ce74eeecc66a9",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70250819
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.2.windows-amd64.zip",
+          "sha256": "bc28fe3002cd65cec65d0e4f6000584dacb8c71bfaff8801dfb532855ca42513",
+          "format": "zip",
+          "strip": 1,
+          "size": 81923109,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.2.windows-arm64.zip",
+          "sha256": "0d50bade977b84e173cb350946087f5de8c75f8df19456c3b60c5d58e186089d",
+          "format": "zip",
+          "strip": 1,
+          "size": 77921286,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.1.darwin-amd64.tar.gz",
+          "sha256": "488d9e4ca3e3ed513ee4edd91bef3a2360c65fa6d6be59cf79640bf840130a58",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74962877
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.1.darwin-arm64.tar.gz",
+          "sha256": "e223795ca340e285a760a6446ce57a74500b30e57469a4109961d36184d3c05a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71612504
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.1.linux-amd64.tar.gz",
+          "sha256": "49bbb517cfa9eee677e1e7897f7cf9cfdbcf49e05f61984a2789136de359f9bd",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73598519
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.1.linux-arm64.tar.gz",
+          "sha256": "faec7f7f8ae53fda0f3d408f52182d942cc89ef5b7d3d9f23ff117437d4b2d2f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70232085
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.1.windows-amd64.zip",
+          "sha256": "32dedf277c86610e380e1765593edb66876f00223df71690bd6be68ee17675c0",
+          "format": "zip",
+          "strip": 1,
+          "size": 81905152,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.1.windows-arm64.zip",
+          "sha256": "64ad0954d2c33f556fb1018d62de091254aa6e3a94f1c8a8b16af0d3701d194e",
+          "format": "zip",
+          "strip": 1,
+          "size": 77904822,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.23.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.23.0.darwin-amd64.tar.gz",
+          "sha256": "ffd070acf59f054e8691b838f274d540572db0bd09654af851e4e76ab88403dc",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 74933408
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.23.0.darwin-arm64.tar.gz",
+          "sha256": "b770812aef17d7b2ea406588e2b97689e9557aac7e646fe76218b216e2c51406",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 71607288
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.23.0.linux-amd64.tar.gz",
+          "sha256": "905a297f19ead44780548933e0ff1a1b86e8327bb459e92f9c0012569f76f5e3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 73590011
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.23.0.linux-arm64.tar.gz",
+          "sha256": "62788056693009bcf7020eedc778cdd1781941c6145eab7688bd087bce0f8659",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70223029
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.23.0.windows-amd64.zip",
+          "sha256": "d4be481ef73079ee0ad46081d278923aa3fd78db1b3cf147172592f73e14c1ac",
+          "format": "zip",
+          "strip": 1,
+          "size": 81889852,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.23.0.windows-arm64.zip",
+          "sha256": "0be62073ef8f5a2d3b9adcefddf18c417dab0a7975c71488ac2694856e2ff976",
+          "format": "zip",
+          "strip": 1,
+          "size": 77888118,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.12",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.12.darwin-amd64.tar.gz",
+          "sha256": "e7bbe07e96f0bd3df04225090fe1e7852ed33af37c43a23e16edbbb3b90a5b7c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70358300
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.12.darwin-arm64.tar.gz",
+          "sha256": "416c35218edb9d20990b5d8fc87be655d8b39926f15524ea35c66ee70273050d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67315985
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.12.linux-amd64.tar.gz",
+          "sha256": "4fa4f869b0f7fc6bb1eb2660e74657fbf04cdd290b5aef905585c86051b34d43",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68995422
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.12.linux-arm64.tar.gz",
+          "sha256": "fd017e647ec28525e86ae8203236e0653242722a7436929b1f775744e26278e7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65924318
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.12.windows-amd64.zip",
+          "sha256": "2ceda04074eac51f4b0b85a9fcca38bcd49daee24bed9ea1f29958a8e22673a6",
+          "format": "zip",
+          "strip": 1,
+          "size": 76279251,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.12.windows-arm64.zip",
+          "sha256": "6b9eaf160b155e02ffe9ed603f162ecc3264f6130c8fcf83bb77087f9807fdec",
+          "format": "zip",
+          "strip": 1,
+          "size": 72709337,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.11",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.11.darwin-amd64.tar.gz",
+          "sha256": "c6d130066d509ccca1164d84514905b1e8dc5f5f4c25c24113f1b65ad87cd020",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70355357
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.11.darwin-arm64.tar.gz",
+          "sha256": "3980b1d2be042a164989f2fd24f0bb306a2397d581a29c7426885578b369db5d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67319201
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.11.linux-amd64.tar.gz",
+          "sha256": "0fc88d966d33896384fbde56e9a8d80a305dc17a9f48f1832e061724b1719991",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68994216
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.11.linux-arm64.tar.gz",
+          "sha256": "9ebfcab26801fa4cf0627c6439db7a4da4d3c6766142a3dd83508240e4f21031",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65925038
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.11.windows-amd64.zip",
+          "sha256": "4542e3967b2595286885dd83bae417b8ecfd058af4a7544fe4b138eb8a93a5e7",
+          "format": "zip",
+          "strip": 1,
+          "size": 76278847,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.11.windows-arm64.zip",
+          "sha256": "738bc531ff4a2b805611f51dc6b46dc10f5894f77e07c0783a1783ba31003f34",
+          "format": "zip",
+          "strip": 1,
+          "size": 72708997,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.10.darwin-amd64.tar.gz",
+          "sha256": "dd2c4ac3702658c2c20e3a8b394da1917d86156b2cb4312c9d2f657f80067874",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70356121
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.10.darwin-arm64.tar.gz",
+          "sha256": "21cf49415ffe0755b45f2b63e75d136528a32f7bb7bdd0166f51d22a03eb0a3f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67318680
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.10.linux-amd64.tar.gz",
+          "sha256": "736ce492a19d756a92719a6121226087ccd91b652ed5caec40ad6dbfb2252092",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68991036
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.10.linux-arm64.tar.gz",
+          "sha256": "5213c5e32fde3bd7da65516467b7ffbfe40d2bb5a5f58105e387eef450583eec",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65923835
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.10.windows-amd64.zip",
+          "sha256": "da66f107a0f4959f4615bede230c6bf145a6f01252c6d1ff2b107e293ba339df",
+          "format": "zip",
+          "strip": 1,
+          "size": 76278453,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.10.windows-arm64.zip",
+          "sha256": "974656452fd7d104f34ee6e8ac92bb7431af84a1ce55226d9af485cb9ec23dd5",
+          "format": "zip",
+          "strip": 1,
+          "size": 72708389,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.9.darwin-amd64.tar.gz",
+          "sha256": "41ba7acea4140e14dc88c77a9ed0a8d702c95bdfaf8b6e8508a92f3dc559fe7f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70356206
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.9.darwin-arm64.tar.gz",
+          "sha256": "fc84ab2553ce05bcb41ddbe37b0a528083c770c10f9842ee6fb1f994bab2a842",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67319238
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.9.linux-amd64.tar.gz",
+          "sha256": "84a8f05b7b969d8acfcaf194ce9298ad5d3ddbfc7034930c280006b5c85a574c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68990595
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.9.linux-arm64.tar.gz",
+          "sha256": "5beec5ef9f019e1779727ef0d9643fa8bf2495e7222014d2fc4fbfce5999bf01",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65923749
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.9.windows-amd64.zip",
+          "sha256": "2b7480239dc42867761c51ba653d8190ac55e99b41b0ff751224f87984c8421b",
+          "format": "zip",
+          "strip": 1,
+          "size": 76278634,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.9.windows-arm64.zip",
+          "sha256": "7fc98e9f11d7a7255d9314a70bdb36f15fc65d70e3f4a6d3fb8ea9ceb4289fd6",
+          "format": "zip",
+          "strip": 1,
+          "size": 72708165,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.8.darwin-amd64.tar.gz",
+          "sha256": "ef0f7c1da5c8ac1eed0361381591a55effc90f9ca63b12cfd319f3f8ee113c12",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70355622
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.8.darwin-arm64.tar.gz",
+          "sha256": "725bd8491bc302af9e7188b259db2f14dae6be4fb4f31965be4f76c9af84ff45",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67312011
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.8.linux-amd64.tar.gz",
+          "sha256": "5f467d29fc67c7ae6468cb6ad5b047a274bae8180cac5e0b7ddbfeba3e47e18f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68984761
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.8.linux-arm64.tar.gz",
+          "sha256": "5c616b32dab04bb8c4c8700478381daea0174dc70083e4026321163879278a4a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65920969
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.8.windows-amd64.zip",
+          "sha256": "9eca39a677c6d055ed947087c63e430b2c6d5dd0dd84636cb171fa2717451ee1",
+          "format": "zip",
+          "strip": 1,
+          "size": 76276262,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.8.windows-arm64.zip",
+          "sha256": "cede70578fa92664e9960b391174c520c8f9ad593adfa0d3bcab5e45f9180169",
+          "format": "zip",
+          "strip": 1,
+          "size": 72705686,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.7.darwin-amd64.tar.gz",
+          "sha256": "2c1b36bf4a21dabe3f23384c8228804c9af4c233de6250ec2e69249c25d15070",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70354523
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.7.darwin-arm64.tar.gz",
+          "sha256": "51a452563076950049da4857fb659437981ae70c7ec9bb0b0b2f1afc4dd66a9d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67309349
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.7.linux-amd64.tar.gz",
+          "sha256": "fc5d49b7a5035f1f1b265c17aa86e9819e6dc9af8260ad61430ee7fbe27881bb",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68981676
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.7.linux-arm64.tar.gz",
+          "sha256": "ed695684438facbd7e0f286c30b7bc2411cfc605516d8127dc25c62fe5b03885",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65919842
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.7.windows-amd64.zip",
+          "sha256": "efbc30520601f4d91d9f3f46af03aafb2e1428388c5ff6a40eb88489f7212e85",
+          "format": "zip",
+          "strip": 1,
+          "size": 76274687,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.7.windows-arm64.zip",
+          "sha256": "9007bdda31f22176a8f686aa52c406e144e8e88f5133a8baddadd5129ede1165",
+          "format": "zip",
+          "strip": 1,
+          "size": 72704245,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.6.darwin-amd64.tar.gz",
+          "sha256": "9c3c0124b01b5365f73a1489649f78f971ecf84844ad9ca58fde133096ddb61b",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70344337
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.6.darwin-arm64.tar.gz",
+          "sha256": "ebac39fd44fc22feed1bb519af431c84c55776e39b30f4fd62930da9c0cfd1e3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67301095
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.6.linux-amd64.tar.gz",
+          "sha256": "999805bed7d9039ec3da1a53bfbcafc13e367da52aa823cb60b68ba22d44c616",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68973343
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.6.linux-arm64.tar.gz",
+          "sha256": "c15fa895341b8eaf7f219fada25c36a610eb042985dc1a912410c1c90098eaf2",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65915644
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.6.windows-amd64.zip",
+          "sha256": "6023083a6e4d3199b44c37e9ba7b25d9674da20fd846a35ee5f9589d81c21a6a",
+          "format": "zip",
+          "strip": 1,
+          "size": 76268447,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.6.windows-arm64.zip",
+          "sha256": "7cf55f357ba8116cd3bff992980e20a704ba451b3dab341cf1787b133d900512",
+          "format": "zip",
+          "strip": 1,
+          "size": 72700113,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.5.darwin-amd64.tar.gz",
+          "sha256": "95d9933cdcf45f211243c42c7705c37353cccd99f27eb4d8e2d1bf2f4165cb50",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70337064
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.5.darwin-arm64.tar.gz",
+          "sha256": "4cd1bcb05be03cecb77bccd765785d5ff69d79adf4dd49790471d00c06b41133",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67305977
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.5.linux-amd64.tar.gz",
+          "sha256": "904b924d435eaea086515bc63235b192ea441bd8c9b198c507e85009e6e4c7f0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68972532
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.5.linux-arm64.tar.gz",
+          "sha256": "8d21325bfcf431be3660527c1a39d3d9ad71535fabdf5041c826e44e31642b5a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65911806
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.5.windows-amd64.zip",
+          "sha256": "59968438b8d90f108fd240d4d2f95b037e59716995f7409e0a322dcb996e9f42",
+          "format": "zip",
+          "strip": 1,
+          "size": 76262299,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.5.windows-arm64.zip",
+          "sha256": "6717d5841162aa8c05f932eb74a643f1310b8a88f80f0830e86d194289734bbf",
+          "format": "zip",
+          "strip": 1,
+          "size": 72692871,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.4.darwin-amd64.tar.gz",
+          "sha256": "c95967f50aa4ace34af0c236cbdb49a9a3e80ee2ad09d85775cb4462a5c19ed3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70327941
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.4.darwin-arm64.tar.gz",
+          "sha256": "242b78dc4c8f3d5435d28a0d2cec9b4c1aa999b601fb8aa59fb4e5a1364bf827",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67302778
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.4.linux-amd64.tar.gz",
+          "sha256": "ba79d4526102575196273416239cca418a651e049c2b099f3159db85e7bade7d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68964131
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.4.linux-arm64.tar.gz",
+          "sha256": "a8e177c354d2e4a1b61020aca3562e27ea3e8f8247eca3170e3fa1e0c2f9e771",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65898811
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.4.windows-amd64.zip",
+          "sha256": "26321c4d945a0035d8a5bc4a1965b0df401ff8ceac66ce2daadabf9030419a98",
+          "format": "zip",
+          "strip": 1,
+          "size": 76251174,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.4.windows-arm64.zip",
+          "sha256": "8a2daa9ea28cbdafddc6171aefed384f4e5b6e714fb52116fe9ed25a132f37ed",
+          "format": "zip",
+          "strip": 1,
+          "size": 72683002,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.3.darwin-amd64.tar.gz",
+          "sha256": "610e48c1df4d2f852de8bc2e7fd2dc1521aac216f0c0026625db12f67f192024",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70325332
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.3.darwin-arm64.tar.gz",
+          "sha256": "02abeab3f4b8981232237ebd88f0a9bad933bc9621791cd7720a9ca29eacbe9d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67299997
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.3.linux-amd64.tar.gz",
+          "sha256": "8920ea521bad8f6b7bc377b4824982e011c19af27df88a815e3586ea895f1b36",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68958945
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.3.linux-arm64.tar.gz",
+          "sha256": "6c33e52a5b26e7aa021b94475587fce80043a727a54ceb0eee2f9fc160646434",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65896020
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.3.windows-amd64.zip",
+          "sha256": "cab2af6951a6e2115824263f6df13ff069c47270f5788714fa1d776f7f60cb39",
+          "format": "zip",
+          "strip": 1,
+          "size": 76246156,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.3.windows-arm64.zip",
+          "sha256": "59b76ee22b9b1c3afbf7f50e3cb4edb954d6c0d25e5e029ab5483a6804d61e71",
+          "format": "zip",
+          "strip": 1,
+          "size": 72679347,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.2.darwin-amd64.tar.gz",
+          "sha256": "33e7f63077b1c5bce4f1ecadd4d990cf229667c40bfb00686990c950911b7ab7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70323302
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.2.darwin-arm64.tar.gz",
+          "sha256": "660298be38648723e783ba0398e90431de1cb288c637880cdb124f39bd977f0d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67295297
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.2.linux-amd64.tar.gz",
+          "sha256": "5901c52b7a78002aeff14a21f93e0f064f74ce1360fce51c6ee68cd471216a17",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68958123
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.2.linux-arm64.tar.gz",
+          "sha256": "36e720b2d564980c162a48c7e97da2e407dfcc4239e1e58d98082dfa2486a0c1",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65897586
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.2.windows-amd64.zip",
+          "sha256": "8e581cf330f49d3266e936521a2d8263679ef7e2fc2cbbceb85659122d883596",
+          "format": "zip",
+          "strip": 1,
+          "size": 76244044,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.2.windows-arm64.zip",
+          "sha256": "ddfca5beb9a0c62254266c3090c2555d899bf3e7aa26243e7de3621108f06875",
+          "format": "zip",
+          "strip": 1,
+          "size": 72677866,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.1.darwin-amd64.tar.gz",
+          "sha256": "3bc971772f4712fec0364f4bc3de06af22a00a12daab10b6f717fdcd13156cc0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70327949
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.1.darwin-arm64.tar.gz",
+          "sha256": "f6a9cec6b8a002fcc9c0ee24ec04d67f430a52abc3cfd613836986bcc00d8383",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67267354
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.1.linux-amd64.tar.gz",
+          "sha256": "aab8e15785c997ae20f9c88422ee35d962c4562212bb0f879d052a35c8307c7f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68965341
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.1.linux-arm64.tar.gz",
+          "sha256": "e56685a245b6a0c592fc4a55f0b7803af5b3f827aaa29feab1f40e491acf35b8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65873793
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.1.windows-amd64.zip",
+          "sha256": "cf9c66a208a106402a527f5b956269ca506cfe535fc388e828d249ea88ed28ba",
+          "format": "zip",
+          "strip": 1,
+          "size": 76246854,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.1.windows-arm64.zip",
+          "sha256": "85b8511b298c9f4199ecae26afafcc3d46155bac934d43f2357b9224bcaa310f",
+          "format": "zip",
+          "strip": 1,
+          "size": 72654612,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.22.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.22.0.darwin-amd64.tar.gz",
+          "sha256": "ebca81df938d2d1047cc992be6c6c759543cf309d401b86af38a6aed3d4090f4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 70336967
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.22.0.darwin-arm64.tar.gz",
+          "sha256": "bf8e388b09134164717cd52d3285a4ab3b68691b80515212da0e9f56f518fb1e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67300779
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.22.0.linux-amd64.tar.gz",
+          "sha256": "f6c8a87aa03b92c4b0bf3d558e28ea03006eb29db78917daec5cfb6ec1046265",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 68988925
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.22.0.linux-arm64.tar.gz",
+          "sha256": "6a63fef0e050146f275bf02a0896badfe77c11b6f05499bb647e7bd613a45a10",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65888441
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.22.0.windows-amd64.zip",
+          "sha256": "78b3158fe3aa358e0b6c9f26ecd338f9a11441e88bc434ae2e9f0ca2b0cc4dd3",
+          "format": "zip",
+          "strip": 1,
+          "size": 76265016,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.22.0.windows-arm64.zip",
+          "sha256": "31a61e41d06a3bb2189a303f5f3e777ca4b454eff439f0a67bc2b166330021f4",
+          "format": "zip",
+          "strip": 1,
+          "size": 72678134,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.13",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.13.darwin-amd64.tar.gz",
+          "sha256": "796fd05e8741f6776c505eb201922864f2e32991679b639d9fcb524dbe300c0d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67329979
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.13.darwin-arm64.tar.gz",
+          "sha256": "c04ee7bdc0e65cf17133994c40ee9bdfa1b1dc9587b3baedaea39affdb8e5b49",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65109740
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.13.linux-amd64.tar.gz",
+          "sha256": "502fc16d5910562461e6a6631fb6377de2322aad7304bf2bcd23500ba9dab4a7",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66660837
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.13.linux-arm64.tar.gz",
+          "sha256": "2ca2d70dc9c84feef959eb31f2a5aac33eefd8c97fe48f1548886d737bffabd4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63753135
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.13.windows-amd64.zip",
+          "sha256": "924655193634bfcdf7ec7a34589e0d73458741998a59e4155a929ce85f81af2d",
+          "format": "zip",
+          "strip": 1,
+          "size": 73791242,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.13.windows-arm64.zip",
+          "sha256": "74fb3a74cdf0cf6cfea664d3746aea423a3e4a8952b749920f8013d735a59589",
+          "format": "zip",
+          "strip": 1,
+          "size": 70411242,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.12",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.12.darwin-amd64.tar.gz",
+          "sha256": "30115d1288ab5fbc478a80ef190b9e116b118728f3d143c1597568527a58c6d0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67329872
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.12.darwin-arm64.tar.gz",
+          "sha256": "7e0035dad38c951b4171279ded60a2aa4fc6a4f8d2a8be78f634e1f5b8633700",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65109576
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.12.linux-amd64.tar.gz",
+          "sha256": "121ab58632787e18ae0caa8ae285b581f9470d0f6b3defde9e1600e211f583c5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66660718
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.12.linux-arm64.tar.gz",
+          "sha256": "94cb3ec4a1e08a00da55c33e63f725be91f10ba743907b5615ef34e54675ba2e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63754169
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.12.windows-amd64.zip",
+          "sha256": "d0f6b3c5a5d5a319ede7af4acf63f287c2319a01e612a0588f5165648dc5b337",
+          "format": "zip",
+          "strip": 1,
+          "size": 73790830,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.12.windows-arm64.zip",
+          "sha256": "05c99e7bc4ad90e8a4fb4dca7c6232607ead165c2386e4853259d5cc4a2ccb32",
+          "format": "zip",
+          "strip": 1,
+          "size": 70411057,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.11",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.11.darwin-amd64.tar.gz",
+          "sha256": "a3efff72f7aba31c85b53ebfd3985d0e3157a87b0e69e178161ba7097c197885",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67324779
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.11.darwin-arm64.tar.gz",
+          "sha256": "0142f5ac9f9a1bf19b826ee08a8c7955a745f7a2e62d36e0566d29fcac4d88e0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65114756
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.11.linux-amd64.tar.gz",
+          "sha256": "54a87a9325155b98c85bc04dc50298ddd682489eb47f486f2e6cb0707554abf0",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66649077
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.11.linux-arm64.tar.gz",
+          "sha256": "715d9a7ff72e4e0e3378c48318c52c6e4dd32a47c4136f3c08846f89b2ee2241",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63746840
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.11.windows-amd64.zip",
+          "sha256": "1aa189753d8aa5c74fcb736d6a7c8f826cf5a545b2db143adf10dc2b2147983b",
+          "format": "zip",
+          "strip": 1,
+          "size": 73785478,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.11.windows-arm64.zip",
+          "sha256": "ef238d1e39d66e4341e0055b17d2eb03390531f6b22b08e43eb443619f561cb1",
+          "format": "zip",
+          "strip": 1,
+          "size": 70405877,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.10.darwin-amd64.tar.gz",
+          "sha256": "cf98d2e678ca7467dec2e218c6d8c6e4b20a712864dc265316834a525a845ecb",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67322281
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.10.darwin-arm64.tar.gz",
+          "sha256": "2893b7d208020e5678009599e424d59384424acd8f8bf349d9c4b2883d87f0df",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65109373
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.10.linux-amd64.tar.gz",
+          "sha256": "e330e5d977bf4f3bdc157bc46cf41afa5b13d66c914e12fd6b694ccda65fcf92",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66648524
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.10.linux-arm64.tar.gz",
+          "sha256": "428e0b9ecab5762b7c2be000ad1be6f432dccfcd99bb8b8aeeb757d987bfda9d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63749971
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.10.windows-amd64.zip",
+          "sha256": "09170b66e7d7c4e2e7a30b8f3350778a8ba5c15951b7eb8ff7545cb86ea9bb71",
+          "format": "zip",
+          "strip": 1,
+          "size": 73785140,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.10.windows-arm64.zip",
+          "sha256": "163be69c2c289e9acab89ca7f5aa19d780dae121e5f31d06f93d44b028743caf",
+          "format": "zip",
+          "strip": 1,
+          "size": 70405159,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.9.darwin-amd64.tar.gz",
+          "sha256": "c0599a349b8d4a1afa3a1721478bb21136ab96c0d75b5f0a0b5fdc9e3b736880",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67321740
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.9.darwin-arm64.tar.gz",
+          "sha256": "3411600bd7596c57ae29cfdb4978e5d45cafa3f428a44a526ad5a2d5ad870506",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65110557
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.9.linux-amd64.tar.gz",
+          "sha256": "f76194c2dc607e0df4ed2e7b825b5847cb37e34fc70d780e2f6c7e805634a7ea",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66647200
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.9.linux-arm64.tar.gz",
+          "sha256": "4d169d9cf3dde1692b81c0fd9484fa28d8bc98f672d06bf9db9c75ada73c5fbc",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63747898
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.9.windows-amd64.zip",
+          "sha256": "7a365354362b05fa9cef4953bb86a4f028c90072f69fe54bec3af852e63378a3",
+          "format": "zip",
+          "strip": 1,
+          "size": 73783838,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.9.windows-arm64.zip",
+          "sha256": "a2e7b3835d9ed6188f80115ed4ab96fe741e45991c30098b197f3ffff2630a7d",
+          "format": "zip",
+          "strip": 1,
+          "size": 70404363,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.8.darwin-amd64.tar.gz",
+          "sha256": "b7a9b0300854a2b178f69aa2576e602cd09b9e76935616b0961a5a762ff3f154",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67322617
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.8.darwin-arm64.tar.gz",
+          "sha256": "09b47047d454389b601809e3c62995e0cefaf4ee5adbe4e244b5c64182d8c1ff",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65111840
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.8.linux-amd64.tar.gz",
+          "sha256": "538b3b143dc7f32b093c8ffe0e050c260b57fc9d57a12c4140a639a8dd2b4e4f",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66647874
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.8.linux-arm64.tar.gz",
+          "sha256": "3c19113c686ffa142e9159de1594c952dee64d5464965142d222eab3a81f1270",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63743390
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.8.windows-amd64.zip",
+          "sha256": "ab396b44a5c6fadd6494c54b527a13cafefcc669ade01e817bad5740ef175a3b",
+          "format": "zip",
+          "strip": 1,
+          "size": 73781906,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.8.windows-arm64.zip",
+          "sha256": "80f580b8565b6a8cbafd8972e005144d22bad978d1232f07a0168782bc7f1a04",
+          "format": "zip",
+          "strip": 1,
+          "size": 70401635,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.7.darwin-amd64.tar.gz",
+          "sha256": "4b9f4e02e465ba0f3a4c138ecb1c148135cf77c0efb5474461746b7c123b3484",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67322109
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.7.darwin-arm64.tar.gz",
+          "sha256": "26e23304810f8e14ba443664326f53d7eafd83faa8097a5c2c4d55b61f431280",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65113034
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.7.linux-amd64.tar.gz",
+          "sha256": "13b76a9b2a26823e53062fa841b07087d48ae2ef2936445dc34c4ae03293702c",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66650107
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.7.linux-arm64.tar.gz",
+          "sha256": "a9bc1ccedbfde059f25b3a2ad81ae4cdf21192ae207dfd3ccbbfe99c3749e233",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63732148
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.7.windows-amd64.zip",
+          "sha256": "9ba8652778baded6e9a758c3129aae73393b4b75b230933bb0cf3ab65b19be35",
+          "format": "zip",
+          "strip": 1,
+          "size": 73777559,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.7.windows-arm64.zip",
+          "sha256": "42924b8732c32b7fc1c1683ff0cff85fb779b6b9abf1f9933b8ac2fe3db218a5",
+          "format": "zip",
+          "strip": 1,
+          "size": 70398201,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.6.darwin-amd64.tar.gz",
+          "sha256": "31d6ecca09010ab351e51343a5af81d678902061fee871f912bdd5ef4d778850",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67393530
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.6.darwin-arm64.tar.gz",
+          "sha256": "0ff541fb37c38e5e5c5bcecc8f4f43c5ffd5e3a6c33a5d3e4003ded66fcfb331",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65181002
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.6.linux-amd64.tar.gz",
+          "sha256": "3f934f40ac360b9c01f616a9aa1796d227d8b0328bf64cb045c7b8c4ee9caea4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66704768
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.6.linux-arm64.tar.gz",
+          "sha256": "e2e8aa88e1b5170a0d495d7d9c766af2b2b6c6925a8f8956d834ad6b4cacbd9a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63801908
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.6.windows-amd64.zip",
+          "sha256": "27ac9dd6e66fb3fd0acfa6792ff053c86e7d2c055b022f4b5d53bfddec9e3301",
+          "format": "zip",
+          "strip": 1,
+          "size": 73840030,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.6.windows-arm64.zip",
+          "sha256": "b93aff8f3c882c764c66a39b7a1483b0460e051e9992bf3435479129e5051bcd",
+          "format": "zip",
+          "strip": 1,
+          "size": 70458413,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.5.darwin-amd64.tar.gz",
+          "sha256": "a2e1d5743e896e5fe1e7d96479c0a769254aed18cf216cf8f4c3a2300a9b3923",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67299408
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.5.darwin-arm64.tar.gz",
+          "sha256": "d0f8ac0c4fb3efc223a833010901d02954e3923cfe2c9a2ff0e4254a777cc9cc",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65096621
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.5.linux-amd64.tar.gz",
+          "sha256": "e2bc0b3e4b64111ec117295c088bde5f00eeed1567999ff77bc859d7df70078e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66618285
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.5.linux-arm64.tar.gz",
+          "sha256": "841cced7ecda9b2014f139f5bab5ae31785f35399f236b8b3e75dff2a2978d96",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63727274
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.5.windows-amd64.zip",
+          "sha256": "bbe603cde7c9dee658f45164b4d06de1eff6e6e6b800100824e7c00d56a9a92f",
+          "format": "zip",
+          "strip": 1,
+          "size": 73753270,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.5.windows-arm64.zip",
+          "sha256": "9b7acca50e674294e43202df4fbc26d5af4d8bc3170a3342a1514f09a2dab5e9",
+          "format": "zip",
+          "strip": 1,
+          "size": 70371745,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.4.darwin-amd64.tar.gz",
+          "sha256": "cd3bdcc802b759b70e8418bc7afbc4a65ca73a3fe576060af9fc8a2a5e71c3b8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67294613
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.4.darwin-arm64.tar.gz",
+          "sha256": "8b7caf2ac60bdff457dba7d4ff2a01def889592b834453431ae3caecf884f6a5",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65090864
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.4.linux-amd64.tar.gz",
+          "sha256": "73cac0215254d0c7d1241fa40837851f3b9a8a742d0b54714cbdfb3feaf8f0af",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66615271
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.4.linux-arm64.tar.gz",
+          "sha256": "ce1983a7289856c3a918e1fd26d41e072cc39f928adfb11ba1896440849b95da",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63715671
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.4.windows-amd64.zip",
+          "sha256": "79e5428e068c912d9cfa6cd115c13549856ec689c1332eac17f5d6122e19d595",
+          "format": "zip",
+          "strip": 1,
+          "size": 73746309,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.4.windows-arm64.zip",
+          "sha256": "58bc7c6f4d4c72da2df4d2650c8222fe03c9978070eb3c66be8bbaa2a4757ac1",
+          "format": "zip",
+          "strip": 1,
+          "size": 70371094,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.3.darwin-amd64.tar.gz",
+          "sha256": "27014fc69e301d7588a169ca239b3cc609f0aa1abf38528bf0d20d3b259211eb",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67311811
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.3.darwin-arm64.tar.gz",
+          "sha256": "65302a7a9f7a4834932b3a7a14cb8be51beddda757b567a2f9e0cbd0d7b5a6ab",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65113547
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.3.linux-amd64.tar.gz",
+          "sha256": "1241381b2843fae5a9707eec1f8fb2ef94d827990582c7c7c32f5bdfbfd420c8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66641773
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.3.linux-arm64.tar.gz",
+          "sha256": "fc90fa48ae97ba6368eecb914343590bbb61b388089510d0c56c2dde52987ef3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63739165
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.3.windows-amd64.zip",
+          "sha256": "27c8daf157493f288d42a6f38debc6a2cb391f6543139eba9152fceca0be2a10",
+          "format": "zip",
+          "strip": 1,
+          "size": 73755567,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.3.windows-arm64.zip",
+          "sha256": "bfb7a5c56f9ded07d8ae0e0b3702ac07b65e68fa8f33da24ed6df4ce01fe2c5c",
+          "format": "zip",
+          "strip": 1,
+          "size": 70384158,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.2.darwin-amd64.tar.gz",
+          "sha256": "31db09a0ebaf89a3efa15a84cc67d4a8b60ae4aace9e6818e453d72be64f76bd",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67306279
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.2.darwin-arm64.tar.gz",
+          "sha256": "7534d79f1955b57971092a91d2ce683fc49352c6130e2c9411357031c05437a4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65111432
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.2.linux-amd64.tar.gz",
+          "sha256": "f5414a770e5e11c6e9674d4cd4dd1f4f630e176d1828d3427ea8ca4211eee90d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66639859
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.2.linux-arm64.tar.gz",
+          "sha256": "23e208ca44a3cb46cd4308e48a27c714ddde9c8c34f2e4211dbca95b6d456554",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63735765
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.2.windows-amd64.zip",
+          "sha256": "2cd46db02477f33559a4ebf8a176c22879b43fdcfddb1542a23876054f26a83f",
+          "format": "zip",
+          "strip": 1,
+          "size": 73751673,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.2.windows-arm64.zip",
+          "sha256": "46cf055567c4ace410f0bb9937374c5c7e22e9194ad43635c953ca4238f471f0",
+          "format": "zip",
+          "strip": 1,
+          "size": 70380424,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.1.darwin-amd64.tar.gz",
+          "sha256": "809f5b0ef4f7dcdd5f51e9630a5b2e5a1006f22a047126d61560cdc365678a19",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67297756
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.1.darwin-arm64.tar.gz",
+          "sha256": "ffd40391a1e995855488b008ad9326ff8c2e81803a6e80894401003bae47fcf1",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 65100144
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.1.linux-amd64.tar.gz",
+          "sha256": "b3075ae1ce5dab85f89bc7905d1632de23ca196bd8336afd93fa97434cfa55ae",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66633012
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.1.linux-arm64.tar.gz",
+          "sha256": "7da1a3936a928fd0b2602ed4f3ef535b8cd1990f1503b8d3e1acc0fa0759c967",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63729668
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.1.windows-amd64.zip",
+          "sha256": "10a4f5b63215d11d1770453733dbcbf024f3f74872f84e28d7ea59f0250316c6",
+          "format": "zip",
+          "strip": 1,
+          "size": 73743578,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.1.windows-arm64.zip",
+          "sha256": "41135ce6e0ced4bc1e459cb96bd4090c9dc2062e24179c3f337d855af9b560ef",
+          "format": "zip",
+          "strip": 1,
+          "size": 70373971,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.21.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.google.com/go/go1.21.0.darwin-amd64.tar.gz",
+          "sha256": "b314de9f704ab122c077d2ec8e67e3670affe8865479d1f01991e7ac55d65e70",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 67141250
+        },
+        "darwin-arm64": {
+          "url": "https://dl.google.com/go/go1.21.0.darwin-arm64.tar.gz",
+          "sha256": "3aca44de55c5e098de2f406e98aba328898b05d509a2e2a356416faacf2c4566",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 64957854
+        },
+        "linux-amd64": {
+          "url": "https://dl.google.com/go/go1.21.0.linux-amd64.tar.gz",
+          "sha256": "d0398903a16ba2232b389fb31032ddf57cac34efda306a0eebac34f0965a0742",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 66479500
+        },
+        "linux-arm64": {
+          "url": "https://dl.google.com/go/go1.21.0.linux-arm64.tar.gz",
+          "sha256": "f3d4548edf9b22f26bbd49720350bbfe59d75b7090a1a2bff1afad8214febaf3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 63575804
+        },
+        "windows-amd64": {
+          "url": "https://dl.google.com/go/go1.21.0.windows-amd64.zip",
+          "sha256": "732121e64e0ecb07c77fdf6cc1bc5ce7b242c2d40d4ac29021ad4c64a08731f6",
+          "format": "zip",
+          "strip": 1,
+          "size": 73611508,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://dl.google.com/go/go1.21.0.windows-arm64.zip",
+          "sha256": "41342f5a0f8c083b14c68bde738ddcd313a4f53a5854bfdfab47f0e88247de12",
+          "format": "zip",
+          "strip": 1,
+          "size": 70249143,
+          "bins": [
+            {
+              "name": "go",
+              "path": "bin/go.exe"
+            },
+            {
+              "name": "gofmt",
+              "path": "bin/gofmt.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

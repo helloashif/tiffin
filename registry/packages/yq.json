@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "name": "yq",
+  "type": "tool",
+  "description": "yq, the command-line YAML, JSON, XML, CSV and TOML processor",
+  "homepage": "https://mikefarah.gitbook.io/yq/",
+  "bins": [
+    {
+      "name": "yq",
+      "path": "yq"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.54.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_darwin_amd64",
+          "sha256": "96d5105ffd693d6845c54fbd825b2d1bbdb8619e0a2ce6af95e5654e841e0984",
+          "format": "raw",
+          "size": 15757424
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_darwin_arm64",
+          "sha256": "a2aebb93b5bdcb61bb76f630e42a0ef6a3ee10842a6516cd7b9e4080786ec593",
+          "format": "raw",
+          "size": 14637666
+        },
+        "linux-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_linux_amd64",
+          "sha256": "129534601871538efe0ba4c5e62a34fb1d5f469bcb975c4fddeb467d82974973",
+          "format": "raw",
+          "size": 15499424
+        },
+        "linux-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_linux_arm64",
+          "sha256": "89f69310b61b68d1245065a1241d1fc843f7a36cd6103ffd77ad987613bd1b67",
+          "format": "raw",
+          "size": 14352544
+        },
+        "windows-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_amd64.exe",
+          "sha256": "066ea0a09a282e47588ec1e1867280ff5ede458f7183617a2d99012e4e34f18a",
+          "format": "raw",
+          "size": 15990784,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.3/yq_windows_arm64.exe",
+          "sha256": "a0c37ad85f4dafdabeaaf46127e408356fd480b7096e3a41e5dede2f3e46080d",
+          "format": "raw",
+          "size": 14576640,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "4.54.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_amd64",
+          "sha256": "651e61c6a13085d6a88d30c54fa74e894d4bb18461b5e8522d3dd00a327fb3bd",
+          "format": "raw",
+          "size": 15691280
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_darwin_arm64",
+          "sha256": "34923a7ca09a32a4257702ced5f7f2e5e83b16968cce3866f5ff830e4ce1cdd4",
+          "format": "raw",
+          "size": 14571010
+        },
+        "linux-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_amd64",
+          "sha256": "44c7759059b4910827a0059a2757b22001e59360cdecdb2ef8dedc4b6c7e9f32",
+          "format": "raw",
+          "size": 15429792
+        },
+        "linux-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_arm64",
+          "sha256": "bd44211dcd29a5f0eb701d4b7eb5ccd0cfff3bd3966cb4f7f9bd5b13701d997e",
+          "format": "raw",
+          "size": 14287008
+        },
+        "windows-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_amd64.exe",
+          "sha256": "d14bfc4c0daf75336e07f534980b0dd560775cbffbedef29d91aa733c9fefb52",
+          "format": "raw",
+          "size": 15909376,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_windows_arm64.exe",
+          "sha256": "9f055dcf271f77451b7c0abc5a51a573c182752fea775ec0698b0619df22e9e2",
+          "format": "raw",
+          "size": 14507008,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "4.54.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_amd64",
+          "sha256": "3a812fce205a4d67014fb71b7fa297092210e580df3d8f52dddc2cf3a599c22b",
+          "format": "raw",
+          "size": 14395840
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_darwin_arm64",
+          "sha256": "fee511a181bd8b3e6b7da98842b41973bfac8cd3bcd341ed29a584620b5b2844",
+          "format": "raw",
+          "size": 13414050
+        },
+        "linux-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64",
+          "sha256": "8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f",
+          "format": "raw",
+          "size": 14168224
+        },
+        "linux-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_arm64",
+          "sha256": "189088da0c6429ec5178dfaab1a114805f6cab0b61b165ab236efedf1d57a71b",
+          "format": "raw",
+          "size": 13172896
+        },
+        "windows-amd64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_amd64.exe",
+          "sha256": "b645f47ebb3a0d2fbab52998550bbd0a1706f23b5ca5f5b48e638c580bb70928",
+          "format": "raw",
+          "size": 14615040,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_windows_arm64.exe",
+          "sha256": "c46a295a98c31173e72220da7c35f86fbcc1c2cd2da5188105f326b32585e984",
+          "format": "raw",
+          "size": 13358080,
+          "bins": [
+            {
+              "name": "yq",
+              "path": "yq.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

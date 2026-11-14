@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "name": "duckdb",
+  "type": "tool",
+  "description": "DuckDB CLI: fast in-process analytical SQL database shell",
+  "homepage": "https://duckdb.org",
+  "bins": [
+    {
+      "name": "duckdb",
+      "path": "duckdb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.0.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-osx-amd64.tar.gz",
+          "sha256": "fbc7013ba09d117396dabf16783281c2add47fc01cdac4855464a03526dc96ee",
+          "format": "tar.gz",
+          "size": 21471922
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-osx-arm64.tar.gz",
+          "sha256": "188a36fe8883ef52e69165a0cbb6031ef679c8e6c448a1ce22951964149b7f96",
+          "format": "tar.gz",
+          "size": 19169633
+        },
+        "linux-amd64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-linux-amd64.tar.gz",
+          "sha256": "c6507206baf7793c6013dbd82368469a45f20dc0e17a6f92f204602f652ed2bc",
+          "format": "tar.gz",
+          "size": 24424037
+        },
+        "linux-arm64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-linux-arm64.tar.gz",
+          "sha256": "859e1875d2a9515fbb4bf8871061437a14af82320da68c753f094c4b776348fe",
+          "format": "tar.gz",
+          "size": 22306407
+        },
+        "windows-amd64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-windows-amd64.tar.gz",
+          "sha256": "91663c2f36c2a334b0e5e639006d8c29c29e013af0c477d80bb931df68870312",
+          "format": "tar.gz",
+          "size": 19663611,
+          "bins": [
+            {
+              "name": "duckdb",
+              "path": "duckdb.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/duckdb/duckdb/releases/download/v2.0.0/duckdb-cli-windows-arm64.tar.gz",
+          "sha256": "4b5d1e4611debf676a693a8a6896dc29b352a9c3b11b706e7421d1d6082e05fd",
+          "format": "tar.gz",
+          "size": 18241206,
+          "bins": [
+            {
+              "name": "duckdb",
+              "path": "duckdb.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

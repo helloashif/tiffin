@@ -1,0 +1,151 @@
+{
+  "schema": 1,
+  "name": "typesense",
+  "type": "service",
+  "description": "Typesense, the search engine for Laravel Scout (GPL-3.0); API key \"tiffin\", for local use",
+  "homepage": "https://typesense.org",
+  "bins": [
+    {
+      "name": "typesense-server",
+      "path": "typesense-server"
+    }
+  ],
+  "versions": [
+    {
+      "version": "30.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.typesense.org/releases/30.2/typesense-server-30.2-darwin-amd64.tar.gz",
+          "sha256": "6aa4d2d85838e03fdde9dcef4bf1584a46fc1840a215e5cbed288b63365eae75",
+          "format": "tar.gz",
+          "size": 40305723,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.typesense.org/releases/30.2/typesense-server-30.2-darwin-arm64.tar.gz",
+          "sha256": "7d8d6d0c33930ad20ea23dd184250547b16615944be891b2078e8a075152fa7e",
+          "format": "tar.gz",
+          "size": 38399663,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.typesense.org/releases/30.2/typesense-server-30.2-linux-amd64.tar.gz",
+          "sha256": "cd791605e7c6cc7be457794f534cd4b9f9d361781adb10e40020efc22840ebc3",
+          "format": "tar.gz",
+          "size": 139602519,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.typesense.org/releases/30.2/typesense-server-30.2-linux-arm64.tar.gz",
+          "sha256": "a9b9d6e2927c863900306290e8532c17f66bdff34ef2ad043b24ed4ccec8a6bc",
+          "format": "tar.gz",
+          "size": 135501041,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "29.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://dl.typesense.org/releases/29.1/typesense-server-29.1-darwin-amd64.tar.gz",
+          "sha256": "85248f90f72ac2a75bfd5f6f46f4cb6304b301d9347bde215600a941435971fa",
+          "format": "tar.gz",
+          "size": 40035533,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://dl.typesense.org/releases/29.1/typesense-server-29.1-darwin-arm64.tar.gz",
+          "sha256": "047ea1dbb154f6bac6a913e0376da47ce7f76b5c90e089cd558fa6b345979299",
+          "format": "tar.gz",
+          "size": 38153854,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://dl.typesense.org/releases/29.1/typesense-server-29.1-linux-amd64.tar.gz",
+          "sha256": "26ae48efca4d34929816d93eac16ceb7f26a03423e30c2d5ef916ca6abc5f115",
+          "format": "tar.gz",
+          "size": 130071801,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://dl.typesense.org/releases/29.1/typesense-server-29.1-linux-arm64.tar.gz",
+          "sha256": "0391e6aca678590eb0879b8b05c9ecd9bb18c8a205f1e01d662eafdbd5d48175",
+          "format": "tar.gz",
+          "size": 126137855,
+          "bins": [
+            {
+              "name": "typesense-server",
+              "path": "typesense-server"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 8108,
+    "data_dir": {
+      "per": "major"
+    },
+    "run": {
+      "bin": "typesense-server",
+      "args": [
+        "--data-dir",
+        "{{data_dir}}",
+        "--api-key",
+        "tiffin",
+        "--api-address",
+        "127.0.0.1",
+        "--api-port",
+        "{{port}}",
+        "--peering-address",
+        "127.0.0.1",
+        "--enable-cors"
+      ]
+    },
+    "health": {
+      "probe": "tcp",
+      "timeout": 60
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 30
+    }
+  }
+}

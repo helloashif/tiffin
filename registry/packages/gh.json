@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "name": "gh",
+  "type": "tool",
+  "description": "GitHub CLI: pull requests, issues, releases and Actions from the terminal",
+  "homepage": "https://cli.github.com",
+  "bins": [
+    {
+      "name": "gh",
+      "path": "bin/gh"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.103.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_amd64.zip",
+          "sha256": "a2f86418f4350ae6e9ec60d5000bdf7665728436946a97fc27fe50e6ae752682",
+          "format": "zip",
+          "strip": 1,
+          "size": 15702601
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_macOS_arm64.zip",
+          "sha256": "d700207eae9ae98fe2b89535c2c087c07823d4628c56364695a5a07ef311c062",
+          "format": "zip",
+          "strip": 1,
+          "size": 14106091
+        },
+        "linux-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_amd64.tar.gz",
+          "sha256": "4c806978ffce1cec70853302a56d70ac6da4f19bae7adca4e1a8ab00633dd91d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 15031972
+        },
+        "linux-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_linux_arm64.tar.gz",
+          "sha256": "ee32df2323c8847f5fac6cb6b4b69ca75828e9329a8f22f677021f7b3306ce63",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 13661485
+        },
+        "windows-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_amd64.zip",
+          "sha256": "98d0cfa794721665d7973dd728c78aff7bd836d58f10f6d7a03568eccb0a22e0",
+          "format": "zip",
+          "size": 15197187,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.3/gh_2.103.3_windows_arm64.zip",
+          "sha256": "197211c98687d7770ac331fe8a3b6c198c389108c1536cdbedf659fe4703e484",
+          "format": "zip",
+          "size": 13637549,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.103.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_macOS_amd64.zip",
+          "sha256": "2dc7f1fc4761f96732995f6e4f4c6b4d705f2635da4126620c8b30eaa67b9c98",
+          "format": "zip",
+          "strip": 1,
+          "size": 15701105
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_macOS_arm64.zip",
+          "sha256": "5416000f5d17580a187339e0c4068a01ca5c87f7d4fe6ca64933696f967bc418",
+          "format": "zip",
+          "strip": 1,
+          "size": 14105241
+        },
+        "linux-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_linux_amd64.tar.gz",
+          "sha256": "62ccf747115ddc61237efffdde66a3c8f70ba249433dc64f70801089b59c59c8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 15031001
+        },
+        "linux-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_linux_arm64.tar.gz",
+          "sha256": "4c3e99a50bd8b181a3fe9d69b25dd978bac768148d88f01507c6b4d1ef61a443",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 13660128
+        },
+        "windows-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_windows_amd64.zip",
+          "sha256": "fef9fcdd8fdabd0501ab8b3d99eac976f504ab55d01bef9e8ef428a5d900ddda",
+          "format": "zip",
+          "size": 15195500,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.2/gh_2.103.2_windows_arm64.zip",
+          "sha256": "cefaaa3efcd110ef7bf71071a2242b85fd3d2ac26d7d62e1082de6a1e60a81d6",
+          "format": "zip",
+          "size": 13627258,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.103.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_macOS_amd64.zip",
+          "sha256": "9adb0d23fe3c463e8600ea5288b5ac0ba9438a49678db0b3e955471be1df42c3",
+          "format": "zip",
+          "strip": 1,
+          "size": 15701988
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_macOS_arm64.zip",
+          "sha256": "71b5ffc74bb69cdb72ca397d9b486d78755019be33ca927288299197ad7f6807",
+          "format": "zip",
+          "strip": 1,
+          "size": 14104486
+        },
+        "linux-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_linux_amd64.tar.gz",
+          "sha256": "57500f347b5e84efb6578c9b644eeb3b4e54046762635a939dd0ee2cca1c1add",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 15031398
+        },
+        "linux-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_linux_arm64.tar.gz",
+          "sha256": "25b1287471a73a3cca32e5d2d2798ae26abea0243db1b9e4a8c1be506fad1bfe",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 13661422
+        },
+        "windows-amd64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_windows_amd64.zip",
+          "sha256": "a1d22e6f0dea586cf69478aaccbc6e3370dbc954c383cd412b9959635591dc5f",
+          "format": "zip",
+          "size": 15195839,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/cli/cli/releases/download/v2.103.1/gh_2.103.1_windows_arm64.zip",
+          "sha256": "0cf083871b8ff876f0a09fc8afa006eaf82828b58887676328cba55e56703d4c",
+          "format": "zip",
+          "size": 13632522,
+          "bins": [
+            {
+              "name": "gh",
+              "path": "bin/gh.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
