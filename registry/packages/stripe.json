@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "name": "stripe",
+  "type": "tool",
+  "description": "Stripe CLI: forward webhooks to a local site, trigger test events, call the API",
+  "homepage": "https://docs.stripe.com/stripe-cli",
+  "bins": [
+    {
+      "name": "stripe",
+      "path": "stripe"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.55.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.10/stripe_1.55.10_mac-os_x86_64.tar.gz",
+          "sha256": "00410e76825cbf0c76d3b1e719e0ab6a77a14555033a40111fc9cc285f45a9b9",
+          "format": "tar.gz",
+          "size": 12167925
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.10/stripe_1.55.10_mac-os_arm64.tar.gz",
+          "sha256": "cd2d24041679f3e116a93af1ade19a65c1c72b3e193e54b43984edbc7a2b43b7",
+          "format": "tar.gz",
+          "size": 11026720
+        },
+        "linux-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.10/stripe_1.55.10_linux_x86_64.tar.gz",
+          "sha256": "3676d3218d7d371bb724a03fb76b4b597f3adda55d091043f3667b8484e226be",
+          "format": "tar.gz",
+          "size": 11758017
+        },
+        "linux-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.10/stripe_1.55.10_linux_arm64.tar.gz",
+          "sha256": "487436eef7cb64778bf4d0e47b75982ee36ae0c6324d9d5d9a26a47aa962f673",
+          "format": "tar.gz",
+          "size": 10622077
+        },
+        "windows-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.10/stripe_1.55.10_windows_x86_64.zip",
+          "sha256": "ea273eaabe6641fc960c7b7fcdb1a7e6cb45ca47fe8202c91b2ef89458ccd937",
+          "format": "zip",
+          "size": 11929882,
+          "bins": [
+            {
+              "name": "stripe",
+              "path": "stripe.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.55.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.9/stripe_1.55.9_mac-os_x86_64.tar.gz",
+          "sha256": "e7449afda5c9b05f0b9cc5b62d48f99a0ad2841b5ec067e06ad12aff852b4d8e",
+          "format": "tar.gz",
+          "size": 12166808
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.9/stripe_1.55.9_mac-os_arm64.tar.gz",
+          "sha256": "62d86719984e29a2bd0ed079dd8ff731624cff9b29990acec927f5c60c5c1436",
+          "format": "tar.gz",
+          "size": 11023942
+        },
+        "linux-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.9/stripe_1.55.9_linux_x86_64.tar.gz",
+          "sha256": "01b4e0fcac2c7486d9f428290784f49b8ecba37339c17bc705fb2d8a1f5ed5ff",
+          "format": "tar.gz",
+          "size": 11756392
+        },
+        "linux-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.9/stripe_1.55.9_linux_arm64.tar.gz",
+          "sha256": "a60be3e6a14fd27ea59c0e26eb2d101c3d6f0434694678c484f01e108e4cc150",
+          "format": "tar.gz",
+          "size": 10622850
+        },
+        "windows-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.9/stripe_1.55.9_windows_x86_64.zip",
+          "sha256": "b53a8e879a639ac968511879a43a073f2f7d2ea7686837345a8ed0975d4ffc85",
+          "format": "zip",
+          "size": 11929878,
+          "bins": [
+            {
+              "name": "stripe",
+              "path": "stripe.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.55.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.8/stripe_1.55.8_mac-os_x86_64.tar.gz",
+          "sha256": "08f930e8d2a6ce0373608897cce06e099791956fc067b66c26bbe7f709a86491",
+          "format": "tar.gz",
+          "size": 11933623
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.8/stripe_1.55.8_mac-os_arm64.tar.gz",
+          "sha256": "7e38bc433b869dd93e7dc6fc342623f2283d76eb196f0b2586b858a462ff298a",
+          "format": "tar.gz",
+          "size": 10836641
+        },
+        "linux-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.8/stripe_1.55.8_linux_x86_64.tar.gz",
+          "sha256": "a5ee5994bc87f1e9a5557dfb25f6f34d52fc7081756efa4da2d695581c671aec",
+          "format": "tar.gz",
+          "size": 11536602
+        },
+        "linux-arm64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.8/stripe_1.55.8_linux_arm64.tar.gz",
+          "sha256": "55bf211b2fcd5f58d751f238b518a8f661b4be612d68595d30db420dad961fe7",
+          "format": "tar.gz",
+          "size": 10451584
+        },
+        "windows-amd64": {
+          "url": "https://github.com/stripe/stripe-cli/releases/download/v1.55.8/stripe_1.55.8_windows_x86_64.zip",
+          "sha256": "d0650b491dcccab3b38ee807b6ee239713a8fff071818d672ec967abea60efed",
+          "format": "zip",
+          "size": 11701520,
+          "bins": [
+            {
+              "name": "stripe",
+              "path": "stripe.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

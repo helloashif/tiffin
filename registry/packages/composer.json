@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "name": "composer",
+  "type": "tool",
+  "description": "Dependency manager for PHP",
+  "homepage": "https://getcomposer.org",
+  "bins": [
+    {
+      "name": "composer",
+      "path": "composer.phar",
+      "via": "php"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.10.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        },
+        "darwin-arm64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        },
+        "linux-amd64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        },
+        "linux-arm64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        },
+        "windows-amd64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        },
+        "windows-arm64": {
+          "url": "https://getcomposer.org/download/2.10.3/composer.phar",
+          "sha256": "7a2d379d5b8ffdaa028580ef26494c36d2feef4b178d3dd1473a4dbc5e17c8d6",
+          "format": "raw"
+        }
+      }
+    },
+    {
+      "version": "2.2.30",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        },
+        "darwin-arm64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        },
+        "linux-amd64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        },
+        "linux-arm64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        },
+        "windows-amd64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        },
+        "windows-arm64": {
+          "url": "https://getcomposer.org/download/2.2.30/composer.phar",
+          "sha256": "8c2b4478b64f8f7cdf1574838fdb0033b29049ca821dad452db7a3dcfcdbffc2",
+          "format": "raw"
+        }
+      }
+    }
+  ]
+}

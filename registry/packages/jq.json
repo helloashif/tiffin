@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "name": "jq",
+  "type": "tool",
+  "description": "jq, the command-line JSON processor",
+  "homepage": "https://jqlang.org",
+  "bins": [
+    {
+      "name": "jq",
+      "path": "jq"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.8.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-amd64",
+          "sha256": "e94b266e3c26690550006abe63152b782280f4e14374accdf04cbde844f00bc0",
+          "format": "raw",
+          "size": 871768
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-arm64",
+          "sha256": "2d75340ba57a4b4b4c8708a21c2dc8e958a48aaa8bba13b27f77f6e4c0eca07e",
+          "format": "raw",
+          "size": 841504
+        },
+        "linux-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64",
+          "sha256": "b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f",
+          "format": "raw",
+          "size": 2267912
+        },
+        "linux-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64",
+          "sha256": "8b85c817833814ddca00a144c33705546355afccf0cf39b188f3cdb48b852309",
+          "format": "raw",
+          "size": 1797688
+        },
+        "windows-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe",
+          "sha256": "a6fc67fedaf9128a3309a1e2ebb8b986aeccf70122ee46d2cb4849e423f0c627",
+          "format": "raw",
+          "size": 1035264,
+          "bins": [
+            {
+              "name": "jq",
+              "path": "jq.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-arm64.exe",
+          "sha256": "083b5377392bc57cf27052b6d20a2d927770683bca844632901ff38b4b7b0ac7",
+          "format": "raw",
+          "size": 973312,
+          "bins": [
+            {
+              "name": "jq",
+              "path": "jq.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.8.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-amd64",
+          "sha256": "e80dbe0d2a2597e3c11c404f03337b981d74b4a8504b70586c354b7697a7c27f",
+          "format": "raw",
+          "size": 855272
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-macos-arm64",
+          "sha256": "a9fe3ea2f86dfc72f6728417521ec9067b343277152b114f4e98d8cb0e263603",
+          "format": "raw",
+          "size": 841408
+        },
+        "linux-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64",
+          "sha256": "020468de7539ce70ef1bceaf7cde2e8c4f2ca6c3afb84642aabc5c97d9fc2a0d",
+          "format": "raw",
+          "size": 2255816
+        },
+        "linux-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-arm64",
+          "sha256": "6bc62f25981328edd3cfcfe6fe51b073f2d7e7710d7ef7fcdac28d4e384fc3d4",
+          "format": "raw",
+          "size": 1797872
+        },
+        "windows-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-windows-amd64.exe",
+          "sha256": "23cb60a1354eed6bcc8d9b9735e8c7b388cd1fdcb75726b93bc299ef22dd9334",
+          "format": "raw",
+          "size": 1026560,
+          "bins": [
+            {
+              "name": "jq",
+              "path": "jq.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.8.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-amd64",
+          "sha256": "a594f3740bf570f0dbc43ff102a9034c17719d1bb5b40f0192751234d67f172a",
+          "format": "raw",
+          "size": 855248
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-macos-arm64",
+          "sha256": "aaf1efbb376d6e3eaf61f63807c32c1df519f5857dfc4f581826fa2df4b715ae",
+          "format": "raw",
+          "size": 841376
+        },
+        "linux-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-amd64",
+          "sha256": "8926c33326111bcd67a47a970b5a5db933ef9194ad925994934c639c76a0605c",
+          "format": "raw",
+          "size": 2255816
+        },
+        "linux-arm64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-linux-arm64",
+          "sha256": "1084e6bf5060a463daf77193888d326c83e56bcfbc18a52e6eaa99dbe82a8b54",
+          "format": "raw",
+          "size": 1797872
+        },
+        "windows-amd64": {
+          "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.0/jq-windows-amd64.exe",
+          "sha256": "b45fcbb27dcb9e9848ac39889a8bf86457b8d9d31e7c56387c6eab80008fd1f4",
+          "format": "raw",
+          "size": 1026048,
+          "bins": [
+            {
+              "name": "jq",
+              "path": "jq.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

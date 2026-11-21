@@ -1,0 +1,424 @@
+{
+  "schema": 1,
+  "name": "mariadb",
+  "type": "service",
+  "description": "MariaDB database server",
+  "homepage": "https://mariadb.org",
+  "bins": [
+    {
+      "name": "mariadbd",
+      "path": "bin/mariadbd"
+    },
+    {
+      "name": "mariadb",
+      "path": "bin/mariadb"
+    },
+    {
+      "name": "mariadb-admin",
+      "path": "bin/mariadb-admin"
+    },
+    {
+      "name": "mariadb-dump",
+      "path": "bin/mariadb-dump"
+    },
+    {
+      "name": "mariadb-install-db",
+      "path": "scripts/mariadb-install-db"
+    }
+  ],
+  "versions": [
+    {
+      "version": "12.3.3",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-12.3.3/bintar-linux-systemd-x86_64/mariadb-12.3.3-linux-systemd-x86_64.tar.gz",
+          "sha256": "a12bf7bce08a896cdd01f174f04b4ce1d5da43ec250a5e7fceb9972119514329",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "scripts/mariadb-install-db"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-12.3.3/winx64-packages/mariadb-12.3.3-winx64.zip",
+          "sha256": "4b5706b47148b47c8f36963c8352d1ddee37a1287b4690428f631a74b09b85a0",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd.exe"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb.exe"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin.exe"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump.exe"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "bin/mariadb-install-db.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "11.8.9",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-11.8.9/bintar-linux-systemd-x86_64/mariadb-11.8.9-linux-systemd-x86_64.tar.gz",
+          "sha256": "32f8871a2aa38b36aa418b7f4abc6fc0c6ef1ba5a45798cacb2afa52c8a6113b",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "scripts/mariadb-install-db"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-11.8.9/winx64-packages/mariadb-11.8.9-winx64.zip",
+          "sha256": "830c46727d9278eae212ae3eca44eeb9e71b2a68704e95f344a64fba7b1963f5",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd.exe"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb.exe"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin.exe"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump.exe"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "bin/mariadb-install-db.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "11.4.13",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-11.4.13/bintar-linux-systemd-x86_64/mariadb-11.4.13-linux-systemd-x86_64.tar.gz",
+          "sha256": "3cebf63914df3154b7cb6d548337eb2be42c773aeb641110446b72e2746cfed7",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "scripts/mariadb-install-db"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-11.4.13/winx64-packages/mariadb-11.4.13-winx64.zip",
+          "sha256": "d62986d433eeebfde218560b276103831604a61e929e87f1a17f5aebd80257e2",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd.exe"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb.exe"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin.exe"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump.exe"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "bin/mariadb-install-db.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "10.11.19",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-10.11.19/bintar-linux-systemd-x86_64/mariadb-10.11.19-linux-systemd-x86_64.tar.gz",
+          "sha256": "7efb257927f31f4422f496246b32590d0b7617f3d9dd900e575de761b302d919",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "scripts/mariadb-install-db"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://archive.mariadb.org/mariadb-10.11.19/winx64-packages/mariadb-10.11.19-winx64.zip",
+          "sha256": "398ea30e5036010bbebe01d2b1804280424dcc2626e36d8e95155c04d25a0490",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mariadbd",
+              "path": "bin/mariadbd.exe"
+            },
+            {
+              "name": "mariadb",
+              "path": "bin/mariadb.exe"
+            },
+            {
+              "name": "mariadb-admin",
+              "path": "bin/mariadb-admin.exe"
+            },
+            {
+              "name": "mariadb-dump",
+              "path": "bin/mariadb-dump.exe"
+            },
+            {
+              "name": "mariadb-install-db",
+              "path": "bin/mariadb-install-db.exe"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 3306,
+    "data_dir": {
+      "per": "minor"
+    },
+    "configs": [
+      {
+        "name": "my.cnf",
+        "template": "# Generated by tiffind before every start: changes here are lost.\n# Put your own settings in conf.d/*.cnf.\n[mysqld]\nbasedir=\"{{install_dir}}\"\ndatadir=\"{{data_dir}}\"\nport={{port}}\nbind-address=127.0.0.1\nsocket=\"{{run_dir}}/mariadbd.sock\"\npid-file=\"{{run_dir}}/mariadbd.pid\"\nskip-name-resolve\ninit-file=\"{{conf_dir}}/init.sql\"\ncharacter-set-server=utf8mb4\n!includedir {{conf_dir}}/conf.d\n"
+      },
+      {
+        "name": "init.sql",
+        "template": "CREATE USER IF NOT EXISTS 'root'@'127.0.0.1';\nGRANT ALL ON *.* TO 'root'@'127.0.0.1' WITH GRANT OPTION;\nCREATE USER IF NOT EXISTS 'root'@'::1';\nGRANT ALL ON *.* TO 'root'@'::1' WITH GRANT OPTION;\n"
+      }
+    ],
+    "init": {
+      "bin": "mariadb-install-db",
+      "args": [
+        "--no-defaults",
+        "--basedir={{install_dir}}",
+        "--datadir={{data_dir}}",
+        "--auth-root-authentication-method=normal",
+        "--skip-test-db"
+      ],
+      "marker": "mysql"
+    },
+    "run": {
+      "bin": "mariadbd",
+      "args": [
+        "--defaults-file={{conf_dir}}/my.cnf"
+      ]
+    },
+    "health": {
+      "probe": "mysql",
+      "timeout": 120
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 60,
+      "command": {
+        "bin": "mariadb-admin",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "shutdown"
+        ]
+      }
+    },
+    "windows": {
+      "init": {
+        "bin": "mariadb-install-db",
+        "args": [
+          "--datadir={{data_dir}}"
+        ],
+        "marker": "mysql"
+      },
+      "run": {
+        "bin": "mariadbd",
+        "args": [
+          "--defaults-file={{conf_dir}}/my.cnf",
+          "--console"
+        ]
+      }
+    },
+    "db": {
+      "list": {
+        "bin": "mariadb",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "--batch",
+          "--skip-column-names",
+          "-e",
+          "SELECT schema_name FROM information_schema.schemata WHERE schema_name NOT IN ('mysql', 'information_schema', 'performance_schema', 'sys')"
+        ]
+      },
+      "create": {
+        "bin": "mariadb",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "-e",
+          "CREATE DATABASE {{database}} CHARACTER SET utf8mb4"
+        ]
+      },
+      "drop": {
+        "bin": "mariadb",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "-e",
+          "DROP DATABASE {{database}}"
+        ]
+      },
+      "backup": {
+        "bin": "mariadb-dump",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "--single-transaction",
+          "--routines",
+          "--triggers",
+          "--hex-blob",
+          "{{database}}"
+        ]
+      },
+      "restore": {
+        "bin": "mariadb",
+        "args": [
+          "--protocol=tcp",
+          "--host=127.0.0.1",
+          "--port={{port}}",
+          "--user=root",
+          "{{database}}"
+        ]
+      }
+    },
+    "settings": {
+      "file": "10-tiffin.cnf",
+      "header": "[mysqld]",
+      "line": "{{key}} = {{value}}",
+      "reserved": [
+        "port",
+        "bind_address",
+        "basedir",
+        "datadir",
+        "socket",
+        "pid_file",
+        "init_file",
+        "skip_networking",
+        "mysqlx",
+        "mysqlx_port",
+        "mysqlx_socket",
+        "log_error",
+        "user",
+        "secure_file_priv"
+      ]
+    }
+  }
+}

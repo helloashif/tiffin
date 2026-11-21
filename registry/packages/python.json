@@ -1,0 +1,904 @@
+{
+  "schema": 1,
+  "name": "python",
+  "type": "runtime",
+  "description": "The Python programming language (python-build-standalone builds)",
+  "homepage": "https://www.python.org",
+  "versions": [
+    {
+      "version": "3.14.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-x86_64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "d613a1cb9e31dd512298c73fd300975e689938cc39d1486250cf47918963061c",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-aarch64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "69e48cd7f54261df5b6abbd374f69fe6e496fa781d271592aeef49cd5ffbea6c",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "b373a4a4e4e70fc05f368c9b53d7738bf37637682b650d96c742805d2da26c32",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "4395ae16388f9d3409cba7e20161753ed3359b13d959345415029f874f675162",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.14/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "b7ff8b700995379e425b39abce9b087d84a45aa265ea465c0069c2747ea5b2ea",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.14.8+20261001-aarch64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "607b19be2bfcdbd0ba51dd4d225a6eeaa9b0c32c85d5b0521ced135033af5ecf",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "3.13.16",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-x86_64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "a88bef59d9dd61ba4210772cce57a4b4cb963aa745ab956f7cc79ba60f9e2523",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-aarch64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "d00669acb53c1b014f1fcf5eaea740d8e45c3aff4b1e0244dc0f8697fb211a82",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "ffcb50e716789d1a6e1db5e745d4d194ac8ed9b015ccf5eabcaccb179a25e4a8",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "f94c8f69f3e68b026b916b3aa32b9b3bfff63fd7c95b2affa8272b1601d668fa",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.13/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "c402eb9a35aba90de319bbc87d23e6d887eca1551a05cfa80775f92dcf3ebc08",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.13.16+20261001-aarch64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "0c5f9dedc4302b74600046a905f36a654a0710c1940bed202a4644efcba5e86f",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "3.12.15",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-x86_64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "d101ac54bc34afff54741406261325dc896b7b646a36a58fff4845ef0a00b2ce",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-aarch64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "10cab8f6ed6202fdd81637aa6eda4af8d5b7eaa8fc42f9df3c6bea4923de0d93",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "7bb1659e3235077b7f63d5b6eb6ce653c6fcd6c5041e9d5f73b42ce10421464d",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "0b35f4dc08d58534eb82e024989e2db9873885dccd4f2a316ff55c0cec146123",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.12/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "52124cee54126f3f360eaa378288f6f64c402c983a3c14c95eff67f4af986aaa",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.12.15+20261001-aarch64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "2b7d0422475973a90fb0817e9062a00ee745c46a3376c46e7a397ab0e345881e",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "3.11.17",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-x86_64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "7db03f4cc322f4cd0ad8fc71fecee6e474226e3fc5a0d60e042f61220f6f6da6",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-aarch64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "7fa8ccd24b93b2feacd08bfc4d2b2d0f5864a0105d90919c0644042ff9f2219d",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "7086a336e6ea0a49595cf891066ab6517156c85116f77fbc23b62c1d9e9b7d92",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "26ee69bff5d6d4173360275fcf38d4d25228286b79a7d9b36ad39af970909e37",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.11/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "bbf34ce7cffed0875f746e9ac7a371b3acd574896727f1bd46e5d32edbe9f376",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.11.17+20261001-aarch64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "fba71630b44d25286c95f1dd9fd6766fe7d19840d2fc401126f2fb7f3334076f",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "3.10.22",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.10.22+20261001-x86_64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "4e3a1e6d915dd93f6c17cfe2832f6cb78e8cee64d116a94052ecfc95151168c6",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.10.22+20261001-aarch64-apple-darwin-install_only_stripped.tar.gz",
+          "sha256": "db4da061df5234f5734e6a7934f5797d28d2811f402c4f72c6939910ab25c936",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.10.22+20261001-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "260dfddbb52f238f0a8023c95141a28ae110d9a91946a326a4400cefb3e84118",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.10.22+20261001-aarch64-unknown-linux-gnu-install_only_stripped.tar.gz",
+          "sha256": "b25ea453d60a51c381417ed0fbf87fd393c346eb1ab3a138cdfbb86be2a4d8fe",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "bin/python3"
+            },
+            {
+              "name": "python3",
+              "path": "bin/python3"
+            },
+            {
+              "name": "pip",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "bin/python3",
+              "args": [
+                "lib/python3.10/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20261001/cpython-3.10.22+20261001-x86_64-pc-windows-msvc-install_only_stripped.tar.gz",
+          "sha256": "8d9f2e9a116f8e6354552900ddc39725242ebf2d22a6a5e7fd051f3827452f80",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "python",
+              "path": "python.exe"
+            },
+            {
+              "name": "python3",
+              "path": "python.exe"
+            },
+            {
+              "name": "pip",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            },
+            {
+              "name": "pip3",
+              "path": "python.exe",
+              "args": [
+                "Lib/site-packages/pip/__main__.py"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,510 @@
+{
+  "schema": 1,
+  "name": "java",
+  "type": "runtime",
+  "description": "Java: Eclipse Temurin JDKs (OpenJDK), the long-term-support releases",
+  "homepage": "https://adoptium.net",
+  "bins": [
+    {
+      "name": "java",
+      "path": "bin/java"
+    },
+    {
+      "name": "javac",
+      "path": "bin/javac"
+    },
+    {
+      "name": "jar",
+      "path": "bin/jar"
+    },
+    {
+      "name": "jshell",
+      "path": "bin/jshell"
+    },
+    {
+      "name": "keytool",
+      "path": "bin/keytool"
+    }
+  ],
+  "versions": [
+    {
+      "version": "25.0.4.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_mac_hotspot_25.0.4.1_1.tar.gz",
+          "sha256": "e6229d9504f7922053ab31821b9e6bee8761daf7b026a3476d1a027563009880",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 120256199,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_mac_hotspot_25.0.4.1_1.tar.gz",
+          "sha256": "61979887f7506a24a57439ff99adb8b3a7fc89977d9cfe3b8984f58a981b7b9d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 136355078,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_linux_hotspot_25.0.4.1_1.tar.gz",
+          "sha256": "dbb698396d478e7fa2b1e50f4103324b2a99b90569ee27c33f2261f9215cf41e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 141329719,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.4.1_1.tar.gz",
+          "sha256": "69df11a02cfa3ef7d7ca645e03edce6778ec090e100f6ae2b42097865730ac52",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 140137820,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+          "sha256": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+          "format": "zip",
+          "strip": 1,
+          "size": 141167264,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java.exe"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac.exe"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar.exe"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell.exe"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "21.0.12.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_mac_hotspot_21.0.12.1_1.tar.gz",
+          "sha256": "44db0f08196daf19a47f90d13388b0c943b67663cb537f998fe29e836fa842ce",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 194316575,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_aarch64_mac_hotspot_21.0.12.1_1.tar.gz",
+          "sha256": "3623232f33a9c3baadf304480b2535f9a3cba8a58d42ecbb438ba267315d9998",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 200073404,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz",
+          "sha256": "ce79869e1307ed8ee1e2baa86a412b1eb5b75d10a01006d788a6f968bcfaee94",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 207473347,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.12.1_1.tar.gz",
+          "sha256": "23e37e026f12f3e706f18938ff611db3032d075b09d0879a25d06718c773e223",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 205641175,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+          "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e",
+          "format": "zip",
+          "strip": 1,
+          "size": 205073461,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java.exe"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac.exe"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar.exe"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell.exe"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_aarch64_windows_hotspot_21.0.12.1_1.zip",
+          "sha256": "ccf2e51f527d542a70ba5794a600d3aac04b4e967950e227834c7566cb1bec7b",
+          "format": "zip",
+          "strip": 1,
+          "size": 192680862,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java.exe"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac.exe"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar.exe"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell.exe"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "17.0.20.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_mac_hotspot_17.0.20.1_1.tar.gz",
+          "sha256": "c01975da12ed4235250ff891fe8bba73a9e73037d444b269c9d0922b5dbc8e0a",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 180578248,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_aarch64_mac_hotspot_17.0.20.1_1.tar.gz",
+          "sha256": "196d13ba5f10414bef7f6a05a9b3f00edacb18ebacef2b99485db9e2ee18f0e8",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 185851019,
+          "bins": [
+            {
+              "name": "java",
+              "path": "Contents/Home/bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "Contents/Home/bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "Contents/Home/bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "Contents/Home/bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "Contents/Home/bin/keytool"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_linux_hotspot_17.0.20.1_1.tar.gz",
+          "sha256": "3808d1d15e3ec6bd5b84057fb5d84c33d8a1536a258146bcea2e603fc726e08e",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 193252603,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.20.1_1.tar.gz",
+          "sha256": "457b57af8f9c93ec39080bb8c764f559dc8c89a6da1a39d718a400b7890d3e41",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 191962709,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jdk_x64_windows_hotspot_17.0.20.1_1.zip",
+          "sha256": "e53a79c3c3d86865bd7e787903884331068e71321714ffd44f145785affc7cb0",
+          "format": "zip",
+          "strip": 1,
+          "size": 190817615,
+          "bins": [
+            {
+              "name": "java",
+              "path": "bin/java.exe"
+            },
+            {
+              "name": "javac",
+              "path": "bin/javac.exe"
+            },
+            {
+              "name": "jar",
+              "path": "bin/jar.exe"
+            },
+            {
+              "name": "jshell",
+              "path": "bin/jshell.exe"
+            },
+            {
+              "name": "keytool",
+              "path": "bin/keytool.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

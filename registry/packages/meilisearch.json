@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "name": "meilisearch",
+  "type": "service",
+  "description": "Meilisearch, the search engine for Laravel Scout (MIT); no master key, for local use",
+  "homepage": "https://www.meilisearch.com",
+  "bins": [
+    {
+      "name": "meilisearch",
+      "path": "meilisearch"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.54.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.54.3/meilisearch-macos-amd64",
+          "sha256": "82126065011d4b2b4d60abbcf467beeb72bd04f0824a24991dfb67bbaaed4e61",
+          "format": "raw",
+          "size": 351077200,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.54.3/meilisearch-macos-apple-silicon",
+          "sha256": "2ce65b8f8e74eee14b8eef8a9d0fc125cdcc9a0227bbba89dca832a93505c714",
+          "format": "raw",
+          "size": 348171088,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.54.3/meilisearch-linux-amd64",
+          "sha256": "0ece934f9791f0db83e1184f4f505a38eae7d93ff1c47efaa9426cf2b3a12ba7",
+          "format": "raw",
+          "size": 357021720,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.54.3/meilisearch-linux-aarch64",
+          "sha256": "09ce5f9531bb205a10fe57854f64a4b59d16166a03de7fa76392a629ccfe81c4",
+          "format": "raw",
+          "size": 350675896,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.54.3/meilisearch-windows-amd64.exe",
+          "sha256": "09266bd2c51747cebe908f7373cc6e2e546e3930886bb8c1427f402a0dc4c2dc",
+          "format": "raw",
+          "size": 352659456,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.53.3",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.53.3/meilisearch-macos-amd64",
+          "sha256": "a6aa9a7740d62db055f046402a7f4c87ac9af42f5d40a80f1c380e9e83906de7",
+          "format": "raw",
+          "size": 344573928,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.53.3/meilisearch-macos-apple-silicon",
+          "sha256": "898c40c3d04f69d15b003668778cb1b533d8c1b5ec0c26feb2a1568177922d07",
+          "format": "raw",
+          "size": 341994624,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.53.3/meilisearch-linux-amd64",
+          "sha256": "b1ffed74645730b3994afab738e4fc75111761e7069c96470d30fd1c5d80f892",
+          "format": "raw",
+          "size": 350814488,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.53.3/meilisearch-linux-aarch64",
+          "sha256": "cf5d9bfe4352d8f87007d3207646408c8421550df526965c5a449440afdb9b5c",
+          "format": "raw",
+          "size": 344936888,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.53.3/meilisearch-windows-amd64.exe",
+          "sha256": "13f03a79d667f75182cb858c91febb65a17f0a9a717f7c7b122a0b5a357133f2",
+          "format": "raw",
+          "size": 346641920,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.52.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.52.4/meilisearch-macos-amd64",
+          "sha256": "c6108dde2f9b88e2212cba2a6559d33e92e98ed233238d840dcf364a3d4ca7ee",
+          "format": "raw",
+          "size": 126243644,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.52.4/meilisearch-macos-apple-silicon",
+          "sha256": "b4fda79d53ce6b1b7f8b8e28395b39dda5d1f07489b3a4840d8c2653f257b451",
+          "format": "raw",
+          "size": 122027920,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.52.4/meilisearch-linux-amd64",
+          "sha256": "44a8be19c0be4a48e015457cee070df9a87331830c06d68d6d1ec774d8d2ef52",
+          "format": "raw",
+          "size": 133330960,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.52.4/meilisearch-linux-aarch64",
+          "sha256": "0d2c3d98131b27f3e51435faac06b009e1052d57b66ee3c718958a055da06c95",
+          "format": "raw",
+          "size": 127878512,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://github.com/meilisearch/meilisearch/releases/download/v1.52.4/meilisearch-windows-amd64.exe",
+          "sha256": "0f90780cf6e132dc9bf40e6ad38ddbce6b60434f579acb24de11ec0c50a1bdec",
+          "format": "raw",
+          "size": 128356864,
+          "bins": [
+            {
+              "name": "meilisearch",
+              "path": "meilisearch.exe"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 7700,
+    "data_dir": {
+      "per": "minor"
+    },
+    "run": {
+      "bin": "meilisearch",
+      "args": [
+        "--http-addr",
+        "127.0.0.1:{{port}}",
+        "--db-path",
+        "{{data_dir}}/data.ms",
+        "--dump-dir",
+        "{{data_dir}}/dumps",
+        "--snapshot-dir",
+        "{{data_dir}}/snapshots",
+        "--env",
+        "development",
+        "--no-analytics"
+      ]
+    },
+    "health": {
+      "probe": "tcp",
+      "timeout": 60
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 15,
+      "kill_safe": true
+    }
+  }
+}

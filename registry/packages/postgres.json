@@ -1,0 +1,1446 @@
+{
+  "schema": 1,
+  "name": "postgres",
+  "type": "service",
+  "description": "PostgreSQL database server and client tools",
+  "homepage": "https://www.postgresql.org",
+  "bins": [
+    {
+      "name": "postgres",
+      "path": "bin/postgres"
+    },
+    {
+      "name": "initdb",
+      "path": "bin/initdb"
+    },
+    {
+      "name": "pg_ctl",
+      "path": "bin/pg_ctl"
+    },
+    {
+      "name": "psql",
+      "path": "bin/psql"
+    },
+    {
+      "name": "pg_dump",
+      "path": "bin/pg_dump"
+    },
+    {
+      "name": "pg_restore",
+      "path": "bin/pg_restore"
+    },
+    {
+      "name": "pg_dumpall",
+      "path": "bin/pg_dumpall"
+    },
+    {
+      "name": "createdb",
+      "path": "bin/createdb"
+    },
+    {
+      "name": "dropdb",
+      "path": "bin/dropdb"
+    }
+  ],
+  "versions": [
+    {
+      "version": "18.6.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/18.6.0/postgresql-18.6.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "f8918fbe747e0d79bda58ad8f8afcf23ac384b847ff3af18856f0825ba54b031",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/18.6.0/postgresql-18.6.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "a257bcdb8aa3301a13d6a5bcec48f8c9517045b7cbae71e50788b2615539e95b",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-amd64/18.6.0/embedded-postgres-binaries-linux-amd64-18.6.0.jar",
+          "sha256": "008ee189eaa7ca2b58bd01dd950291e638b998392cf982297acd4779ec898ac1",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/18.6.0/postgresql-18.6.0-x86_64-unknown-linux-gnu.tar.gz",
+              "sha256": "bb3d09f876b2383e25a8c9ce09e32d185a03656a23d074f5195542b1b1b3ca61",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-x86_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "linux-arm64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-arm64v8/18.6.0/embedded-postgres-binaries-linux-arm64v8-18.6.0.jar",
+          "sha256": "5f54e016723afa6213925a8acb939bac52944b1d348f65c7a20f0cd2928c31be",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/18.6.0/postgresql-18.6.0-aarch64-unknown-linux-gnu.tar.gz",
+              "sha256": "5d2b5e8be9e96bfc3d7f22090057a836ec36d5d092542d8d3b93cc145cf4ee13",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-arm_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/18.6.0/postgresql-18.6.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "dd4bcd50b38bf5b9f8a6e0d6736bd4412a79a066639cb855479d4d58b1dd74ac",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres.exe"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb.exe"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl.exe"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql.exe"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump.exe"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore.exe"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall.exe"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb.exe"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "17.11.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/17.11.0/postgresql-17.11.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "e43a81b15e1cfe7f9d8fd79c6d4d0366e9001a5f690e322224dca704656602f7",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/17.11.0/postgresql-17.11.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "fd4b62794b160e26973a768a1eef3248aef9d2ff23ebd6d884a4299485e28e57",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-amd64/17.11.0/embedded-postgres-binaries-linux-amd64-17.11.0.jar",
+          "sha256": "0dd7b72b6f335b8ecfb355fa24c5781e8a93edd09880bb77eb52ebbf29b3e96d",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/17.11.0/postgresql-17.11.0-x86_64-unknown-linux-gnu.tar.gz",
+              "sha256": "b7a1ba6bae6499d8296e3e81b0171eecfd1766ca9aaa0057e41ad3e844e5e2e0",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-x86_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "linux-arm64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-arm64v8/17.11.0/embedded-postgres-binaries-linux-arm64v8-17.11.0.jar",
+          "sha256": "8b042e0ea418b1927d95399207950da0734d27fe01e29503ade3bdc464ad4c2b",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/17.11.0/postgresql-17.11.0-aarch64-unknown-linux-gnu.tar.gz",
+              "sha256": "abffda09209280ec1502b73720dc4d254fb7fff9a072e324926c600a5b16c221",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-arm_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/17.11.0/postgresql-17.11.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "85829f743e2697c55f1a5e8b210c53b90dd1f578448fc01cb9c4dc9e0a8e3827",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres.exe"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb.exe"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl.exe"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql.exe"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump.exe"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore.exe"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall.exe"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb.exe"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "16.15.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/16.15.0/postgresql-16.15.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "dfae21b2b931f1d8d1103afb6e8e108fdd94c6f407ce24d35b6cd0ad34f286d1",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/16.15.0/postgresql-16.15.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "46f6382024d9b633d1f4b4903ffef8c2404e00ae83098d628c00591048cb0512",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-amd64/16.15.0/embedded-postgres-binaries-linux-amd64-16.15.0.jar",
+          "sha256": "653abc065c682b85d3da50168fb95dc524bd85426cdec9ce3695a550ef431df2",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/16.15.0/postgresql-16.15.0-x86_64-unknown-linux-gnu.tar.gz",
+              "sha256": "77dd669eda3985ea8be26256f6af28d3c8414152ada713797555bb7423b4486a",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-x86_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "linux-arm64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-arm64v8/16.15.0/embedded-postgres-binaries-linux-arm64v8-16.15.0.jar",
+          "sha256": "f846a9989d686b7977d6eca9bc9d8b2b69e3f70c7eb60e032197d9c574a6136c",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/16.15.0/postgresql-16.15.0-aarch64-unknown-linux-gnu.tar.gz",
+              "sha256": "f6d49ffbaea28cf8732785b18afb75bded905667d4ec8e2308a13a30fe0a24d1",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-arm_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/16.15.0/postgresql-16.15.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "98fe43cff00f5aef4a7669adb575655e913dc65b1fdfb997c46fe3c1e07f4efb",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres.exe"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb.exe"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl.exe"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql.exe"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump.exe"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore.exe"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall.exe"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb.exe"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "15.19.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/15.19.0/postgresql-15.19.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "e37b8890570f413dca754d093a5ff390834eccac8648988fd5a262d65f14ff88",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/15.19.0/postgresql-15.19.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "66461013bc02d7d07f385a6d69cd8d0743cb7ff482c4cd8c2fb1ab78e7f8c709",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-amd64/15.19.0/embedded-postgres-binaries-linux-amd64-15.19.0.jar",
+          "sha256": "95f0b66fe72d4ca66c815773c44cb1196ea38552463e89a35f18114b3ed1565f",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/15.19.0/postgresql-15.19.0-x86_64-unknown-linux-gnu.tar.gz",
+              "sha256": "556ad48b5e59fec8fd7c732cb86a8b6606eb4890cb1ce4266e7487a51f2ed971",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-x86_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "linux-arm64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-arm64v8/15.19.0/embedded-postgres-binaries-linux-arm64v8-15.19.0.jar",
+          "sha256": "95baf4bd4af31b91b3050118df59388ed0064756b556b850669e0300aa7b9911",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/15.19.0/postgresql-15.19.0-aarch64-unknown-linux-gnu.tar.gz",
+              "sha256": "50d20ffbd7d864eecc6eab8f854ba5f2e8a4f3e50645753fbf0e5929765e76be",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-arm_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/15.19.0/postgresql-15.19.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "8b2aa66b908e3f72115546f432cc4ea12f5d785e26be4f1828912a67f4e9ee7f",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres.exe"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb.exe"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl.exe"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql.exe"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump.exe"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore.exe"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall.exe"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb.exe"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "14.24.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/14.24.0/postgresql-14.24.0-x86_64-apple-darwin.tar.gz",
+          "sha256": "5a8087c2f555a22c4add1664301217abd742796891fdc029bcfcd985e539c19d",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/14.24.0/postgresql-14.24.0-aarch64-apple-darwin.tar.gz",
+          "sha256": "26e8756fc86bcf3d9ce6068943f9daf7829fca6f4ff78256bba8ca848e16f68d",
+          "format": "tar.gz",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-amd64/14.24.0/embedded-postgres-binaries-linux-amd64-14.24.0.jar",
+          "sha256": "2722d05eb22c671104c9918d59d8ba9f5656898f5452a0207bb4cce21eef5dc4",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/14.24.0/postgresql-14.24.0-x86_64-unknown-linux-gnu.tar.gz",
+              "sha256": "54b0d1931ce5813097c5b807a2a0ec6128fa5a339e9c6a2cefb59055c31108f3",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-x86_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "linux-arm64": {
+          "url": "https://repo1.maven.org/maven2/io/zonky/test/postgres/embedded-postgres-binaries-linux-arm64v8/14.24.0/embedded-postgres-binaries-linux-arm64v8-14.24.0.jar",
+          "sha256": "8a19b9dd0fb3cd00080e17d51ac14b5d055f352ee00568bc8c4cb3bf475b6830",
+          "format": "zip",
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/14.24.0/postgresql-14.24.0-aarch64-unknown-linux-gnu.tar.gz",
+              "sha256": "2db176e2b78d034feb52f1ded4988a8595eef3f1269f3dab8635e127e256da16",
+              "format": "tar.gz",
+              "strip": 1,
+              "keep": true
+            }
+          ],
+          "inner": {
+            "path": "postgres-linux-arm_64.txz",
+            "format": "tar.xz"
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/theseus-rs/postgresql-binaries/releases/download/14.24.0/postgresql-14.24.0-x86_64-pc-windows-msvc.zip",
+          "sha256": "245485e4332ae3a6514f699beaf5b271826437e67a0618ff504998bfd6d4ecbd",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "postgres",
+              "path": "bin/postgres.exe"
+            },
+            {
+              "name": "initdb",
+              "path": "bin/initdb.exe"
+            },
+            {
+              "name": "pg_ctl",
+              "path": "bin/pg_ctl.exe"
+            },
+            {
+              "name": "psql",
+              "path": "bin/psql.exe"
+            },
+            {
+              "name": "pg_dump",
+              "path": "bin/pg_dump.exe"
+            },
+            {
+              "name": "pg_restore",
+              "path": "bin/pg_restore.exe"
+            },
+            {
+              "name": "pg_dumpall",
+              "path": "bin/pg_dumpall.exe"
+            },
+            {
+              "name": "createdb",
+              "path": "bin/createdb.exe"
+            },
+            {
+              "name": "dropdb",
+              "path": "bin/dropdb.exe"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 5432,
+    "data_dir": {
+      "per": "major"
+    },
+    "configs": [
+      {
+        "name": "postgresql.conf",
+        "template": "# Generated by tiffind before every start: changes here are lost.\n# Put your own settings in conf.d/*.conf.\nlisten_addresses = '127.0.0.1'\nport = {{port}}\nunix_socket_directories = ''\nhba_file = '{{conf_dir}}/pg_hba.conf'\nident_file = '{{data_dir}}/pg_ident.conf'\nlogging_collector = off\ninclude_dir = '{{conf_dir}}/conf.d'\n"
+      },
+      {
+        "name": "pg_hba.conf",
+        "template": "# Generated by tiffind: loopback connections only, no password.\nhost all all 127.0.0.1/32 trust\nhost all all ::1/128 trust\n"
+      }
+    ],
+    "init": {
+      "bin": "initdb",
+      "args": [
+        "-D",
+        "{{data_dir}}",
+        "-U",
+        "postgres",
+        "-A",
+        "trust",
+        "-E",
+        "UTF8",
+        "--no-locale",
+        "--no-instructions"
+      ],
+      "marker": "PG_VERSION"
+    },
+    "run": {
+      "bin": "postgres",
+      "args": [
+        "-D",
+        "{{data_dir}}",
+        "-c",
+        "config_file={{conf_dir}}/postgresql.conf"
+      ]
+    },
+    "health": {
+      "probe": "postgres",
+      "timeout": 60
+    },
+    "stop": {
+      "signal": "interrupt",
+      "grace": 30,
+      "command": {
+        "bin": "pg_ctl",
+        "args": [
+          "stop",
+          "-D",
+          "{{data_dir}}",
+          "-m",
+          "fast",
+          "-w",
+          "-t",
+          "20"
+        ]
+      }
+    },
+    "db": {
+      "list": {
+        "bin": "psql",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "-U",
+          "postgres",
+          "-X",
+          "-d",
+          "postgres",
+          "-tA",
+          "-c",
+          "SELECT datname FROM pg_database WHERE NOT datistemplate"
+        ]
+      },
+      "create": {
+        "bin": "createdb",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "-U",
+          "postgres",
+          "{{database}}"
+        ]
+      },
+      "drop": {
+        "bin": "dropdb",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "-U",
+          "postgres",
+          "{{database}}"
+        ]
+      },
+      "backup": {
+        "bin": "pg_dump",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "-U",
+          "postgres",
+          "--no-owner",
+          "--no-privileges",
+          "{{database}}"
+        ]
+      },
+      "restore": {
+        "bin": "psql",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "-U",
+          "postgres",
+          "-X",
+          "-q",
+          "-v",
+          "ON_ERROR_STOP=1",
+          "-d",
+          "{{database}}"
+        ]
+      }
+    },
+    "settings": {
+      "file": "10-tiffin.conf",
+      "line": "{{key}} = '{{value}}'",
+      "reserved": [
+        "port",
+        "listen_addresses",
+        "unix_socket_directories",
+        "hba_file",
+        "ident_file",
+        "data_directory",
+        "config_file",
+        "include",
+        "include_dir",
+        "include_if_exists",
+        "logging_collector",
+        "external_pid_file"
+      ]
+    }
+  }
+}

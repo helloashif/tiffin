@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "name": "erlang",
+  "type": "runtime",
+  "description": "Erlang/OTP: erl, erlc and escript (RabbitMQ and Elixir run on it)",
+  "homepage": "https://www.erlang.org",
+  "bins": [
+    {
+      "name": "erl",
+      "path": "bin/erl"
+    },
+    {
+      "name": "erlc",
+      "path": "bin/erlc"
+    },
+    {
+      "name": "escript",
+      "path": "bin/escript"
+    }
+  ],
+  "versions": [
+    {
+      "version": "29.1.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-29.1.1/OTP-29.1.1-macos-amd64.tar.gz",
+          "sha256": "474373887e7a3395bbe033353be74113a59cfc9f3d1565ca740972c3b7c02aa0",
+          "format": "tar.gz",
+          "size": 65662043
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-29.1.1/OTP-29.1.1-macos-arm64.tar.gz",
+          "sha256": "0e80f209b06d9d13cf3b5f7c07228d9561aff983e6e55ea9c8ebda085db286cc",
+          "format": "tar.gz",
+          "size": 73011453
+        },
+        "linux-amd64": {
+          "url": "https://builds.hex.pm/builds/otp/amd64/ubuntu-22.04/OTP-29.1.1.tar.gz",
+          "sha256": "92d4f05939c51fc2d9e1b2b7d35b233e800d51a0e540767335f1d8680ea9a924",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "linux-arm64": {
+          "url": "https://builds.hex.pm/builds/otp/arm64/ubuntu-22.04/OTP-29.1.1.tar.gz",
+          "sha256": "73979c803d2607402c38aebdff8e029efa4c26471648e57c4d86caf0b96a5216",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/erlang/otp/releases/download/OTP-29.1.1/otp_win64_29.1.1.zip",
+          "sha256": "337480af988eca993c2e98b68850f00fc6724d366346565e38941ac0d1b7c56b",
+          "format": "zip",
+          "size": 187232000,
+          "bins": [
+            {
+              "name": "erl",
+              "path": "bin/erl.exe"
+            },
+            {
+              "name": "erlc",
+              "path": "bin/erlc.exe"
+            },
+            {
+              "name": "escript",
+              "path": "bin/escript.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "28.5.0.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-28.5.0.7/OTP-28.5.0.7-macos-amd64.tar.gz",
+          "sha256": "c0ca0579e05d941546d98659f9eb59735f54c0bf794892f24fae372aeb868bea",
+          "format": "tar.gz",
+          "size": 64693495
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-28.5.0.7/OTP-28.5.0.7-macos-arm64.tar.gz",
+          "sha256": "bab4cdc47104e2c6fae4b4b1cf9fe0444b23c19f127ba4345796e1e06ff58a6e",
+          "format": "tar.gz",
+          "size": 71671727
+        },
+        "linux-amd64": {
+          "url": "https://builds.hex.pm/builds/otp/amd64/ubuntu-22.04/OTP-28.5.0.7.tar.gz",
+          "sha256": "38f507761691e3bc4bf4f23eda7f03390341864e71c37555de501695d8bae308",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "linux-arm64": {
+          "url": "https://builds.hex.pm/builds/otp/arm64/ubuntu-22.04/OTP-28.5.0.7.tar.gz",
+          "sha256": "9ba5dfa94621d691e129af1f0308874593e8b5ff3395415cf9cad8a8f7186e87",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/erlang/otp/releases/download/OTP-28.5.0.7/otp_win64_28.5.0.7.zip",
+          "sha256": "9ff998d7a612b6697f6f737078783557bced63e5bf2a96a9d5f7d7d2a840cb98",
+          "format": "zip",
+          "size": 185429555,
+          "bins": [
+            {
+              "name": "erl",
+              "path": "bin/erl.exe"
+            },
+            {
+              "name": "erlc",
+              "path": "bin/erlc.exe"
+            },
+            {
+              "name": "escript",
+              "path": "bin/escript.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "27.3.4.18",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-27.3.4.18/OTP-27.3.4.18-macos-amd64.tar.gz",
+          "sha256": "73a696ff7a76a88076e5c7f44c90f9370a7e96e60afc81c2e0f707a3b11ccdb8",
+          "format": "tar.gz",
+          "size": 62617750
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/erlef/otp_builds/releases/download/OTP-27.3.4.18/OTP-27.3.4.18-macos-arm64.tar.gz",
+          "sha256": "b5940c8d6c96a9eb74c976644bb4ec97190e29784f3ae10225561081699e83e0",
+          "format": "tar.gz",
+          "size": 69045507
+        },
+        "linux-amd64": {
+          "url": "https://builds.hex.pm/builds/otp/amd64/ubuntu-22.04/OTP-27.3.4.18.tar.gz",
+          "sha256": "72ceab002e9943b1d8f6bf4e50478ed4d16e5542e1bf8daa2382b8dbdb234966",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "linux-arm64": {
+          "url": "https://builds.hex.pm/builds/otp/arm64/ubuntu-22.04/OTP-27.3.4.18.tar.gz",
+          "sha256": "84d3631496ad2fc5ca62caba1c671eab6b8fd2dcaf90394fe893316156cfdcb8",
+          "format": "tar.gz",
+          "strip": 1,
+          "setup": {
+            "path": "Install",
+            "args": [
+              "-minimal",
+              "{dir}"
+            ]
+          }
+        },
+        "windows-amd64": {
+          "url": "https://github.com/erlang/otp/releases/download/OTP-27.3.4.18/otp_win64_27.3.4.18.zip",
+          "sha256": "2af5d35d521211c16e9fa31b23f76e44b7b3284a27c6c1295fbeb382d2ff211f",
+          "format": "zip",
+          "size": 157991213,
+          "bins": [
+            {
+              "name": "erl",
+              "path": "bin/erl.exe"
+            },
+            {
+              "name": "erlc",
+              "path": "bin/erlc.exe"
+            },
+            {
+              "name": "escript",
+              "path": "bin/escript.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

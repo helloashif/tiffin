@@ -1,0 +1,1 @@
+import{o as t,c as o,a2 as r}from"./chunks/framework.CeXt7FPx.js";const p=JSON.parse('{"title":"Sponsors","description":"","frontmatter":{},"headers":[],"relativePath":"guide/sponsors.md","filePath":"guide/sponsors.md"}'),a={name:"guide/sponsors.md"},h=Object.assign(a,{setup(s){return(n,e)=>(t(),o("div",null,[...e[0]||(e[0]=[r("",7)])]))}});export{p as __pageData,h as default};

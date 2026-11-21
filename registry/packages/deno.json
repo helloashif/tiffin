@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "name": "deno",
+  "type": "runtime",
+  "description": "Deno, the JavaScript and TypeScript runtime",
+  "homepage": "https://deno.com",
+  "bins": [
+    {
+      "name": "deno",
+      "path": "deno"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.9.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-apple-darwin.zip",
+          "sha256": "95daaff11c116a52ad54785e7914c8e9c9cdcaba793c5ed929c74ca2d8e6259a",
+          "format": "zip",
+          "size": 42295422
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-aarch64-apple-darwin.zip",
+          "sha256": "5cd46d6268f6f78f5d88bdc7159d20bd44cdaa4b3303474839f87ec6fe7ae25c",
+          "format": "zip",
+          "size": 38469316
+        },
+        "linux-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-unknown-linux-gnu.zip",
+          "sha256": "c6527f24f4b16031d3ae4fa9f658d5f11534c8d84ce7dc8502420280919c3490",
+          "format": "zip",
+          "size": 41596794
+        },
+        "linux-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-aarch64-unknown-linux-gnu.zip",
+          "sha256": "c832298b1ad4422481334855f6003e0f54145762c5a134f20a489511d2f65bbf",
+          "format": "zip",
+          "size": 39821318
+        },
+        "windows-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-pc-windows-msvc.zip",
+          "sha256": "a0c3101b4158d1dfb7d6a78a7bf0f3de80c96bb423c152beec8beb22786f2238",
+          "format": "zip",
+          "size": 42630221,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.7/deno-aarch64-pc-windows-msvc.zip",
+          "sha256": "c4c4ac8bfdaa37814bda5c05fc9cdf2154904e2ef8277673a30bdceaaa649807",
+          "format": "zip",
+          "size": 40847024,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.9.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-x86_64-apple-darwin.zip",
+          "sha256": "7d4524b82bcc557fe020a1a5b56956ed42b992ae5b28026e8ad5d17329533f5f",
+          "format": "zip",
+          "size": 42264433
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-aarch64-apple-darwin.zip",
+          "sha256": "213a2f304f04d3c9cb5220669afad138f60a5aab1fe80962abdeb8f35807a472",
+          "format": "zip",
+          "size": 38446106
+        },
+        "linux-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-x86_64-unknown-linux-gnu.zip",
+          "sha256": "394f07f4da2bebe6ce6f1e7ce0fa16429b29b08c35e3fac3fe25972676dff4b2",
+          "format": "zip",
+          "size": 41582794
+        },
+        "linux-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-aarch64-unknown-linux-gnu.zip",
+          "sha256": "9a46afc6c392c7cd2ff71a31558935545b46408d0e87f7a86908c712721c046e",
+          "format": "zip",
+          "size": 39818676
+        },
+        "windows-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-x86_64-pc-windows-msvc.zip",
+          "sha256": "15e5300b0ba3c3695a7621d90160a746ec9e710228cee639afa9d580f6e3cd11",
+          "format": "zip",
+          "size": 42601047,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.6/deno-aarch64-pc-windows-msvc.zip",
+          "sha256": "acb014afe2299847764e232b4993e162e3946cdeec36603e3f1a0b548cd1ea55",
+          "format": "zip",
+          "size": 40835259,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.9.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-x86_64-apple-darwin.zip",
+          "sha256": "c1b8b89a81e91b2a8b3f96def3195d08cfe3a105651da7908d53061f7140510d",
+          "format": "zip",
+          "size": 42346648
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-apple-darwin.zip",
+          "sha256": "b796aadd131f6930560c1ee040cf0d6f53933fbb987464e9ff46bd7ea4830615",
+          "format": "zip",
+          "size": 38511993
+        },
+        "linux-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-x86_64-unknown-linux-gnu.zip",
+          "sha256": "8b010a3b1a4a0188a67cdb8a7a27348b2a501af78aec7fc74f2ace167368d530",
+          "format": "zip",
+          "size": 41638854
+        },
+        "linux-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-unknown-linux-gnu.zip",
+          "sha256": "6b7cae3a8fc4385a59dea3146fcb8bad7fea4230e0ad36a8c692afacbc254be0",
+          "format": "zip",
+          "size": 39902077
+        },
+        "windows-amd64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-x86_64-pc-windows-msvc.zip",
+          "sha256": "171efab55ac6b9881fd53ee4c20f8bf3bb1340ffc618483746909014db12216a",
+          "format": "zip",
+          "size": 42691248,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/denoland/deno/releases/download/v2.9.5/deno-aarch64-pc-windows-msvc.zip",
+          "sha256": "73f20b3566a0a6e3f6912fd7bf5b3a7ccd04d68414baedea3b397437bdec6472",
+          "format": "zip",
+          "size": 40905829,
+          "bins": [
+            {
+              "name": "deno",
+              "path": "deno.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
