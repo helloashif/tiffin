@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "name": "dotnet",
+  "type": "runtime",
+  "description": "The .NET SDK: C#, F#, ASP.NET Core and the dotnet tool",
+  "homepage": "https://dotnet.microsoft.com",
+  "bins": [
+    {
+      "name": "dotnet",
+      "path": "dotnet"
+    }
+  ],
+  "versions": [
+    {
+      "version": "11.0.100",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-osx-x64.tar.gz",
+          "sha256": "7e2adb537cf3259e75261c6a2f45e4aeb461e4974573ae8ffb7b1b70f0e652f1",
+          "format": "tar.gz",
+          "size": 210544633
+        },
+        "darwin-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-osx-arm64.tar.gz",
+          "sha256": "a2e6635ffec544e9a7a98bde44d75bfbc71b2c19b33c3c088774ef2498edf380",
+          "format": "tar.gz",
+          "size": 201079079
+        },
+        "linux-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-linux-x64.tar.gz",
+          "sha256": "6fdb8822f47ccdba28f507dcd5d92e632d5b99cd27908d6838f0cc575be33baf",
+          "format": "tar.gz",
+          "size": 211463422
+        },
+        "linux-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-linux-arm64.tar.gz",
+          "sha256": "699951697c76af6ba714fbbe9b45372d1f189d00f303a67ba2e90d53acf630b2",
+          "format": "tar.gz",
+          "size": 203411983
+        },
+        "windows-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-win-x64.zip",
+          "sha256": "ae800f1fa1a6428e0d7c740bb745d9414f15334118c51e246dab9850b738fadd",
+          "format": "zip",
+          "size": 337835326,
+          "bins": [
+            {
+              "name": "dotnet",
+              "path": "dotnet.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/11.0.100/dotnet-sdk-11.0.100-win-arm64.zip",
+          "sha256": "f9a271f91ea25a65f7eb742269b0881f657ff35b2b485016d27e2cc7b27c1969",
+          "format": "zip",
+          "size": 325937437,
+          "bins": [
+            {
+              "name": "dotnet",
+              "path": "dotnet.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "10.0.404",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-osx-x64.tar.gz",
+          "sha256": "43975ff4e35960556072da9300f4a77bc8dfa2dbe688b8812af32861a47069d5",
+          "format": "tar.gz",
+          "size": 241580911
+        },
+        "darwin-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-osx-arm64.tar.gz",
+          "sha256": "acf7ebe726a030fa3d2bd03b06196971bd9ef123c579b9345d380bc0ef0d4e44",
+          "format": "tar.gz",
+          "size": 233588093
+        },
+        "linux-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-linux-x64.tar.gz",
+          "sha256": "c0610757a818fde4b960d27a0ac421f273068a05dc5ec7abafc01dbf84e9cb4d",
+          "format": "tar.gz",
+          "size": 243138887
+        },
+        "linux-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-linux-arm64.tar.gz",
+          "sha256": "dcc820a4277ab6bb3f648c609d86f2a7912ba9a3d166545e7b95dff419c12f0f",
+          "format": "tar.gz",
+          "size": 235410674
+        },
+        "windows-amd64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-win-x64.zip",
+          "sha256": "f94f02eb8451605a893164bbd9c14e7f00ac8914c370c322822e6ac91b106bcc",
+          "format": "zip",
+          "size": 303618098,
+          "bins": [
+            {
+              "name": "dotnet",
+              "path": "dotnet.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.404/dotnet-sdk-10.0.404-win-arm64.zip",
+          "sha256": "006bdf067957196a6ffea8640b645aaacbcfeba5ad094d90c8c6900a9dfe9ff4",
+          "format": "zip",
+          "size": 293827291,
+          "bins": [
+            {
+              "name": "dotnet",
+              "path": "dotnet.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

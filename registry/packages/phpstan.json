@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "name": "phpstan",
+  "type": "tool",
+  "description": "PHPStan, the PHP static analysis tool; runs with your PHP",
+  "homepage": "https://phpstan.org",
+  "bins": [
+    {
+      "name": "phpstan",
+      "path": "phpstan.phar",
+      "via": "php"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.3.7",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        },
+        "linux-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        },
+        "linux-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        },
+        "windows-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        },
+        "windows-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar",
+          "sha256": "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a",
+          "format": "raw",
+          "size": 31109688
+        }
+      }
+    },
+    {
+      "version": "2.3.6",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        },
+        "linux-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        },
+        "linux-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        },
+        "windows-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        },
+        "windows-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.6/phpstan.phar",
+          "sha256": "bd5af896c8eb831e10873a4407c37ac33118dcd88de4ea77e13cd6e6702a41cc",
+          "format": "raw",
+          "size": 31099758
+        }
+      }
+    },
+    {
+      "version": "2.3.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        },
+        "linux-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        },
+        "linux-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        },
+        "windows-amd64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        },
+        "windows-arm64": {
+          "url": "https://github.com/phpstan/phpstan/releases/download/2.3.5/phpstan.phar",
+          "sha256": "4b3ed7850a20b092331bd1040e4f54a1d3c0559b4cf006431073997ebcb4324b",
+          "format": "raw",
+          "size": 30523570
+        }
+      }
+    }
+  ]
+}

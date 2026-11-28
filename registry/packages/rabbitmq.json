@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "name": "rabbitmq",
+  "type": "service",
+  "description": "RabbitMQ, the message broker (Laravel queues over AMQP); runs on Erlang",
+  "homepage": "https://www.rabbitmq.com",
+  "bins": [
+    {
+      "name": "rabbitmq-server",
+      "path": "sbin/rabbitmq-server"
+    },
+    {
+      "name": "rabbitmqctl",
+      "path": "sbin/rabbitmqctl"
+    },
+    {
+      "name": "rabbitmq-plugins",
+      "path": "sbin/rabbitmq-plugins"
+    },
+    {
+      "name": "rabbitmq-diagnostics",
+      "path": "sbin/rabbitmq-diagnostics"
+    }
+  ],
+  "versions": [
+    {
+      "version": "4.4.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-generic-unix-4.4.1.tar.xz",
+          "sha256": "667c652c1cb272c02f8a25b1ef32e981661f358b399a9d5c227982cc2101390f",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 24412464
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-generic-unix-4.4.1.tar.xz",
+          "sha256": "667c652c1cb272c02f8a25b1ef32e981661f358b399a9d5c227982cc2101390f",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 24412464
+        },
+        "linux-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-generic-unix-4.4.1.tar.xz",
+          "sha256": "667c652c1cb272c02f8a25b1ef32e981661f358b399a9d5c227982cc2101390f",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 24412464
+        },
+        "linux-arm64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-generic-unix-4.4.1.tar.xz",
+          "sha256": "667c652c1cb272c02f8a25b1ef32e981661f358b399a9d5c227982cc2101390f",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 24412464
+        },
+        "windows-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-windows-4.4.1.zip",
+          "sha256": "510769c9e0c82e8a86eeb3979d4fcebc3668f332e5dc0cca955b301a2e84fab4",
+          "format": "zip",
+          "strip": 1,
+          "size": 71410614,
+          "bins": [
+            {
+              "name": "rabbitmq-server",
+              "path": "sbin/rabbitmq-server.bat",
+              "script": true
+            },
+            {
+              "name": "rabbitmqctl",
+              "path": "sbin/rabbitmqctl.bat",
+              "script": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "4.3.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.8/rabbitmq-server-generic-unix-4.3.8.tar.xz",
+          "sha256": "a7be40282a2f4129c131d00c38bde7e48778b6254eeff33086412a560854bc51",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 23972920
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.8/rabbitmq-server-generic-unix-4.3.8.tar.xz",
+          "sha256": "a7be40282a2f4129c131d00c38bde7e48778b6254eeff33086412a560854bc51",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 23972920
+        },
+        "linux-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.8/rabbitmq-server-generic-unix-4.3.8.tar.xz",
+          "sha256": "a7be40282a2f4129c131d00c38bde7e48778b6254eeff33086412a560854bc51",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 23972920
+        },
+        "linux-arm64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.8/rabbitmq-server-generic-unix-4.3.8.tar.xz",
+          "sha256": "a7be40282a2f4129c131d00c38bde7e48778b6254eeff33086412a560854bc51",
+          "format": "tar.xz",
+          "strip": 1,
+          "size": 23972920
+        },
+        "windows-amd64": {
+          "url": "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.3.8/rabbitmq-server-windows-4.3.8.zip",
+          "sha256": "aaf4607eb16d6f0034877586af44d55a75aa6dd2b28a2eff78ae427ddf92a84c",
+          "format": "zip",
+          "strip": 1,
+          "size": 70862617,
+          "bins": [
+            {
+              "name": "rabbitmq-server",
+              "path": "sbin/rabbitmq-server.bat",
+              "script": true
+            },
+            {
+              "name": "rabbitmqctl",
+              "path": "sbin/rabbitmqctl.bat",
+              "script": true
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 5672,
+    "data_dir": {
+      "per": "minor"
+    },
+    "configs": [
+      {
+        "name": "rabbitmq.conf",
+        "template": "# Written by Tiffin before every start.\nlisteners.tcp.local = 127.0.0.1:{{port}}\nmanagement.tcp.ip = 127.0.0.1\nmanagement.tcp.port = 15672\nlog.console = true\nlog.console.level = info\nlog.file = false\n"
+      },
+      {
+        "name": "enabled_plugins",
+        "template": "[rabbitmq_management].\n"
+      }
+    ],
+    "run": {
+      "bin": "rabbitmq-server",
+      "env": {
+        "ERL_EPMD_ADDRESS": "127.0.0.1",
+        "RABBITMQ_BASE": "{{data_dir}}",
+        "RABBITMQ_CONFIG_FILE": "{{conf_dir}}/rabbitmq.conf",
+        "RABBITMQ_ENABLED_PLUGINS_FILE": "{{conf_dir}}/enabled_plugins",
+        "RABBITMQ_LOG_BASE": "{{log_dir}}",
+        "RABBITMQ_MNESIA_BASE": "{{data_dir}}",
+        "RABBITMQ_NODENAME": "rabbit-{{port}}@localhost",
+        "RABBITMQ_NODE_IP_ADDRESS": "127.0.0.1",
+        "RABBITMQ_NODE_PORT": "{{port}}",
+        "RABBITMQ_PID_FILE": "{{run_dir}}/rabbitmq.pid",
+        "RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS": "-kernel inet_dist_use_interface {127,0,0,1}"
+      }
+    },
+    "health": {
+      "probe": "tcp",
+      "timeout": 120
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 30
+    },
+    "windows": {
+      "run": {
+        "bin": "rabbitmq-server",
+        "env": {
+          "ERLANG_HOME": "{{requires_dir}}",
+          "ERL_EPMD_ADDRESS": "127.0.0.1",
+          "RABBITMQ_BASE": "{{data_dir}}",
+          "RABBITMQ_CONFIG_FILE": "{{conf_dir}}/rabbitmq.conf",
+          "RABBITMQ_ENABLED_PLUGINS_FILE": "{{conf_dir}}/enabled_plugins",
+          "RABBITMQ_LOG_BASE": "{{log_dir}}",
+          "RABBITMQ_MNESIA_BASE": "{{data_dir}}",
+          "RABBITMQ_NODENAME": "rabbit-{{port}}@localhost",
+          "RABBITMQ_NODE_IP_ADDRESS": "127.0.0.1",
+          "RABBITMQ_NODE_PORT": "{{port}}",
+          "RABBITMQ_PID_FILE": "{{run_dir}}/rabbitmq.pid",
+          "RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS": "-kernel inet_dist_use_interface {127,0,0,1}"
+        }
+      },
+      "stop": {
+        "signal": "term",
+        "grace": 30,
+        "command": {
+          "bin": "rabbitmqctl",
+          "args": [
+            "-n",
+            "rabbit-{{port}}@localhost",
+            "stop"
+          ],
+          "env": {
+            "ERLANG_HOME": "{{requires_dir}}",
+            "ERL_EPMD_ADDRESS": "127.0.0.1",
+            "RABBITMQ_BASE": "{{data_dir}}",
+            "RABBITMQ_CONFIG_FILE": "{{conf_dir}}/rabbitmq.conf",
+            "RABBITMQ_CTL_ERL_ARGS": "-kernel inet_dist_use_interface {127,0,0,1}",
+            "RABBITMQ_ENABLED_PLUGINS_FILE": "{{conf_dir}}/enabled_plugins",
+            "RABBITMQ_LOG_BASE": "{{log_dir}}",
+            "RABBITMQ_MNESIA_BASE": "{{data_dir}}",
+            "RABBITMQ_NODENAME": "rabbit-{{port}}@localhost",
+            "RABBITMQ_NODE_IP_ADDRESS": "127.0.0.1",
+            "RABBITMQ_NODE_PORT": "{{port}}",
+            "RABBITMQ_PID_FILE": "{{run_dir}}/rabbitmq.pid",
+            "RABBITMQ_SERVER_ADDITIONAL_ERL_ARGS": "-kernel inet_dist_use_interface {127,0,0,1}"
+          }
+        }
+      }
+    },
+    "requires": {
+      "package": "erlang",
+      "versions": [
+        "28",
+        "27"
+      ]
+    }
+  }
+}

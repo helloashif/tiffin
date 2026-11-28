@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "name": "fzf",
+  "type": "tool",
+  "description": "fzf, the command-line fuzzy finder",
+  "homepage": "https://junegunn.github.io/fzf/",
+  "bins": [
+    {
+      "name": "fzf",
+      "path": "fzf"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.75.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-darwin_amd64.tar.gz",
+          "sha256": "8fa67fa874468b8e73ecad2df82cc110026f45d10605128aaac6b191262d2844",
+          "format": "tar.gz",
+          "size": 2364718
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-darwin_arm64.tar.gz",
+          "sha256": "1e76698eb481436e42119bea6aa6e2bd9552ff090789d769c286e3c3a4e0ded6",
+          "format": "tar.gz",
+          "size": 2157108
+        },
+        "linux-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_amd64.tar.gz",
+          "sha256": "0d6640f83582d991cf429754baad64b07e3a4e439a6019670f4b91da1314141c",
+          "format": "tar.gz",
+          "size": 2294235
+        },
+        "linux-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_arm64.tar.gz",
+          "sha256": "bd0717badb6a5620387e014bb94209aac4d9eab6ab77b5348eabb0833aeb4d59",
+          "format": "tar.gz",
+          "size": 2080077
+        },
+        "windows-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_amd64.zip",
+          "sha256": "e3fb809d48094bea7f9f4df03b2fea33ae6e28a6cd32fdad9970cd79e1103901",
+          "format": "zip",
+          "size": 2546105,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-windows_arm64.zip",
+          "sha256": "56c9465827208bdfb7b8dfee56fdd6a7e5932ff0341a659350a908da885ebdca",
+          "format": "zip",
+          "size": 2294775,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "0.74.5",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-darwin_amd64.tar.gz",
+          "sha256": "aca6cab692e6c069e724a43070a448e18586c7c0fdd1139f6d487ec1680599ed",
+          "format": "tar.gz",
+          "size": 2362114
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-darwin_arm64.tar.gz",
+          "sha256": "ada808c7401b9949ce8842274ac16a6b6193fd32dcada396884a6a9a89e5985a",
+          "format": "tar.gz",
+          "size": 2154490
+        },
+        "linux-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_amd64.tar.gz",
+          "sha256": "d47d7f882972c7d674dbbba998ffa4116e68379616ffac7695d0671e9a722c5f",
+          "format": "tar.gz",
+          "size": 2291079
+        },
+        "linux-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_arm64.tar.gz",
+          "sha256": "cf058001da21724a469b714a29cf4aab9cbe860d218a0d6c1b5b661efad7784c",
+          "format": "tar.gz",
+          "size": 2078357
+        },
+        "windows-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-windows_amd64.zip",
+          "sha256": "01f854ec8b9b47c99a7d78023638f7d2056cfb0af56b72dabd112032eed3993e",
+          "format": "zip",
+          "size": 2544236,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-windows_arm64.zip",
+          "sha256": "45d8f69b7660ac0c59118c9ccaccdea305d56fdd74a3599aa357cbb374ebd61e",
+          "format": "zip",
+          "size": 2292730,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "0.74.4",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-darwin_amd64.tar.gz",
+          "sha256": "2d392b50be66e2ab104ccd52a6072df692b1f9b9c5b449a9c098de885f32c4c5",
+          "format": "tar.gz",
+          "size": 2358031
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-darwin_arm64.tar.gz",
+          "sha256": "4f6a113bfc0c7959e0005c78d566a51afc4fcefc956f43735c62a9deb19e92ae",
+          "format": "tar.gz",
+          "size": 2148967
+        },
+        "linux-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_amd64.tar.gz",
+          "sha256": "05e6813a337cc722c3ed07e54a764b75cc5d671e2e60459db0ba696ee5fa7504",
+          "format": "tar.gz",
+          "size": 2286563
+        },
+        "linux-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_arm64.tar.gz",
+          "sha256": "5d673b849f494f0d64ec471d8640b153ca8849e3846a31da17abdcfce8df6b46",
+          "format": "tar.gz",
+          "size": 2074969
+        },
+        "windows-amd64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-windows_amd64.zip",
+          "sha256": "5e63c0e798406fcb9c51a9fed4988398e25fdabf8c670e32c16caf7b4a7ed02d",
+          "format": "zip",
+          "size": 2540684,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-windows_arm64.zip",
+          "sha256": "558df4dac9c65a63c732909a06abc1891a42adcae4d6be92a9b0ccc0ef05b4ff",
+          "format": "zip",
+          "size": 2290923,
+          "bins": [
+            {
+              "name": "fzf",
+              "path": "fzf.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

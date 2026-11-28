@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "name": "git",
+  "type": "runtime",
+  "description": "Git for Windows (MinGit): git for Composer, npm and your terminal",
+  "homepage": "https://gitforwindows.org",
+  "bins": [
+    {
+      "name": "git",
+      "path": "cmd/git"
+    }
+  ],
+  "versions": [
+    {
+      "version": "2.56.1",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/MinGit-2.56.1-64-bit.zip",
+          "sha256": "4a92850b6e917da4fd010669b614b55dccf5b0ec333a534cc4be4700dfefdafd",
+          "format": "zip",
+          "size": 39849768,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.1.windows.1/MinGit-2.56.1-arm64.zip",
+          "sha256": "96571e442e90523a90e5fd8661b4c4e43bc192910f3c6db938816e6955b4cc8c",
+          "format": "zip",
+          "size": 37983254,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.56.0.4",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/MinGit-2.56.0.4-64-bit.zip",
+          "sha256": "e3bf78351fe777fba47ddee5950082f8a98bb0f02604fdc7ba3ee2cb68ffa877",
+          "format": "zip",
+          "size": 39846926,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.4/MinGit-2.56.0.4-arm64.zip",
+          "sha256": "70f7649f78088c1db1d2f3571ca46a04d5bef06e4e9d56d8ed7f9829e8c6c4db",
+          "format": "zip",
+          "size": 37980967,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "2.56.0.3",
+      "assets": {
+        "windows-amd64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/MinGit-2.56.0.3-64-bit.zip",
+          "sha256": "2e5619966e588fde5f8122c5557cad50c0fbafcaed736689f40ec1dfb1d78ea7",
+          "format": "zip",
+          "size": 39854943,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/git-for-windows/git/releases/download/v2.56.0.windows.3/MinGit-2.56.0.3-arm64.zip",
+          "sha256": "042e7fda964e2072c11435fd0efeb822083c8f5a07c8b00456247bbb5334589d",
+          "format": "zip",
+          "size": 37987398,
+          "bins": [
+            {
+              "name": "git",
+              "path": "cmd/git.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

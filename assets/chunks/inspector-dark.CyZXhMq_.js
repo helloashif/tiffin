@@ -1,0 +1,1 @@
+const s="/tiffin/screenshots/overview-light.png",t="/tiffin/screenshots/overview-dark.png",i="/tiffin/screenshots/inspector-light.png",n="/tiffin/screenshots/inspector-dark.png";export{s as _,t as a,i as b,n as c};

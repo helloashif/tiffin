@@ -1,0 +1,378 @@
+{
+  "schema": 1,
+  "name": "mongodb",
+  "type": "service",
+  "description": "MongoDB Community Server, the document database, with mongosh 2.14.3",
+  "homepage": "https://www.mongodb.com/products/self-managed/community-edition",
+  "bins": [
+    {
+      "name": "mongod",
+      "path": "bin/mongod"
+    },
+    {
+      "name": "mongos",
+      "path": "bin/mongos"
+    },
+    {
+      "name": "mongosh",
+      "path": "mongosh/bin/mongosh"
+    }
+  ],
+  "versions": [
+    {
+      "version": "9.0.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-9.0.8.tgz",
+          "sha256": "8e8d7d147ff5cca0ece5acd2097b2ac21cbe096df75a737f756cf4bf99a71d4c",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-x64.zip",
+              "sha256": "06891d5c7d8a1d24845badab5e4398e63022a12bad5863b25e16ea959d67b2a3",
+              "format": "zip",
+              "strip": 1,
+              "size": 85337260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-arm64-9.0.8.tgz",
+          "sha256": "8e057ec463a52cfdea4b1b8f5d5108a622d9116dfff76332854b3627db772833",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-arm64.zip",
+              "sha256": "d1a226a2fa1eb6c68c7203aea933d2283b1430481fbd68e08967e51feb596ff5",
+              "format": "zip",
+              "strip": 1,
+              "size": 82378056,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-9.0.8.tgz",
+          "sha256": "fdc5b3cb7b8fa653b6199854eef4a987bc0f0b7a8c5d7dd38d41e3200a39748c",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-x64.tgz",
+              "sha256": "2f9082b19c3daa4469865cb2d13ba64eea9f5b447371ecd25f175bb99320d575",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94701260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-9.0.8.tgz",
+          "sha256": "345a1ee1312828d6f2c9af6138c608eade9d32e1443092d16dad31c428840cf5",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-arm64.tgz",
+              "sha256": "47ce1c6b6aa22c58118416f6423237093bf67886b56998fae4dd8430b369b667",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94503748,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-9.0.8.zip",
+          "sha256": "ee18c81847efebd869564e8ec42ca37b0cac7fe353c321969c5db16c3b7e4e8e",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mongod",
+              "path": "bin/mongod.exe"
+            },
+            {
+              "name": "mongos",
+              "path": "bin/mongos.exe"
+            },
+            {
+              "name": "mongosh",
+              "path": "mongosh/bin/mongosh.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-win32-x64.zip",
+              "sha256": "f45e7dd80269c436300e6c8501c13a3f482d8dca47dc2c363c083c939120bcf0",
+              "format": "zip",
+              "strip": 1,
+              "size": 63471516,
+              "dir": "mongosh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "8.0.38",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-8.0.38.tgz",
+          "sha256": "2ae70efb0aaa182477a96f5dc9062ec03d048cf98528d87c20328219020c14c1",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-x64.zip",
+              "sha256": "06891d5c7d8a1d24845badab5e4398e63022a12bad5863b25e16ea959d67b2a3",
+              "format": "zip",
+              "strip": 1,
+              "size": 85337260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-arm64-8.0.38.tgz",
+          "sha256": "5c372533187a7789b6b2f4d7856f0651557dfbed572dbe5f4c23f43578fc74df",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-arm64.zip",
+              "sha256": "d1a226a2fa1eb6c68c7203aea933d2283b1430481fbd68e08967e51feb596ff5",
+              "format": "zip",
+              "strip": 1,
+              "size": 82378056,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-8.0.38.tgz",
+          "sha256": "760c1e5d34e694392c3f94cf417204ba7c24a157d0617f356ba74f93d5f09cd2",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-x64.tgz",
+              "sha256": "2f9082b19c3daa4469865cb2d13ba64eea9f5b447371ecd25f175bb99320d575",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94701260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-8.0.38.tgz",
+          "sha256": "7748067ac32f03afd9b81297f0830f18b597d14a2212e180299f931d84a9fad7",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-arm64.tgz",
+              "sha256": "47ce1c6b6aa22c58118416f6423237093bf67886b56998fae4dd8430b369b667",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94503748,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.38.zip",
+          "sha256": "85147ae32f9bb9a2e5a0a3875b0ffcc4423ab7a49bc4f75cb4bbc9811883d3de",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mongod",
+              "path": "bin/mongod.exe"
+            },
+            {
+              "name": "mongos",
+              "path": "bin/mongos.exe"
+            },
+            {
+              "name": "mongosh",
+              "path": "mongosh/bin/mongosh.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-win32-x64.zip",
+              "sha256": "f45e7dd80269c436300e6c8501c13a3f482d8dca47dc2c363c083c939120bcf0",
+              "format": "zip",
+              "strip": 1,
+              "size": 63471516,
+              "dir": "mongosh"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "7.0.48",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-7.0.48.tgz",
+          "sha256": "990d743ac6c405e0a2713bd5ffc01966b3349a910dbf0ced05eb37484c40e54f",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-x64.zip",
+              "sha256": "06891d5c7d8a1d24845badab5e4398e63022a12bad5863b25e16ea959d67b2a3",
+              "format": "zip",
+              "strip": 1,
+              "size": 85337260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "darwin-arm64": {
+          "url": "https://fastdl.mongodb.org/osx/mongodb-macos-arm64-7.0.48.tgz",
+          "sha256": "e276808c384259de99c39163147d8814f2b42e39ee1283cada29a8753fc3eb04",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-darwin-arm64.zip",
+              "sha256": "d1a226a2fa1eb6c68c7203aea933d2283b1430481fbd68e08967e51feb596ff5",
+              "format": "zip",
+              "strip": 1,
+              "size": 82378056,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-amd64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-7.0.48.tgz",
+          "sha256": "0412c4e1fad0ae2bb6503ba79c5bdcbd71b09c8a71e04f9173f28d40d101916b",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-x64.tgz",
+              "sha256": "2f9082b19c3daa4469865cb2d13ba64eea9f5b447371ecd25f175bb99320d575",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94701260,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "linux-arm64": {
+          "url": "https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-7.0.48.tgz",
+          "sha256": "d29f05cc63488d0a646fb91b2745b4c20c9af63914a1fa4830434c21387bc23d",
+          "format": "tar.gz",
+          "strip": 1,
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-linux-arm64.tgz",
+              "sha256": "47ce1c6b6aa22c58118416f6423237093bf67886b56998fae4dd8430b369b667",
+              "format": "tar.gz",
+              "strip": 1,
+              "size": 94503748,
+              "dir": "mongosh"
+            }
+          ]
+        },
+        "windows-amd64": {
+          "url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.48.zip",
+          "sha256": "7f2e23e8bdd794fc89179d3e683726e75949020b3e690727a2faf1859df773ac",
+          "format": "zip",
+          "strip": 1,
+          "bins": [
+            {
+              "name": "mongod",
+              "path": "bin/mongod.exe"
+            },
+            {
+              "name": "mongos",
+              "path": "bin/mongos.exe"
+            },
+            {
+              "name": "mongosh",
+              "path": "mongosh/bin/mongosh.exe"
+            }
+          ],
+          "extras": [
+            {
+              "url": "https://github.com/mongodb-js/mongosh/releases/download/v2.14.3/mongosh-2.14.3-win32-x64.zip",
+              "sha256": "f45e7dd80269c436300e6c8501c13a3f482d8dca47dc2c363c083c939120bcf0",
+              "format": "zip",
+              "strip": 1,
+              "size": 63471516,
+              "dir": "mongosh"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 27017,
+    "data_dir": {
+      "per": "major"
+    },
+    "run": {
+      "bin": "mongod",
+      "args": [
+        "--dbpath",
+        "{{data_dir}}",
+        "--port",
+        "{{port}}",
+        "--bind_ip",
+        "127.0.0.1",
+        "--wiredTigerCacheSizeGB",
+        "0.25",
+        "--nounixsocket"
+      ]
+    },
+    "health": {
+      "probe": "tcp",
+      "timeout": 60
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 30
+    },
+    "windows": {
+      "run": {
+        "bin": "mongod",
+        "args": [
+          "--dbpath",
+          "{{data_dir}}",
+          "--port",
+          "{{port}}",
+          "--bind_ip",
+          "127.0.0.1",
+          "--wiredTigerCacheSizeGB",
+          "0.25"
+        ]
+      },
+      "stop": {
+        "signal": "term",
+        "grace": 30,
+        "command": {
+          "bin": "mongosh",
+          "args": [
+            "--port",
+            "{{port}}",
+            "--quiet",
+            "--norc",
+            "--eval",
+            "db.getSiblingDB('admin').shutdownServer()"
+          ]
+        }
+      }
+    }
+  }
+}

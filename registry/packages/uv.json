@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "name": "uv",
+  "type": "tool",
+  "description": "uv, the fast Python package and project manager",
+  "homepage": "https://docs.astral.sh/uv/",
+  "bins": [
+    {
+      "name": "uv",
+      "path": "uv"
+    },
+    {
+      "name": "uvx",
+      "path": "uvx"
+    }
+  ],
+  "versions": [
+    {
+      "version": "0.13.10",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-x86_64-apple-darwin.tar.gz",
+          "sha256": "153e03197588204c04fc4c81cc4bafbfa4280222a385e4ee36a87aeec0ae63b4",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17489953
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-aarch64-apple-darwin.tar.gz",
+          "sha256": "e419bf07533bdbf48795fc793601c834dd79db57a8c49ce8e25cfe3a8639958d",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 14700626
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "5597970380083a340b7983af05a84824b4db1c62b7059c796935b7fd6dc95fd2",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 18964884
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "68174084fe40b6300361c5b2038066120dc62c92920c22a0f31f6fc74b066b57",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17347393
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-x86_64-pc-windows-msvc.zip",
+          "sha256": "297b3881fe1adfb922becc2c1613202abb41dc83ea5ff43d472aa087ca1f8683",
+          "format": "zip",
+          "size": 15641577,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.10/uv-aarch64-pc-windows-msvc.zip",
+          "sha256": "f223bcd3fa010174ffeeb885cc1d5334bb81388640c65baa5b8b42b47017337e",
+          "format": "zip",
+          "size": 15841571,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "0.13.9",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-x86_64-apple-darwin.tar.gz",
+          "sha256": "617a3211261b0fc739562f0071aa34e9739797c510208ede8e2977c30903d041",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17362924
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-aarch64-apple-darwin.tar.gz",
+          "sha256": "5aeca67f2283f75235de40d0bd9c0a5bbc5fce23b6d48b3bf9fa1b2db08382ca",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 14554974
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "58ccf5f1792b8a5a88d01bc910ea131a8b3db4a319a17ad5fad75e0845a3e271",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 18735070
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "37fbb7c5bc66cf99c12aa881949d216181e201dec449772c4329e56487d61179",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17243298
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-x86_64-pc-windows-msvc.zip",
+          "sha256": "edd61f7f5728a56cc62455386661860bdfc7bab65872f39b0c25bdcc1d8e1beb",
+          "format": "zip",
+          "size": 15567875,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.9/uv-aarch64-pc-windows-msvc.zip",
+          "sha256": "72eed595983a4d7d22d79f21065b0f4479cc7e5c7a89104bb410c8f47559a878",
+          "format": "zip",
+          "size": 15747415,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "0.13.8",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-x86_64-apple-darwin.tar.gz",
+          "sha256": "a04c2ffeac28b2003a2c13caf538ab425fcd7def3e4a41571f4a8fb370a66af3",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17208261
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-aarch64-apple-darwin.tar.gz",
+          "sha256": "6b71028a6b904f2ae3340ef52e595512de807d06c0a20eaef2f692581b246558",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 14375545
+        },
+        "linux-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-x86_64-unknown-linux-musl.tar.gz",
+          "sha256": "61fb26dabc4f0cf1d050fc6c67d40e43e4fae2994af21ebc1e050b233bf2b5ed",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 18577654
+        },
+        "linux-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "0c6f8593fcf1eadfc60e663b685c408267559d7c5d61c689bbb9f3a7e369ba32",
+          "format": "tar.gz",
+          "strip": 1,
+          "size": 17171170
+        },
+        "windows-amd64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-x86_64-pc-windows-msvc.zip",
+          "sha256": "529e78a9cec6cd7e3e014f7ecd8bda0c113969d4ed0f2efeedb85c30943325b8",
+          "format": "zip",
+          "size": 15529884,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        },
+        "windows-arm64": {
+          "url": "https://github.com/astral-sh/uv/releases/download/0.13.8/uv-aarch64-pc-windows-msvc.zip",
+          "sha256": "59e6d919bed1f72035e622a7c930058f08a8931c4c78ceaf9f56e7fb74dd2c48",
+          "format": "zip",
+          "size": 15590791,
+          "bins": [
+            {
+              "name": "uv",
+              "path": "uv.exe"
+            },
+            {
+              "name": "uvx",
+              "path": "uvx.exe"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

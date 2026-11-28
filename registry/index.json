@@ -1,0 +1,352 @@
+{
+  "schema": 1,
+  "serial": 1795890804,
+  "generated": "2026-11-28T18:33:24.332039669Z",
+  "expires": "2026-12-28T18:33:24.332039669Z",
+  "packages": [
+    {
+      "name": "biome",
+      "type": "tool",
+      "description": "Biome, the fast formatter and linter for JavaScript, TypeScript, JSX, JSON and CSS",
+      "path": "packages/biome.json",
+      "sha256": "9234fa64c5d33501cc604b2cd89d77f3aa83b0fcc804830b145539070400ee1c",
+      "size": 6529
+    },
+    {
+      "name": "buf",
+      "type": "tool",
+      "description": "Buf CLI: Protocol Buffers linter, breaking change detector and code generator",
+      "path": "packages/buf.json",
+      "sha256": "a3a30fcfdb85b4464444677382438b4d3ccd88fb825c8a85fe3613cd932724dc",
+      "size": 6174
+    },
+    {
+      "name": "bun",
+      "type": "runtime",
+      "description": "Bun, the JavaScript runtime, package manager and bundler",
+      "path": "packages/bun.json",
+      "sha256": "343b8840e206ea167a770d7c6f380a8b5e76d33229ae13b5a5cfc159e67d4c97",
+      "size": 6615
+    },
+    {
+      "name": "cloudflared",
+      "type": "tool",
+      "description": "Cloudflare Tunnel client: tiffin share gives a site a public https URL",
+      "path": "packages/cloudflared.json",
+      "sha256": "5a5d1f1a4d2a66ab3d88b1ac5475940a11c7e8cdc7631900cfdbfdd9f5018ee2",
+      "size": 11457
+    },
+    {
+      "name": "composer",
+      "type": "tool",
+      "description": "Dependency manager for PHP",
+      "path": "packages/composer.json",
+      "sha256": "a7e0ef495c0e3ab47a12cf69c30efa792300c9e596c00e02424574957df828aa",
+      "size": 5931
+    },
+    {
+      "name": "deno",
+      "type": "runtime",
+      "description": "Deno, the JavaScript and TypeScript runtime",
+      "path": "packages/deno.json",
+      "sha256": "c1ae2fca978516551c99e6f21a3c694b0970ad7558f9046fc554250ba5ec77f4",
+      "size": 6388
+    },
+    {
+      "name": "deployer",
+      "type": "tool",
+      "description": "Deployer, the PHP deployment tool (dep); runs with your PHP",
+      "path": "packages/deployer.json",
+      "sha256": "4f32a74150e20332cfa9b1b3c4e86fbba913f8147059841115ea69b527b2b28f",
+      "size": 5420
+    },
+    {
+      "name": "dotnet",
+      "type": "runtime",
+      "description": "The .NET SDK: C#, F#, ASP.NET Core and the dotnet tool",
+      "path": "packages/dotnet.json",
+      "sha256": "c99de0ba07941031f6d96a7435d9b3531713e89a54229f96eeae608e83a1f099",
+      "size": 4446
+    },
+    {
+      "name": "duckdb",
+      "type": "tool",
+      "description": "DuckDB CLI: fast in-process analytical SQL database shell",
+      "path": "packages/duckdb.json",
+      "sha256": "02a77ef8411658ff67dc38d9d83c275d0c593d04454de7678717e47622235b75",
+      "size": 4386
+    },
+    {
+      "name": "erlang",
+      "type": "runtime",
+      "description": "Erlang/OTP: erl, erlc and escript (RabbitMQ and Elixir run on it)",
+      "path": "packages/erlang.json",
+      "sha256": "95e4a3fd91d920be0e50e6a0ca4c38a0e0b591913cbf1d87f68ed38926f3ae0b",
+      "size": 6726
+    },
+    {
+      "name": "fzf",
+      "type": "tool",
+      "description": "fzf, the command-line fuzzy finder",
+      "path": "packages/fzf.json",
+      "sha256": "022cd46054674e19e8f9296cb9f4a64010967a7eda86f3b11258a1249a1253cc",
+      "size": 6358
+    },
+    {
+      "name": "gh",
+      "type": "tool",
+      "description": "GitHub CLI: pull requests, issues, releases and Actions from the terminal",
+      "path": "packages/gh.json",
+      "sha256": "9efec3f00821e76d5e96da924acb75e9fe22ca3c6950fcfebc68695ba9d64515",
+      "size": 6572
+    },
+    {
+      "name": "git",
+      "type": "runtime",
+      "description": "Git for Windows (MinGit): git for Composer, npm and your terminal",
+      "path": "packages/git.json",
+      "sha256": "815e9e578568b5fd50f097e4626e4536632252f46e17f2b3cdc98f3066666eed",
+      "size": 3039
+    },
+    {
+      "name": "gleam",
+      "type": "runtime",
+      "description": "Gleam, the type-safe functional language for Erlang and JavaScript",
+      "path": "packages/gleam.json",
+      "sha256": "26d4785545669aca7f428931a52fa27db5f7b703010c6cdc35fc6e8bf23fa653",
+      "size": 6730
+    },
+    {
+      "name": "go",
+      "type": "runtime",
+      "description": "The Go programming language",
+      "path": "packages/go.json",
+      "sha256": "6afb2c638b8d46a57b66844e7b71e4bf9a706eade34934fb42174ec371f013e8",
+      "size": 186626
+    },
+    {
+      "name": "grpcurl",
+      "type": "tool",
+      "description": "grpcurl, command-line tool for interacting with gRPC servers (like curl for gRPC)",
+      "path": "packages/grpcurl.json",
+      "sha256": "d43393bf32e4d88344757b8ed5cb8c09a39e4a4b674e0d1284b68865c8a63be4",
+      "size": 2425
+    },
+    {
+      "name": "java",
+      "type": "runtime",
+      "description": "Java: Eclipse Temurin JDKs (OpenJDK), the long-term-support releases",
+      "path": "packages/java.json",
+      "sha256": "917062f5adb0d46e22b4f7cb16d5bd54de99e3d2f15feaa153b2f9599b5a19e1",
+      "size": 14130
+    },
+    {
+      "name": "jq",
+      "type": "tool",
+      "description": "jq, the command-line JSON processor",
+      "path": "packages/jq.json",
+      "sha256": "40c1a595454f2c05808d81b9133de7541552808ee8c7a0de072d0a187563cc52",
+      "size": 5223
+    },
+    {
+      "name": "mailpit",
+      "type": "service",
+      "description": "Mailpit, local SMTP email testing server and web UI (127.0.0.1:8025)",
+      "path": "packages/mailpit.json",
+      "sha256": "e736fd8998ffc680af61078eb65e410ce03d53ae81d98506d4da8df90a07c483",
+      "size": 6924
+    },
+    {
+      "name": "mariadb",
+      "type": "service",
+      "description": "MariaDB database server",
+      "path": "packages/mariadb.json",
+      "sha256": "782c46679ba1c0f7023ee8e089b4ff2c226667c213c419a77cdff3169948a04e",
+      "size": 19123
+    },
+    {
+      "name": "meilisearch",
+      "type": "service",
+      "description": "Meilisearch, the search engine for Laravel Scout (MIT); no master key, for local use",
+      "path": "packages/meilisearch.json",
+      "sha256": "12d52221b9408001cda258e802dae6af2b3dca23cf69bb892a31fafc6ee809a3",
+      "size": 7133
+    },
+    {
+      "name": "mongodb",
+      "type": "service",
+      "description": "MongoDB Community Server, the document database, with mongosh 2.14.3",
+      "path": "packages/mongodb.json",
+      "sha256": "5f8a228694737b81081410b7240840bd832aef8e09aa4a257a93393affbaae4c",
+      "size": 12669
+    },
+    {
+      "name": "mysql",
+      "type": "service",
+      "description": "MySQL database server (Oracle's builds)",
+      "path": "packages/mysql.json",
+      "sha256": "68dcc4d94902982b39150846cb54a3786d1a94228bab57ffd962c978ffd745fb",
+      "size": 18471
+    },
+    {
+      "name": "nats",
+      "type": "service",
+      "description": "NATS Server, high-performance cloud-native messaging system (JetStream enabled)",
+      "path": "packages/nats.json",
+      "sha256": "edf8f4bc44816f94fdf190239ad8b534cdec547ba7b20fbb84ab4e180c18ea4c",
+      "size": 7656
+    },
+    {
+      "name": "node",
+      "type": "runtime",
+      "description": "JavaScript runtime built on V8",
+      "path": "packages/node.json",
+      "sha256": "00cde8118e3323fb6487f7de5f49e4e8518eba950c79ec1161ec616e77a7abf8",
+      "size": 545407
+    },
+    {
+      "name": "php",
+      "type": "runtime",
+      "description": "The PHP language (CLI)",
+      "path": "packages/php.json",
+      "sha256": "4e0f01c0c71b93c8010740ea0e798a6f03ab4a718ae197d2254508e670c5c620",
+      "size": 26432
+    },
+    {
+      "name": "phpstan",
+      "type": "tool",
+      "description": "PHPStan, the PHP static analysis tool; runs with your PHP",
+      "path": "packages/phpstan.json",
+      "sha256": "519c55eb687b6b9cd77090bdf8a563a5287cd04c91be100e66b57fb50574242b",
+      "size": 5365
+    },
+    {
+      "name": "pnpm",
+      "type": "tool",
+      "description": "pnpm, the fast, disk-efficient JavaScript package manager (standalone, no Node.js needed)",
+      "path": "packages/pnpm.json",
+      "sha256": "6fe983026a1299020d530ad9250c2535de24ed1d4dc27f2e6ac1b37c7c6f5583",
+      "size": 6259
+    },
+    {
+      "name": "postgres",
+      "type": "service",
+      "description": "PostgreSQL database server and client tools",
+      "path": "packages/postgres.json",
+      "sha256": "bdd50c6071c654576a5d9a23c8a869d646dc896e2e2aadc985345a2fb6fefc88",
+      "size": 77175
+    },
+    {
+      "name": "python",
+      "type": "runtime",
+      "description": "The Python programming language (python-build-standalone builds)",
+      "path": "packages/python.json",
+      "sha256": "107cb2f1a1a6eea98a2f7452116afcd1aa44b05cd308a844bcdb9615b20f566a",
+      "size": 58007
+    },
+    {
+      "name": "qdrant",
+      "type": "service",
+      "description": "Qdrant, high-performance vector database and similarity search engine",
+      "path": "packages/qdrant.json",
+      "sha256": "856295e140cb9463567196278107b2ee7e28cda78e65cbf53c831f5a67c93cf2",
+      "size": 5936
+    },
+    {
+      "name": "rabbitmq",
+      "type": "service",
+      "description": "RabbitMQ, the message broker (Laravel queues over AMQP); runs on Erlang",
+      "path": "packages/rabbitmq.json",
+      "sha256": "58a968d04cdbbb7c5896abe8f4f17086eace631de3159965450ece052c704125",
+      "size": 7912
+    },
+    {
+      "name": "ripgrep",
+      "type": "tool",
+      "description": "ripgrep (rg), the fast line-oriented regex search tool",
+      "path": "packages/ripgrep.json",
+      "sha256": "29df913f0e38fe496019fc29106c5904ee50634852dee54bd3211a0e44b4ab10",
+      "size": 7118
+    },
+    {
+      "name": "silo",
+      "type": "service",
+      "description": "Silo, the maintained fork of MinIO: S3-compatible object storage (AGPL-3.0); also answers to minio",
+      "path": "packages/silo.json",
+      "sha256": "1fc6f41b23707475b3b6c34b63ed03e87508fbd63fe388cba907e27fbcf3bc8a",
+      "size": 7592
+    },
+    {
+      "name": "stripe",
+      "type": "tool",
+      "description": "Stripe CLI: forward webhooks to a local site, trigger test events, call the API",
+      "path": "packages/stripe.json",
+      "sha256": "7bf6723fff1035ccf2e58ba1c10203d976ae60e7b31fcb8671e5130320e5ef31",
+      "size": 5386
+    },
+    {
+      "name": "tailwindcss",
+      "type": "tool",
+      "description": "Tailwind CSS standalone CLI: compile Tailwind CSS without Node.js",
+      "path": "packages/tailwindcss.json",
+      "sha256": "6a3686d1237e16b8812c48c912b21011a4ba3388014ab99e361d997f87e2bb32",
+      "size": 5286
+    },
+    {
+      "name": "typesense",
+      "type": "service",
+      "description": "Typesense, the search engine for Laravel Scout (GPL-3.0); API key \"tiffin\", for local use",
+      "path": "packages/typesense.json",
+      "sha256": "3961cbd10b2f942bb8ed5e5e819e88575957db682822f4672f29a42010d8557a",
+      "size": 4402
+    },
+    {
+      "name": "uv",
+      "type": "tool",
+      "description": "uv, the fast Python package and project manager",
+      "path": "packages/uv.json",
+      "sha256": "0a51967b0549f0c1e9bcebb9397da827fd5d26cc1f97474da7828b1f527e720a",
+      "size": 7261
+    },
+    {
+      "name": "valkey",
+      "type": "service",
+      "description": "Valkey, the Redis-compatible in-memory data store (BSD); also answers to redis-server and redis-cli",
+      "path": "packages/valkey.json",
+      "sha256": "2d400ddfe53909b095a9590d60673e595960bc1f9121fe1fc0414be51c704f5f",
+      "size": 7850
+    },
+    {
+      "name": "wp-cli",
+      "type": "tool",
+      "description": "WP-CLI, the command line for WordPress",
+      "path": "packages/wp-cli.json",
+      "sha256": "77f836edf745f54a216d8836d304edf4a6c00dcefe0fa85bf06506c517caa6e5",
+      "size": 5431
+    },
+    {
+      "name": "xh",
+      "type": "tool",
+      "description": "xh, a friendly and fast tool for sending HTTP requests (HTTPie-style)",
+      "path": "packages/xh.json",
+      "sha256": "cbe9c0ddabc6c85d5a06f39c8743e1b38785e053815b8d51dd4ffa2476b4286a",
+      "size": 5617
+    },
+    {
+      "name": "yq",
+      "type": "tool",
+      "description": "yq, the command-line YAML, JSON, XML, CSV and TOML processor",
+      "path": "packages/yq.json",
+      "sha256": "b6b8498ff41b6715952f089218e0eb85d6c50212039b81345e70a10fcd50da76",
+      "size": 6124
+    },
+    {
+      "name": "zig",
+      "type": "runtime",
+      "description": "Zig, the programming language and toolchain (also a C and C++ compiler)",
+      "path": "packages/zig.json",
+      "sha256": "5f61bb7f1e7b23084605dfcf4574707ab65d86db2b719776764d810c17d2c9d6",
+      "size": 6427
+    }
+  ]
+}

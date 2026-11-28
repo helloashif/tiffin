@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "name": "qdrant",
+  "type": "service",
+  "description": "Qdrant, high-performance vector database and similarity search engine",
+  "homepage": "https://qdrant.tech",
+  "bins": [
+    {
+      "name": "qdrant",
+      "path": "qdrant"
+    }
+  ],
+  "versions": [
+    {
+      "version": "1.20.2",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.2/qdrant-x86_64-apple-darwin.tar.gz",
+          "sha256": "73a6538ccccb892ec2c6fa3431faf1e73fba7eb2179079adbd0c65ae4c55bf6a",
+          "format": "tar.gz",
+          "size": 33543107
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.2/qdrant-aarch64-apple-darwin.tar.gz",
+          "sha256": "385b244e6283968b2be926358541b5bc19b9ada7ea9586e900684388bc912d5f",
+          "format": "tar.gz",
+          "size": 29867039
+        },
+        "linux-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.2/qdrant-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "c5c2a4b32ab75b4f8725d068e5b352acabf4bc3ea965b18857504c9a2c1422ee",
+          "format": "tar.gz",
+          "size": 35425601
+        },
+        "linux-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.2/qdrant-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "c0c16a08440213b89facfbd2dd3cf4cd6fa222c1260b057a0ea77b41a75774c0",
+          "format": "tar.gz",
+          "size": 32304379
+        },
+        "windows-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.2/qdrant-x86_64-pc-windows-msvc.zip",
+          "sha256": "7a5290b9ef1b204b250a1626ddafec580647ba3cc62ba1630b3a8efdc2718b32",
+          "format": "zip",
+          "size": 32545356,
+          "bins": [
+            {
+              "name": "qdrant",
+              "path": "qdrant.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.20.1",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.1/qdrant-x86_64-apple-darwin.tar.gz",
+          "sha256": "5f3ae5d62d476788f0c529b6f9276d5517e9c70b4707ef6374c1cceea4369597",
+          "format": "tar.gz",
+          "size": 33518826
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.1/qdrant-aarch64-apple-darwin.tar.gz",
+          "sha256": "5deb80dfa44afea90fa27bb3fcd269e60b1e88347e769f2547a0269aadb37003",
+          "format": "tar.gz",
+          "size": 29838645
+        },
+        "linux-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.1/qdrant-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "bf0b7d2ce2e0608ceecc135e6803133849385ad317226c2749fdb2c126b63cf6",
+          "format": "tar.gz",
+          "size": 35416888
+        },
+        "linux-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.1/qdrant-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "d608764d7d8e331633cba9f953ac15270e1330b55a2ff61cd1a6748222f97355",
+          "format": "tar.gz",
+          "size": 32285570
+        },
+        "windows-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.1/qdrant-x86_64-pc-windows-msvc.zip",
+          "sha256": "cdbcf8831a19b40785af300d10b762501fb3ff796f1a3c8d7fa142c67f76ad62",
+          "format": "zip",
+          "size": 32466981,
+          "bins": [
+            {
+              "name": "qdrant",
+              "path": "qdrant.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "1.20.0",
+      "assets": {
+        "darwin-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.0/qdrant-x86_64-apple-darwin.tar.gz",
+          "sha256": "94a2e6f6b8ef3a3b5756a11172fd66554ac753e0a71c1d8d8b5349356c084f4d",
+          "format": "tar.gz",
+          "size": 31917921
+        },
+        "darwin-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.0/qdrant-aarch64-apple-darwin.tar.gz",
+          "sha256": "531904e822050790bb8c1da6705f801ee48b91eb4c229d0d605ff06f6331b20a",
+          "format": "tar.gz",
+          "size": 29070255
+        },
+        "linux-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.0/qdrant-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "2361f3df0dedfef31f5444f9f15bd15d6b4a6cba6ad952daecc5fbe3867c5ee6",
+          "format": "tar.gz",
+          "size": 33618587
+        },
+        "linux-arm64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.0/qdrant-aarch64-unknown-linux-musl.tar.gz",
+          "sha256": "bd8a458b8ef8006ce2c603c5bd6d1d973e39d787f794008dd959112e747c3bb7",
+          "format": "tar.gz",
+          "size": 31475234
+        },
+        "windows-amd64": {
+          "url": "https://github.com/qdrant/qdrant/releases/download/v1.20.0/qdrant-x86_64-pc-windows-msvc.zip",
+          "sha256": "6d13553584fd0411f00637519e293331ff0aa1fb79bd9e30db45839bb75de2be",
+          "format": "zip",
+          "size": 30801664,
+          "bins": [
+            {
+              "name": "qdrant",
+              "path": "qdrant.exe"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 6333,
+    "data_dir": {
+      "per": "minor"
+    },
+    "run": {
+      "bin": "qdrant",
+      "env": {
+        "QDRANT__SERVICE__GRPC_PORT": "6334",
+        "QDRANT__SERVICE__HOST": "127.0.0.1",
+        "QDRANT__SERVICE__HTTP_PORT": "{{port}}",
+        "QDRANT__STORAGE__SNAPSHOTS_PATH": "{{data_dir}}/snapshots",
+        "QDRANT__STORAGE__STORAGE_PATH": "{{data_dir}}/storage",
+        "QDRANT__TELEMETRY_DISABLED": "true"
+      }
+    },
+    "health": {
+      "probe": "tcp",
+      "timeout": 60
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 15,
+      "kill_safe": true
+    }
+  }
+}

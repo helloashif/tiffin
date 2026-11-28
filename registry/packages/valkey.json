@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "name": "valkey",
+  "type": "service",
+  "description": "Valkey, the Redis-compatible in-memory data store (BSD); also answers to redis-server and redis-cli",
+  "homepage": "https://valkey.io",
+  "bins": [
+    {
+      "name": "valkey-server",
+      "path": "bin/valkey-server"
+    },
+    {
+      "name": "valkey-cli",
+      "path": "bin/valkey-cli"
+    },
+    {
+      "name": "redis-server",
+      "path": "bin/valkey-server"
+    },
+    {
+      "name": "redis-cli",
+      "path": "bin/valkey-cli"
+    }
+  ],
+  "versions": [
+    {
+      "version": "9.2.1",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-9.2.1-jammy-x86_64.tar.gz",
+          "sha256": "5be088e5480e65d0824a6d9a95cf027aae56a4d6c115c19e00bc42bfbe602397",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-9.2.1-jammy-arm64.tar.gz",
+          "sha256": "25e7610f150a64688af6c19b9557ed483194e64180a64ce06e463a4cf1c1200b",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "9.1.4",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-9.1.4-jammy-x86_64.tar.gz",
+          "sha256": "3c4595f1396dc5f99ce33af83e8c2ebffef20a8b0a41c08826350608b0d7a475",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-9.1.4-jammy-arm64.tar.gz",
+          "sha256": "961860083b7621c19736847c2334440cc0886412cfa35218c2e18c9ef865966a",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "9.1.2",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-9.1.2-jammy-x86_64.tar.gz",
+          "sha256": "33687af7a5457459a16c207a9c1971fc70f67e6ec1f011a876094b790741bd63",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-9.1.2-jammy-arm64.tar.gz",
+          "sha256": "a3dcac64815b2ed907b3942343ba51f34877de2d58e809435226f6b03686a5a1",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "windows-amd64": {
+          "url": "https://github.com/SamuelMarks/valkey-windows/releases/download/9.1.2/Valkey-9.1.2-win64.zip",
+          "sha256": "6049b4fded14a3a2c2abdd93635c6a26f586f9b3e5c3d2bf64f2f4fd9f9e4802",
+          "format": "zip",
+          "strip": 1,
+          "size": 9655584,
+          "bins": [
+            {
+              "name": "valkey-server",
+              "path": "bin/valkey-server.exe"
+            },
+            {
+              "name": "valkey-cli",
+              "path": "bin/valkey-cli.exe"
+            },
+            {
+              "name": "redis-server",
+              "path": "bin/valkey-server.exe"
+            },
+            {
+              "name": "redis-cli",
+              "path": "bin/valkey-cli.exe"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "version": "9.0.8",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-9.0.8-jammy-x86_64.tar.gz",
+          "sha256": "ea5299dac1cf3dd12f5ae53563e1d06b5d2720e4a8ad89dc509c4ff63b732a62",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-9.0.8-jammy-arm64.tar.gz",
+          "sha256": "538876d334a2ceeb7e6ecc7f08f52c73ff771fe4ff6b732fbba4ed7da4da2299",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "9.0.6",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-9.0.6-jammy-x86_64.tar.gz",
+          "sha256": "b79800f433bc4f26177b437f63fc9e0b4a02b73049e927407fb1269d0d59d41b",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-9.0.6-jammy-arm64.tar.gz",
+          "sha256": "c8bcafe7351a40f4932d9c0522d9de26faba59905d86a731699b54c3bb4eb0aa",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "8.1.12",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-8.1.12-jammy-x86_64.tar.gz",
+          "sha256": "4647bd3916c4220e64a8d7786fb22c4a97d5b5f9d04c0fcdc22e90f7e82c645a",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-8.1.12-jammy-arm64.tar.gz",
+          "sha256": "b23349a6902295df4d3e49b1e56157706b0f0c88b0f63cba86f02b8148d91b22",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "8.1.10",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-8.1.10-jammy-x86_64.tar.gz",
+          "sha256": "23400087a684b6e87f66332e0a836a2674c24c7c482361766777149499c08e50",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-8.1.10-jammy-arm64.tar.gz",
+          "sha256": "44abd1a738fdda3831bb3d84f19e4bcd45bdb537d0cee24dace364f511193eaf",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "8.0.13",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-8.0.13-jammy-x86_64.tar.gz",
+          "sha256": "c29efa444b9b877ece74bb685fecdbad3dff060cdb18d17f782d2b7b8c56aa68",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-8.0.13-jammy-arm64.tar.gz",
+          "sha256": "3e0e42ad01c3d14c7a7b878762e56926430959202e66da79320822e8c1142ba6",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    },
+    {
+      "version": "8.0.11",
+      "assets": {
+        "linux-amd64": {
+          "url": "https://download.valkey.io/releases/valkey-8.0.11-jammy-x86_64.tar.gz",
+          "sha256": "b5f63492d0db58b3c526b09f4b83ea965b01aca15a5d77b4704655d9a771721a",
+          "format": "tar.gz",
+          "strip": 1
+        },
+        "linux-arm64": {
+          "url": "https://download.valkey.io/releases/valkey-8.0.11-jammy-arm64.tar.gz",
+          "sha256": "4be32cbb2a96fdd7e4a292c730a356addcb90c59cf3800a5462406071851a7ec",
+          "format": "tar.gz",
+          "strip": 1
+        }
+      }
+    }
+  ],
+  "service": {
+    "port": 6379,
+    "data_dir": {
+      "per": "major"
+    },
+    "configs": [
+      {
+        "name": "valkey.conf",
+        "template": "# Generated by tiffind before every start: changes here are lost.\n# Put your own settings in conf.d/*.conf.\nbind 127.0.0.1 -::1\nport {{port}}\nprotected-mode yes\ndaemonize no\ndir \"{{data_dir}}\"\npidfile \"{{run_dir}}/valkey.pid\"\nlogfile \"\"\ninclude \"{{conf_dir}}/conf.d/*.conf\"\n"
+      }
+    ],
+    "run": {
+      "bin": "valkey-server",
+      "args": [
+        "{{conf_dir}}/valkey.conf"
+      ]
+    },
+    "health": {
+      "probe": "redis",
+      "timeout": 30
+    },
+    "stop": {
+      "signal": "term",
+      "grace": 30,
+      "command": {
+        "bin": "valkey-cli",
+        "args": [
+          "-h",
+          "127.0.0.1",
+          "-p",
+          "{{port}}",
+          "shutdown"
+        ]
+      }
+    },
+    "settings": {
+      "file": "10-tiffin.conf",
+      "line": "{{key}} {{value}}",
+      "reserved": [
+        "port",
+        "bind",
+        "protected-mode",
+        "daemonize",
+        "dir",
+        "pidfile",
+        "logfile",
+        "include",
+        "unixsocket"
+      ]
+    }
+  }
+}
